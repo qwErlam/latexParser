@@ -1,0 +1,22 @@
+\documentclass { article    }
+\usepackage{amssymb}
+
+\begin{     document}
+\begin { document}
+\begin *****   {document
+}
+\begin
+
+
+$dasd \asdas \asd dsad$
+
+{document}
+{
+	
+}
+
+\a
+\b
+\d
+
+\end{document}

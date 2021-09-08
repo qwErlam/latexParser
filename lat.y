@@ -7,7 +7,12 @@
 #include <algorithm>
 #include <regex>
 std::vector <std::string> commands;
-std::vector<std::pair <std::string, std::string>> specChar;
+std::vector <std::pair <std::string, std::string>> specChar;
+std::vector <std::string> specCommand = {
+    "\\asd",
+    "\\lolkek"
+};
+
 extern FILE *yyin;
 int yyerror (char *error);
 std::string removeWS (std::string str);
@@ -85,6 +90,7 @@ firsttreatment:
 
         std::string s($1);
         std::cout<<"Hard_very - "<<s<<"\n\n";
+        
     }
 
     | SPECTEXT
@@ -92,20 +98,37 @@ firsttreatment:
         std::string s($1);
         //for (auto it: specCommand){
 
-        //}
+        // char* p = s.find('\');
+        for(auto it : commands){
+            auto n = s.find(it);
+            if (n != std::string::npos)
+            {
+                
+                //line.erase(n, .length());
+            }
+        }   
 
-        std::regex exp("(\\[a-zA-Z]+)");
-        std::smatch res;
-        //string str = "first second third forth";
-        //if(std::regex_search())
-        if (std::regex_search(s, res, exp)) 
-            std::cout << res[0] << "\tlolkek\n";
-        else {
-            std::cout<<"no lolkek"<<std::endl;
-        }    
-        
-        //str = res.suffix();
-    }
+            bool isFind = false;
+            std::regex exp("(\\\\[a-zA-Z]+)");
+            for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
+            //std::cout<<"lol----kek\t"<< beg->str()<<std::endl;
+                for (auto it : specCommand){
+                    
+                    size_t pos = beg->str().length() == it.length() ? beg->str().find(it) : std::string::npos;
+                    std::cout<<"Simp - "<<it<<"\t" <<beg->str()<< "\n\n";
+                    if (pos != std::string::npos){
+                    std::cout << "spec nahod\n";
+                    //$$ = 0;
+                    isFind = true;
+                    break;
+            }
+            else
+                std::cout << "spec nenahod\n";       
+            }
+            $$ = isFind ?  1 : 0;
+
+            }
+        }
 ;
 %%
 
