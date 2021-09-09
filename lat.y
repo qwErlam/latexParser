@@ -12,6 +12,9 @@ std::vector <std::string> specCommand = {
     "\\asd",
     "\\lolkek"
 };
+std::vector <std::string> hardCommand = {
+    "\begin"
+};
 
 extern FILE *yyin;
 int yyerror (char *error);
@@ -45,7 +48,7 @@ secondtreatment:
     }
 
 firsttreatment: 
-    | SIMPLCOMMAND
+    SIMPLCOMMAND
     {
         bool isFind = false;
         std::string simplcom($1);
@@ -87,44 +90,55 @@ firsttreatment:
     }
     | HARDCOMMAND
     {
-
+        int it =0;
         std::string s($1);
         std::cout<<"Hard_very - "<<s<<"\n\n";
+        std::regex exp("([\\\\][a-zA-Z]+)\\s*[{]\\s*(.[a-zA-Z]*)\\s*[}]");
+        bool isFind;
+        std::smatch matches;
+        if(std::regex_search(s, matches, exp)) {
+            std::cout << "Match found\n";
+            for (size_t i = 0; i < matches.size(); ++i) {
+            std::cout << i << ": '" << matches[i].str() << "'\n";
+            }
+        }
+        //for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
+        //            std::cout<<"hard simp - "<<it<<"\t" <<beg->str()<< "\n\n";
+        //            size_t pos = beg->str().length();// == it.length() ? beg->str().find(it) : std::string::npos;
+        //            if (pos != std::string::npos){
+        //                
+        //                isFind = true;
+        //               break;
+        //            }
+        //            else
+        //                std::cout << "spec nenahod\n";       
+        //        //}
+        //    $$ = isFind ?  1 : 0;
+        //
+        //    }
         
     }
 
     | SPECTEXT
     {
-        std::string s($1);
-        //for (auto it: specCommand){
-
-        // char* p = s.find('\');
-        for(auto it : commands){
-            auto n = s.find(it);
-            if (n != std::string::npos)
-            {
-                
-                //line.erase(n, .length());
-            }
-        }   
+        std::string s($1);  
 
             bool isFind = false;
             std::regex exp("(\\\\[a-zA-Z]+)");
             for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
-            //std::cout<<"lol----kek\t"<< beg->str()<<std::endl;
                 for (auto it : specCommand){
                     
                     size_t pos = beg->str().length() == it.length() ? beg->str().find(it) : std::string::npos;
-                    std::cout<<"Simp - "<<it<<"\t" <<beg->str()<< "\n\n";
+                    
                     if (pos != std::string::npos){
-                    std::cout << "spec nahod\n";
-                    //$$ = 0;
-                    isFind = true;
-                    break;
-            }
-            else
-                std::cout << "spec nenahod\n";       
-            }
+                        std::cout<<"spec simp - "<<it<<"\t" <<beg->str()<< "\n\n";
+                        //$$ = 0;
+                        isFind = true;
+                        break;
+                    }
+                    else
+                        std::cout << "spec nenahod\n";       
+                }
             $$ = isFind ?  1 : 0;
 
             }
