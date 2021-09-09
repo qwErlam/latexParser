@@ -1,16 +1,22 @@
 %{
 #include <stdio.h>
 #include <ctype.h>
-#include <string.h>
+//#include <string.h>
 #include <iostream> 
 #include <vector>
 #include <algorithm>
 #include <regex>
+#include "y.tab.h"
+std::map <std::string,std::vector<std::string>> hardComands; 
 std::vector <std::string> commands;
 std::vector <std::pair <std::string, std::string>> specChar;
 std::vector <std::string> specCommand = {
     "\\asd",
-    "\\lolkek"
+    "\\lolkek",
+    "\\ast",
+    "\\cdot",
+    "\\forall",
+    "\\in"
 };
 std::vector <std::string> hardCommand = {
     "\begin"
@@ -35,6 +41,7 @@ extern int yylex();
 %token <str>    SIMPLCOMMAND HARDCOMMAND SPECTEXT
 %type <erro> 	firsttreatment
 
+%type <std::string> item;
 
 %%
 state: secondtreatment state
@@ -47,22 +54,18 @@ secondtreatment:
             yyerror("unknown command ");
     }
 
-firsttreatment: 
+firsttreatment:
     SIMPLCOMMAND
     {
         bool isFind = false;
         std::string simplcom($1);
-        removeWS(simplcom);
-        //for ( std::vector<std::string>::iterator it = commands.begin(); it != commands.end(); ++it ) {
+        //removeWS(simplcom);
         for(auto it : commands){
             size_t pos = simplcom.find(it);
             std::cout<<"Simp - "<<it<<"\n\n";
             if (pos != std::string::npos){
-                //std::string s2 = sd.substr(istr-sd+1, *(sd+(istr-sd+1)).find(' '));
                 std::cout << "Found at pos = " << pos << "\n";
-
                 std::cout << "nahod\n";
-                //$$ = 0;
                 isFind = true;
                 break;
             }
@@ -71,22 +74,7 @@ firsttreatment:
         }
         $$ = isFind ?  1 : 0;
 
-        std::cout<<"Simple_very - "<<simplcom<<"\n\n";   
-             
-
-       /*     istr = strstr(sd,*it);
-            if (istr == NULL)
-                printf ("nenahod\n");
-            else
-            {
-                std::string s2 = sd.substr(istr-sd+1, *(sd+(istr-sd+1)).find(' '));
-                //if(strlen(s2) == 1)//strlen(*it))
-                if(s2.length() == *it.length())
-                {
-                    printf ("nahod\n");
-                }
-            }
-        }*/  
+        std::cout<<"Simple_very - "<<simplcom<<"\n\n";    
     }
     | HARDCOMMAND
     {
@@ -94,55 +82,58 @@ firsttreatment:
         std::string s($1);
         std::cout<<"Hard_very - "<<s<<"\n\n";
         std::regex exp("([\\\\][a-zA-Z]+)\\s*[{]\\s*(.[a-zA-Z]*)\\s*[}]");
-        bool isFind;
+        bool isFind = false;
         std::smatch matches;
+        std::string tempFuckingString;
         if(std::regex_search(s, matches, exp)) {
-            std::cout << "Match found\n";
-            for (size_t i = 0; i < matches.size(); ++i) {
-            std::cout << i << ": '" << matches[i].str() << "'\n";
+            std::cout << "Match found_LOL\n";
+            std::cout<<"______________________________\t"<<matches[1].str()<<std::endl;
+            bool isFind = false;
+            //std::string matches;
+            tempFuckingString = matches[1].str();
+            if (hardComands.find(tempFuckingString) != hardComands.end()) {
+                tempFuckingString.clear();
+                tempFuckingString = matches[(size_t)1].str();
+                auto tmpVect = hardComands.at(tempFuckingString);
+                tempFuckingString.clear();
+                if (tmpVect.size()) {
+                    for (auto it : tmpVect) {
+                        tempFuckingString = matches[(size_t)2].str();
+                        if (it.length() == tempFuckingString.length() && it.find(tempFuckingString) != std::string::npos) {
+                            isFind == true;
+                        }
+                    }
+                }
+                else{
+                    isFind = true;
+                }                
             }
         }
-        //for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
-        //            std::cout<<"hard simp - "<<it<<"\t" <<beg->str()<< "\n\n";
-        //            size_t pos = beg->str().length();// == it.length() ? beg->str().find(it) : std::string::npos;
-        //            if (pos != std::string::npos){
-        //                
-        //                isFind = true;
-        //               break;
-        //            }
-        //            else
-        //                std::cout << "spec nenahod\n";       
-        //        //}
-        //    $$ = isFind ?  1 : 0;
-        //
-        //    }
-        
+        if (isFind)
+            std::cout<<"AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+        $$ = isFind ?  1 : 0;
     }
 
     | SPECTEXT
     {
         std::string s($1);  
-
-            bool isFind = false;
-            std::regex exp("(\\\\[a-zA-Z]+)");
-            for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
-                for (auto it : specCommand){
-                    
-                    size_t pos = beg->str().length() == it.length() ? beg->str().find(it) : std::string::npos;
-                    
-                    if (pos != std::string::npos){
-                        std::cout<<"spec simp - "<<it<<"\t" <<beg->str()<< "\n\n";
-                        //$$ = 0;
-                        isFind = true;
-                        break;
-                    }
-                    else
-                        std::cout << "spec nenahod\n";       
+        bool isFind = false;
+        std::regex exp("(\\\\[a-zA-Z]+)");
+        for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
+            for (auto it : specCommand){          
+                size_t pos = beg->str().length() == it.length() ? beg->str().find(it) : std::string::npos;
+                if (pos != std::string::npos){
+                    std::cout<<"spec simp - "<<it<<"\t" <<beg->str()<< "\n\n";
+                    isFind = true;
+                    break;
                 }
-            $$ = isFind ?  1 : 0;
-
+                else
+                    std::cout << "spec nenahod\n";       
             }
+        $$ = isFind ?  1 : 0;
+
         }
+    }
 ;
 %%
 
@@ -159,6 +150,11 @@ int  yyerror(char *s)
     return 0;
 }
 int main(){
+    std::vector <std::string> empty;
+    std::vector <std::string> lol = {"aboba","lol"};
+    hardComands["\\begin"] = lol;
+    hardComands["\\item"] = empty;
+
     yyin = fopen("lat.txt", "r");
     commands.push_back("\\a");
     commands.push_back("\\b");
