@@ -88,7 +88,7 @@ firsttreatment:
         if(std::regex_search(s, matches, exp)) {
             std::cout << "Match found_LOL\n";
             std::cout<<"______________________________\t"<<matches[1].str()<<std::endl;
-            bool isFind = false;
+            //bool isFind = false;
             //std::string matches;
             tempFuckingString = matches[1].str();
             if (hardComands.find(tempFuckingString) != hardComands.end()) {
@@ -96,13 +96,18 @@ firsttreatment:
                 tempFuckingString = matches[(size_t)1].str();
                 auto tmpVect = hardComands.at(tempFuckingString);
                 tempFuckingString.clear();
+                std::cout<<tmpVect.size()<<std::endl;
                 if (tmpVect.size()) {
                     for (auto it : tmpVect) {
                         tempFuckingString = matches[(size_t)2].str();
-                        if (it.length() == tempFuckingString.length() && it.find(tempFuckingString) != std::string::npos) {
-                            isFind == true;
+                        std::cout<<it<<"\t"<<matches[(size_t)2].str()<<"\t"<<it.length()<<"\t"<<tempFuckingString.length()<<"\t"<<it.compare(tempFuckingString)<<(it.length() == tempFuckingString.length())<< (it.compare(tempFuckingString) == 0)<<std::endl;
+
+                        if ((it.length() == tempFuckingString.length()) && (it.compare(tempFuckingString) == 0)) {
+                                std::cout<<"im in\n";
+                            isFind = true;
                         }
-                    }
+                    //}
+                    }    
                 }
                 else{
                     isFind = true;
@@ -151,7 +156,7 @@ int  yyerror(char *s)
 }
 int main(){
     std::vector <std::string> empty;
-    std::vector <std::string> lol = {"aboba","lol"};
+    std::vector <std::string> lol = {"aboba","lol","abobb"};
     hardComands["\\begin"] = lol;
     hardComands["\\item"] = empty;
 

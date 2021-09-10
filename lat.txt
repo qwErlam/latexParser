@@ -1,7 +1,7 @@
 \documentclass { article    }
 \usepackage{amssymb}
 
-\begin{     document}
+\begin{     aboba}
 \begin { document}
 \begin *****   {document
 }
