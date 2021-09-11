@@ -1,22 +1,6 @@
-\documentclass { article    }
-\usepackage{amssymb}
 
-\begin{     document}
-\begin { document}
-\begin *****   {document
-}
-\begin
-
-
-$dasd \asdas \asd dsad$
-
-{document}
-{
-	
-}
-
-\a
-\b
-\d
-
+\begin{document}
+\begin {alah}
+$ asd$
+\end{alah}
 \end{document}
