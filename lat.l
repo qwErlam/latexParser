@@ -31,6 +31,7 @@ int line_count();
 	return SIMPLCOMMAND;
 }
 
+
 [$][^$]*[$] {
     std::cout<<"Spec - "<<yytext<<"\n\n"; //std:: cout << d;
     int count = strlen(yytext);
