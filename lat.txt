@@ -1,3 +1,26 @@
+<<<<<<< HEAD
+=======
+\documentclass { article    }
+\usepackage{amssymb}
+
+\begin{     aboba}
+\begin { document}
+\begin *****   {document
+}
+\begin
+
+
+$dasd \asdas \asd dsad$
+
+{document}
+{
+	
+}
+
+\a
+\b
+\d
+>>>>>>> e44f5d33d566d0868e8010cb3e29b90a23f38400
 
 \begin{document}
 \begin {alah}
