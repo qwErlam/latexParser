@@ -15,10 +15,7 @@ std::vector <std::string> commands = {
     "\\lang"
 };
 
-//std::map <std::string, int> begEnd;
-//static int i =0;
 std::stack<std::string> begEnd;
-
 std::map <std::string,std::vector<std::string>> hardComands; 
 std::vector <std::pair <std::string, std::string>> specChar;
 std::vector <std::string> specCommand = {
@@ -57,7 +54,7 @@ enum ERROR
     ERROR_SPEC 
 };
  
- 
+
 struct S_ERROR
 {
     S_ERROR (ERROR _num,std::string strErr = ""){
@@ -96,12 +93,18 @@ secondtreatment:
         }
         else if ($1->num == 1 ) {
             yyerror("Unknown command ERROR_HARD - " + $1->str_error);
+            //return -1;
+            exit(-1);
         }
         else if ($1->num == 2 ) {
             yyerror("Unknown command ERROR_SIMPL - " + $1->str_error);
+            //return -1;
+            exit(-1);
         }
         else{
-             yyerror("Unknown command ERROR_SPEC - " + $1->str_error);
+            yyerror("Unknown command ERROR_SPEC - " + $1->str_error);
+            //return -1;
+            exit(-1);
         }
         $1->str_error.clear();
         delete $1;
@@ -114,54 +117,31 @@ firsttreatment:
         removeWS(simplcom);
         for(auto it : commands){
             size_t pos = simplcom.find(it);
-            std::cout<<"Simp - "<<it<<"\n\n";
             if (pos != std::string::npos){
-                std::cout << "nahod\n";
                 isFind = true;
                 $$->str_error = it;
                 break;
             }
-            else
-                std::cout << "nenahod\n";
         }
         if(isFind == 1){
-            //$$->num = ALL_GOOD;
             $$ = new S_ERROR(ALL_GOOD);
         }
         else{
-            //$$->num = ERROR_SIMPL;
-            //$$->str_error = simplcom;
             $$ = new S_ERROR(ERROR_SIMPL, simplcom);
-        }
-        std::cout<<"Simple_very - "<<simplcom<<"\n\n";   
-
+        }  
     }
     | HARDCOMMAND
     {
-        int it =0;
         std::string s($1);
-        std::cout<<"Hard_very - "<<s<<"\n\n";
         std::regex exp("([\\\\][a-zA-Z]+)\\s*[{]\\s*(.[a-zA-Z]*)\\s*[}]");
         bool isFind = false;
         std::smatch matches;
-        std::string tempFuckingString;
         if(std::regex_search(s, matches, exp)) {
-            std::cout << "Match found_LOL\n";
-            std::cout<<"______________________________\t"<<matches[1].str()<<std::endl;
-            tempFuckingString = matches[1].str();
-            if (hardComands.find(tempFuckingString) != hardComands.end()) {
-                tempFuckingString.clear();
-                tempFuckingString = matches[(size_t)1].str();
-                auto tmpVect = hardComands.at(tempFuckingString);
-                tempFuckingString.clear();
-                std::cout<<tmpVect.size()<<std::endl;
+            if (hardComands.find(matches[1]) != hardComands.end()) {
+                auto tmpVect = hardComands.at(matches[1]);
                 if (tmpVect.size()) {
                     for (auto it : tmpVect) {
-                        tempFuckingString = matches[(size_t)2].str();
-                        std::cout<<it<<"\t"<<matches[(size_t)2].str()<<"\t"<<it.length()<<"\t"<<tempFuckingString.length()<<"\t"<<it.compare(tempFuckingString)<<(it.length() == tempFuckingString.length())<< (it.compare(tempFuckingString) == 0)<<std::endl;
-
-                        if ((it.length() == tempFuckingString.length()) && (it.compare(tempFuckingString) == 0)) {
-                                std::cout<<"im in\n";
+                        if (it.compare(matches[2]) == 0) {
                             isFind = true;
                             if(matches[1].compare("\\begin") == 0)
                                 begEnd.push(it);
@@ -177,52 +157,39 @@ firsttreatment:
                 }
                 else{
                     isFind = true;
-                    printf("dasdada");
                 }                
             }
         }
         if(isFind == 1){
-        $$ = new S_ERROR(ALL_GOOD);
-            //$$->num = ALL_GOOD;
+            $$ = new S_ERROR(ALL_GOOD);
         }
         else{
-        $$ = new S_ERROR(ERROR_SPEC,s);
-            //$$->num = ERROR_SPEC;
-            //$$->str_error = s;
+            $$ = new S_ERROR(ERROR_SPEC,s);
         }
         
     }
     | SPECTEXT
     {
         std::string s($1);
-        std::cout<<"a"<<std::endl;  
         bool isFind = true;
         std::regex exp("(\\\\[a-zA-Z]+)");
         for (std::sregex_iterator beg = std::sregex_iterator(s.begin(), s.end(), exp); beg != std::sregex_iterator();beg++) {
-            std::cout<<"a"<<std::endl;
             for (auto it : specCommand){
                 size_t pos = beg->str().length() == it.length() ? beg->str().find(it) : std::string::npos;
                 if (pos != std::string::npos){
-                    std::cout<<"spec simp - "<<it<<"\t" <<beg->str()<< "\n\n";
                     isFind = true;
-                    //$$->str_error = beg->str();
                     break;
                 }
-                else
-                    std::cout << "spec nenahod\n";
                 isFind = false;       
             }
             
         }
         if(isFind == 1){
-                $$ = new S_ERROR(ALL_GOOD);
-                //$$->num = ALL_GOOD;
-            }
-            else{
-                $$ = new S_ERROR(ERROR_SPEC,s);
-                //$$->num = ERROR_SPEC;
-                //$$->str_error = s;
-            }
+            $$ = new S_ERROR(ALL_GOOD);
+        }
+        else{
+            $$ = new S_ERROR(ERROR_SPEC,s);
+        }
     }
 ;
 %%
@@ -230,7 +197,6 @@ firsttreatment:
 std::string removeWS (std::string str){
     std:: string res;
     str.erase(std::remove_if(str.begin(), str.end(), isspace), str.end());
-   // std::cout<<"-----ola---\t"<<str<<std::endl;
 
     return res;
 }

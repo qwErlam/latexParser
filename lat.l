@@ -16,25 +16,20 @@ int line_count();
 "}" {zipzap--;}
 (\\\%|\\\$|\\\&|\\\-|\\\<|\\\>|\\\#|\\\{|\\\})			
 \\[a-zA-Z]+[ \n\t\r*]*[{][ \n\t\r]*[a-zA-ZА-Яа-я]+[ \n\t\r]*[}]   {
-    //std::cout<<"Hard - "<<yytext<<"\n\n";
-    *yylval.str = '\0';
-    int count = strlen(yytext);
+    //int count = strlen(yytext);
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
     return HARDCOMMAND;
 }
 \\[a-zA-Z]+ {
-	std::cout<<"Simple - "<<yytext<<"\n\n"; //std:: cout << d;
-  int count = strlen(yytext);
+    //yylval.str = new std::string(yytext);
 	memset(yylval.str, 0, 255); 
-  strncpy(yylval.str, yytext, 255);
+    strncpy(yylval.str, yytext, 255);
 	return SIMPLCOMMAND;
 }
 
 
 [$][^$]*[$] {
-    std::cout<<"Spec - "<<yytext<<"\n\n"; //std:: cout << d;
-    int count = strlen(yytext);
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
     return SPECTEXT;
