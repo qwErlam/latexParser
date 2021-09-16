@@ -3,65 +3,81 @@
 #include<stdio.h>
 #include<string.h>
 #include<iostream>
-void count();
+bool documentScope = false;
 int line=1;
-int d_count=1;
-int zipzap=0;
-int line_count(); 
 %}
 %option noyywrap
+%x BRACEVALUE SKVALUE DOLLARHASL
 %%
 
-"{" {zipzap++;}
-"}" {zipzap--;}
-(\\\%|\\\$|\\\&|\\\-|\\\<|\\\>|\\\#|\\\{|\\\})			
-\\[a-zA-Z]+[ \n\t\r*]*[{][ \n\t\r]*[a-zA-ZА-Яа-я]+[ \n\t\r]*[}]   {
-    //int count = strlen(yytext);
+"{" {BEGIN(BRACEVALUE);
+    
+    return LBRACE;}
+<BRACEVALUE>[a-zA-Z]+ {
+    
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
-    return HARDCOMMAND;
+    return INCURLYBR;
 }
+<BRACEVALUE>\\[a-zA-Z]+ {
+    memset(yylval.str, 0, 255); 
+    strncpy(yylval.str, yytext, 255);
+    
+    return COMMANDINER;
+}
+<BRACEVALUE>"}" {BEGIN(0);
+    return RBRACE;}
+<BRACEVALUE>. {}
+
+
+"[" {BEGIN(SKVALUE);return LSK;}
+<SKVALUE>[a-zA-Z0-9]+ {
+    memset(yylval.str, 0, 255); 
+    strncpy(yylval.str, yytext, 255);
+    return INSQUAREBR;
+}
+<SKVALUE>"]" {BEGIN(0); return RSK;}
+<SKVALUE>. {}
+
+"$" {BEGIN(DOLLARHASL);}
+<DOLLARHASL>\\[a-zA-Z0-9]+ {
+    memset(yylval.str, 0, 255); 
+    strncpy(yylval.str, yytext, 255);
+    return MATHSPEC;
+}
+<DOLLARHASL>"$" {BEGIN(0); }
+<DOLLARHASL>. {}
+
+"\\documentclass" {return DOCCLASS;}
+"\\usepackage" {return USEPAC;}
+"\\begin{document}" {
+    if(documentScope)return ERROR;
+    else documentScope = true;
+    return BEGINDOC; 
+    }
+"\\title" {}
+"\\end{document}" {return ENDDOC;}
+
 \\[a-zA-Z]+ {
-    //yylval.str = new std::string(yytext);
-	memset(yylval.str, 0, 255); 
-    strncpy(yylval.str, yytext, 255);
-	return SIMPLCOMMAND;
-}
-
-
-[$][^$]*[$] {
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
-    return SPECTEXT;
-}
-\n {
-    line++;
+    return COMMAND;
 }
 
+%.*[^\n]  {}
+(\\\%|\\\$|\\\&|\\\-|\\\<|\\\>|\\\#|\\\{|\\\}) {}
+\n { line++;}
+[ \\n] {}
 
-
+.   {
+    if(!documentScope && yytext[0]!='}' && yytext[0]!=13 )
+    {
+        
+        std::cout<<"LEX ERRROR\n";
+        exit(-1);
+    }
+}
+     
+<<EOF>>     {return END;}
 
 %%
-int column = 0;
-
-void count()
-{
- int i;
-
- for (i = 0; yytext[i] != '\0'; i++)
-  if (yytext[i] == '\n')
-   column = 0;
-  else if (yytext[i] == '\t')
-   column += 8 - (column % 8);
-  else
-   column++;
-
- ECHO;
-
-
-}
-int line_count() 
-{	
-	ECHO;
-	return line;	
-}
