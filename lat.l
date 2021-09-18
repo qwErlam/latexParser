@@ -13,7 +13,7 @@ int line=1;
 "{" {BEGIN(BRACEVALUE);
     
     return LBRACE;}
-<BRACEVALUE>[a-zA-Z]+ {
+<BRACEVALUE>[-a-zA-Zа-яА-Я]+ {
     
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
@@ -55,7 +55,7 @@ int line=1;
     else documentScope = true;
     return BEGINDOC; 
     }
-"\\title" {}
+"\\title" {return TITLE;}
 "\\end{document}" {return ENDDOC;}
 
 \\[a-zA-Z]+ {
@@ -64,17 +64,17 @@ int line=1;
     return COMMAND;
 }
 
-%.*[^\n]  {}
-(\\\%|\\\$|\\\&|\\\-|\\\<|\\\>|\\\#|\\\{|\\\}) {}
+
+%[^\n]*  {}
+(\\\%|\\\$|\\\&|\\\-|\\\<|\\\>|\\\#|\\\{|\\\}|\\\,) {}
 \n { line++;}
 [ \\n] {}
 
 .   {
-    if(!documentScope && yytext[0]!='}' && yytext[0]!=13 )
+    if(!documentScope && yytext[0]!='}' && yytext[0]!=13)
     {
         
-        std::cout<<"LEX ERRROR\n";
-        exit(-1);
+        std::cout<<"LEX ERRROR"<<line<<std::endl;
     }
 }
      

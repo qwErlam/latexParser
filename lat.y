@@ -20,7 +20,13 @@ std::vector <std::string> commands = {
     "\\bf",
     "\\lang",
     "\\t",
-    "\\title"           
+    "\\title",
+    "\\ne",
+    "\\leq",
+    "\\noindent",
+    "\\textsection",
+    "\\item",
+    "\\Lambda"
 };
 
 std::vector <std::string> specCommand = {
@@ -30,6 +36,18 @@ std::vector <std::string> specCommand = {
     "\\rangle",
     "\\forall",
     "\\all",
+    "\\leftarrow",
+    "\\displaystyle",
+    "\\over",
+    "\\pm",
+    "\\pi",
+    "\\displaystyle",
+    "\\ne",
+    "\\bigg",
+    "\\big",
+    "\\leq",
+    "\\geq",
+    "\\sqrt",
     "\\in"
 };
 
@@ -40,13 +58,18 @@ std::vector <std::string> v_usepackage = {
     "graphicx",
     "babel",
     "csquotes",
-    "xy"
+    "xy",
+    "inputenc",
+    "setspace",
+    "amsmath"
 };
 
 std::vector <std::string> v_usepackageS = {
     "russian",
     "english",
-    "all"
+    "all",
+    "german",
+    "utf8"
 };
 
 std::vector <std::string> v_docclass = {
@@ -102,7 +125,7 @@ int printError(struct S_ERROR* yep);
 
 
 %start state
-%token <str>    DOCCLASS USEPAC BEGINDOC COMMAND INSQUAREBR INCURLYBR SPECTEXT ENDDOC MATHSPEC COMMANDINER TITLE END ERROR
+%token <str>    DOCCLASS USEPAC BEGINDOC COMMAND INSQUAREBR INCURLYBR SPECTEXT ENDDOC MATHSPEC COMMANDINER TITLE END ERROR 
 %token <num>    LBRACE RBRACE LSK RSK
 %type <erro>    main
 
@@ -113,6 +136,7 @@ state: lasttreatment state
 
 lasttreatment:
     docclass usepall BEGINDOC maintext ENDDOC {}
+    | docclass BEGINDOC maintext ENDDOC {}
     | END
     {
         if(begEnd.size()!=0)
@@ -159,7 +183,7 @@ main:
         std::string com($1);
         std::string incom($3);
         
-        S_ERROR *errMsg = new S_ERROR(ERROR_HARD,std::string($1));//TODO
+        S_ERROR *errMsg = new S_ERROR(ERROR_HARD,com+"\t"+incom);//TODO
         if (hardComands.find(com) != hardComands.end()) {
             auto tmpVect = hardComands.at(com);
             if(tmpVect.size()){
@@ -196,6 +220,14 @@ main:
         
     }
 
+    | INCURLYBR {}
+    | INSQUAREBR {}
+    | LSK {}
+    | RSK {}
+    | LBRACE
+    | RBRACE
+
+
 helpmeall: helpme helpmeall
     |helpme
 
@@ -215,26 +247,21 @@ docclass:
 
     }
     | docclass INSQUAREBR {
-        if (std::find(v_docclassS.begin(),v_docclassS.end(), std::string($2)) == v_docclassS.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2));
-            printError(errMsg);
-        }
+        
     }
     | docclass RSK {
 
     }
-    | docclass LBRACE INCURLYBR RBRACE{
-        if (std::find(v_docclass.begin(),v_docclass.end(), std::string($3)) == v_docclass.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($3));
+    | DOCCLASS LBRACE
+    | docclass LBRACE {}
+    | docclass INCURLYBR {
+        //std::cout<< $2<<"-------------"<<std::endl;
+        if (std::find(v_docclass.begin(),v_docclass.end(), std::string($2)) == v_docclass.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2));
             printError(errMsg);
         }
     }
-    | DOCCLASS LBRACE INCURLYBR RBRACE{
-        if (std::find(v_docclass.begin(),v_docclass.end(), std::string($3)) == v_docclass.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($3));
-            printError(errMsg);
-        }
-    }
+    |docclass RBRACE {}
 
 
 
@@ -245,27 +272,25 @@ usep:
     USEPAC LSK {
 
     }
+    | USEPAC LBRACE
     | usep INSQUAREBR {
         if (std::find(v_usepackageS.begin(),v_usepackageS.end(), std::string($2)) == v_usepackageS.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2));
+            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2) + "\t[]");
             printError(errMsg);
         }
     }
     | usep RSK {
 
     }
-    | usep LBRACE INCURLYBR RBRACE{
-        if (std::find(v_usepackage.begin(),v_usepackage.end(), std::string($3)) == v_usepackage.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($3));
+    | usep LBRACE {}
+    | usep INCURLYBR {
+    //std::cout<< $2<<"-------------"<<std::endl;
+        if (std::find(v_usepackage.begin(),v_usepackage.end(), std::string($2)) == v_usepackage.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2) + "\t{}");
             printError(errMsg);
         }
     }
-    | USEPAC LBRACE INCURLYBR RBRACE{
-        if (std::find(v_usepackage.begin(),v_usepackage.end(), std::string($3)) == v_usepackage.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($3));
-            printError(errMsg);
-        }
-    }
+    |usep RBRACE {}
 
 
 
@@ -277,25 +302,25 @@ int printError(struct S_ERROR* yep)
 {
     if (yep->num == 1 ) {
         yyerror("Unknown command ERROR_HARD - " + yep->str_error);
-        exit(-1);
+        //exit(-1);
     }
     else if (yep->num == 2 ) {
         yyerror("Unknown command ERROR_SIMPL - " + yep->str_error);
         //return -1;
-        exit(-1);
+        //exit(-1);
     }
     else if (yep->num == 3) {
         yyerror("Unknown command ERROR_SPEC - " + yep->str_error);
         //return -1;
-        exit(-1);
+        //exit(-1);
     }
     else if (yep->num == 4){
         yyerror("Lexical error - " + yep->str_error);
-        exit(-1);
+        //exit(-1);
     }
     else if (yep->num == 5){
         yyerror("usepackage arguments error - " + yep->str_error);
-        exit(-1);
+        //exit(-1);
     }
     return 0;
 }
@@ -307,12 +332,12 @@ int  yyerror(std::string s)
     return 0;
 }
 
-int main(){
+int main(int argc, char *argv[]){
     std::vector<std::string> emptyVect = {};
-    yyin = fopen("lat.txt", "r");
+    yyin = fopen(argv[1], "r");
     
     std::vector <std::string> v_usepackage = {"amssymb","mathtext","physics","graphicx", "babel"};
-    std::vector <std::string> v_begin = {"document","center","itemize","large","alah"};
+    std::vector <std::string> v_begin = {"document","enumerate","cases","gather","otherlanguage","tabular","equation","","center","itemize","large"};
     std::vector <std::string> v_documentclass = {"article","book","letter"};
     std::vector <std::string> v_usepackageS = {"russian", "english"};
     hardComands["\\begin"] = v_begin;
@@ -329,6 +354,7 @@ int main(){
     hardComands["\\markright"];
     hardComands["\\markboth"];
     hardComands["\\pagenumbering"];
+
 
 
     yyparse();
