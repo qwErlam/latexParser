@@ -82,6 +82,12 @@ std::vector <std::string> v_docclassS = {
     "twoside"
 };
 
+std::vector <std::string> outside_com = {
+    "\\title",
+    "\\author",
+    "\\date"
+}; 
+
 
 extern FILE *yyin;
 extern int line;
@@ -136,6 +142,8 @@ state: lasttreatment state
 
 lasttreatment:
     docclass usepall BEGINDOC maintext ENDDOC {}
+    | docclass usepall commandoutpall BEGINDOC maintext ENDDOC {}
+    | docclass commandoutpall BEGINDOC maintext ENDDOC {}
     | docclass BEGINDOC maintext ENDDOC {}
     | END
     {
@@ -228,6 +236,30 @@ main:
     | RBRACE
 
 
+commandoutpall : commandout commandoutpall
+    |commandout
+
+commandout:
+    COMMAND LBRACE INCURLYBR RBRACE {
+        printf("dasda111");
+    }
+    | COMMAND {
+         if (std::find(outside_com.begin(),outside_com.end(), std::string($1)) == outside_com.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,std::string($1));
+            printError(errMsg);
+        } 
+    }
+    | COMMAND  LBRACE helpmeall RBRACE { 
+       
+        if (std::find(outside_com.begin(),outside_com.end(), std::string($1)) == outside_com.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,std::string($1));
+            printError(errMsg);
+        } 
+        printf("dasda2222");
+    }
+
+
+
 helpmeall: helpme helpmeall
     |helpme
 
@@ -291,7 +323,6 @@ usep:
         }
     }
     |usep RBRACE {}
-
 
 
 ;

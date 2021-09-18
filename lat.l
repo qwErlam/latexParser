@@ -13,7 +13,7 @@ int line=1;
 "{" {BEGIN(BRACEVALUE);
     
     return LBRACE;}
-<BRACEVALUE>[-a-zA-Zа-яА-Я]+ {
+<BRACEVALUE>[-a-zA-Zа-яА-Я0-9]+ {
     
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
@@ -55,7 +55,6 @@ int line=1;
     else documentScope = true;
     return BEGINDOC; 
     }
-"\\title" {return TITLE;}
 "\\end{document}" {return ENDDOC;}
 
 \\[a-zA-Z]+ {
