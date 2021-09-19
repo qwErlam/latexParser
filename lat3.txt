@@ -1,7 +1,7 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
 \usepackage[russian]{babel}
-\usepackage{setspace,amsmath}
+
 \begin{document}
  
  
@@ -49,13 +49,14 @@ $x - a^2  = \sqrt{2}(x - 1) $.
  
 $\displaystyle    \bigg|{{(a - 1)x - (2a - 1)}\over{x - 1}}\bigg|  + \big|x - |1 - a|   + {{1}\over{2}}\big| = 0$  
 имеет лишь положительные решения?
- 
+ {}}
+ {{}
 Р\,е\,ш\,е\,н\,и\,е. Так как левая часть данного уравнения  - сумма двух неотрицательных слагаемых, то это уравнение равносильно системе
  \begin{equation*}
  \begin{cases}
   \displaystyle {{(a - 1)x - (2a - 1)}\over{x - 1}} = 0 \leq 0, 
    \\
-  \displaystyle  x - |1 - a| + {{1}\over{2}} = 0,
+  \displaystyle  x - |1 - a| + {{1} \over {2}} = 0,
  \end{cases}
 \end{equation*}
 \\

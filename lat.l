@@ -7,7 +7,7 @@ bool documentScope = false;
 int line=1;
 %}
 %option noyywrap
-%x BRACEVALUE SKVALUE DOLLARHASL
+%x BRACEVALUE SKVALUE DOLLARHASL DOLLAR
 %%
 
 "{" {BEGIN(BRACEVALUE);
@@ -17,6 +17,7 @@ int line=1;
     
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
+    //std::cout << "----" << yytext <<std::endl;
     return INCURLYBR;
 }
 <BRACEVALUE>\\[a-zA-Z]+ {
@@ -34,6 +35,7 @@ int line=1;
 <SKVALUE>[a-zA-Z0-9]+ {
     memset(yylval.str, 0, 255); 
     strncpy(yylval.str, yytext, 255);
+    //std::cout << "----" << yytext <<std::endl;
     return INSQUAREBR;
 }
 <SKVALUE>"]" {BEGIN(0); return RSK;}
@@ -48,14 +50,25 @@ int line=1;
 <DOLLARHASL>"$" {BEGIN(0); }
 <DOLLARHASL>. {}
 
+"\\begin{case}" {BEGIN(DOLLAR);}
+<DOLLAR>\\[a-zA-Z0-9]+ {
+    memset(yylval.str, 0, 255); 
+    strncpy(yylval.str, yytext, 255);
+    return MATHSPEC;
+}
+<DOLLAR>"\\end{case}" {BEGIN(0); }
+<DOLLAR>. {}
+
 "\\documentclass" {return DOCCLASS;}
 "\\usepackage" {return USEPAC;}
 "\\begin{document}" {
-    if(documentScope)return ERROR;
+    if(documentScope){}
     else documentScope = true;
     return BEGINDOC; 
     }
 "\\end{document}" {return ENDDOC;}
+"\\newcommand" {printf("newcom :\n"); return NEWCOM;}
+
 
 \\[a-zA-Z]+ {
     memset(yylval.str, 0, 255); 
