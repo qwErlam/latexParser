@@ -103,7 +103,7 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 526 "lat.y"
+#line 548 "lat.y"
 
     char str[255];
     int num;

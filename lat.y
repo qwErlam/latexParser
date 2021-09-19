@@ -451,7 +451,10 @@ std::vector <std::string> v_usepackage = {
     "inputenc",
     "setspace",
     "amsmath",
-    "fontenc"
+    "fontenc",
+    "url",
+    "lmodern",
+    "hologo"
 };
 
 std::vector <std::string> v_usepackageS = {
@@ -461,7 +464,10 @@ std::vector <std::string> v_usepackageS = {
     "german",
     "utf8",
     "koi8",
-    "T2A"
+    "T2A",
+    "T1",
+    "T2",
+    "T3"
 };
 
 std::vector <std::string> v_docclass = {
@@ -470,7 +476,9 @@ std::vector <std::string> v_docclass = {
     "book",
     "letter",
     "slides",
-    "beamer"
+    "beamer",
+    "ltnews",
+    "ltxguide"
 }; 
 
 std::vector <std::string> v_docclassS = {
@@ -488,7 +496,19 @@ std::vector <std::string> outside_com = {
     "\\title",
     "\\author",
     "\\date",
-    "\\thanks"
+    "\\thanks",
+    "\\ConTeXt",
+    "\\DeclareTextCommandDefault",
+    "\\acro",
+    "\\def",
+    "\\else",
+    "\\ifx",
+    "\\makeatletter",
+    "\\makeatother",
+    "\\nofiles",
+    "\\providecommand",
+    "\\setlength",
+    "\\textcommabelow",
 }; 
 
 extern FILE *yyin;
@@ -506,7 +526,8 @@ enum ERROR
     ERROR_SPEC,
     ERROR_LEX,
     ERROR_USEPACK,
-    ERROR_OUT  
+    ERROR_OUT,
+    ERROR_DOCCLASS  
 };
 
 struct S_ERROR
@@ -605,7 +626,7 @@ main:
             if(tmpVect.size()){
                 if(com.compare("\\begin") == 0){
                     begEnd.push(incom);
-                    std::cout<<"push \t"<<incom<<std::endl;   
+                    //std::cout<<"push \t"<<incom<<std::endl;   
                 }
                 else if (com.compare("\\end") == 0){
                     if(begEnd.size()==0){
@@ -613,7 +634,7 @@ main:
                         printError(errMsg1);
                     }
                     if (incom.compare(begEnd.top()) == 0){
-                        std::cout<<"pop \t"<<begEnd.top()<<std::endl;
+                        //std::cout<<"pop \t"<<begEnd.top()<<std::endl;
                         begEnd.pop();
 
                     }
@@ -694,7 +715,7 @@ docclass:
     | docclass LBRACE {}
     | docclass INCURLYBR {
         if (std::find(v_docclass.begin(),v_docclass.end(), std::string($2)) == v_docclass.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string($2));
+            S_ERROR *errMsg = new S_ERROR(ERROR_DOCCLASS ,std::string($2));
             printError(errMsg);
         }
     }
@@ -747,6 +768,9 @@ int printError(struct S_ERROR* yep)
     }
     else if (yep->num == 6){
         yyerror("WARNING: Unknown global command - " + yep->str_error);
+    }
+    else if (yep->num == 5){
+        yyerror("WARNING: docclass arguments - " + yep->str_error);
     }
 
     return 0;

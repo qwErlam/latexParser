@@ -1,0 +1,3041 @@
+cfgguide.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltxguide	 in line: 32
+WARNING: Unknown command - \LaTeXe	 in line: 38
+WARNING: Unknown command - \copyright	 in line: 40
+
+WARNING: Unknown complex command - \texttt	 in line: 59
+WARNING: Unknown complex command - \filesection	 in line: 77
+WARNING: Unknown command - \TeX	 in line: 87
+WARNING: Unknown command - \TeX	 in line: 90
+WARNING: Unknown command - \input	 in line: 104
+WARNING: Unknown complex command - \m	file	 in line: 111
+WARNING: Unknown command - \iniTeX	 in line: 113
+WARNING: Unknown complex command - \m	file	 in line: 113
+WARNING: Unknown complex command - \m	file	 in line: 114
+WARNING: Unknown complex command - \m	file	 in line: 114
+push 	itemizepop 	itemizeWARNING: Unknown complex command - \filesection	 in line: 151
+WARNING: Unknown command - \textbf	 in line: 160
+WARNING: Unknown complex command - \filesection	 in line: 168
+WARNING: Unknown complex command - \filesection	 in line: 186
+WARNING: Unknown complex command - \filesection	 in line: 205
+WARNING: Unknown command - \TeX	 in line: 207
+WARNING: Unknown command - \iniTeX	 in line: 212
+WARNING: Unknown command - \LaTeXe	 in line: 215
+WARNING: Unknown command - \iniTeX	 in line: 216
+WARNING: Unknown command - \iniTeX	 in line: 219
+WARNING: Unknown command - \language	 in line: 225
+WARNING: Unknown command - \lefthyphenmin	 in line: 225
+WARNING: Unknown command - \righthyphenmin	 in line: 231
+push 	itemizeWARNING: Unknown command - \language	 in line: 232
+WARNING: Unknown complex command - \m	number	 in line: 232
+pop 	itemizeWARNING: Unknown command - \hyphenation	 in line: 241
+WARNING: Unknown command - \patterns	 in line: 242
+WARNING: Unknown command - \lccode	 in line: 243
+WARNING: Unknown command - \uccode	 in line: 246
+push 	itemizeWARNING: Unknown command - \language	 in line: 252
+WARNING: Unknown command - \lefthyphenmin	 in line: 252
+WARNING: Unknown command - \righthyphenmin	 in line: 254
+pop 	itemize
+WARNING: Unknown complex command - \texttt	fd	 in line: 269
+WARNING: Unknown complex command - \texttt	 in line: 275
+WARNING: Unknown command - \LaTeXe	 in line: 276
+WARNING: Unknown complex command - \texttt	 in line: 276
+
+push 	itemizepop 	itemizeWARNING: Unknown command - \documentstyle	 in line: 313
+WARNING: Unknown command - \LaTeXe	 in line: 313
+WARNING: Unknown complex command - \filesection	 in line: 316
+WARNING: Unknown command - \documentstyle	 in line: 319
+push 	itemizepop 	itemizeWARNING: Unknown command - \iniTeX	 in line: 331
+push 	quoteWARNING: Unknown command - \tt	 in line: 333
+pop 	quoteWARNING: Unknown command - \LaTeXe	 in line: 336
+WARNING: Unknown command - \section	 in line: 346
+WARNING: Unknown complex command - \filesection	 in line: 352
+push 	itemizepop 	itemizeWARNING: Unknown complex command - \filesection	 in line: 374
+WARNING: Unknown complex command - \textsf	ltnews	 in line: 377
+WARNING: Unknown complex command - \filesection	 in line: 383
+WARNING: Unknown complex command - \textsf	ltxdoc	 in line: 386
+WARNING: Unknown complex command - \textsf	article	 in line: 390
+WARNING: Unknown complex command - \textsf	article	 in line: 391
+push 	quoteWARNING: Unknown complex command - \PassOptionsToClass	a4paper	 in line: 395
+pop 	quoteWARNING: Unknown complex command - \textsf	ltxdoc	 in line: 398
+WARNING: Unknown command - \textwidth	 in line: 401
+push 	quoteWARNING: Unknown command - \setlength	 in line: 402
+WARNING: Unknown command - \textwidth	 in line: 402
+WARNING: Unknown complex command - \AtEndOfClass	 in line: 402
+pop 	quoteWARNING: Unknown command - \textwidth	 in line: 405
+WARNING: Unknown complex command - \textsf	ltxdoc	 in line: 405
+push 	quoteWARNING: Unknown command - \OnlyDescription	 in line: 412
+WARNING: Unknown complex command - \AtBeginDocument	 in line: 412
+pop 	quoteWARNING: Unknown complex command - \textsf	ltxdoc	 in line: 415
+WARNING: Unknown complex command - \filesection	 in line: 419
+WARNING: Unknown complex command - \textsf	ltxguide	 in line: 421
+WARNING: Unknown complex command - \textsf	ltxdoc	 in line: 424
+WARNING: Unknown complex command - \filesection	 in line: 434
+WARNING: Unknown command - \ExecuteOptions	 in line: 436
+WARNING: Unknown complex command - \ExecuteOptions	dvips	 in line: 436
+WARNING: Unknown complex command - \ExecuteOptions	textures	 in line: 437
+WARNING: Unknown complex command - \textsf	graphics	 in line: 439
+WARNING: Unknown complex command - \textsf	graphics	 in line: 440
+WARNING: Unknown complex command - \textsf	graphicx	 in line: 441
+WARNING: Unknown complex command - \textsf	epsfig	 in line: 441
+WARNING: Unknown complex command - \textsf	lscape	 in line: 441
+WARNING: Unknown complex command - \filesection	 in line: 443
+WARNING: Unknown complex command - \textsf	color	 in line: 445
+push 	itemizeWARNING: Unknown command - \typeout	 in line: 468
+WARNING: Unknown complex command - \texttt	latex	 in line: 472
+WARNING: Unknown complex command - \texttt	LaTeX	 in line: 472
+pop 	itemizeWARNING: Unknown command - \TeX	 in line: 482
+WARNING: Unknown complex command - \texttt	 in line: 482
+WARNING: Unknown command - \iniTeX	 in line: 483
+WARNING: Unknown complex command - \texttt	 in line: 485
+WARNING: Unknown complex command - \pageref	fsfcode	 in line: 486
+push 	footnotesizeWARNING: Unknown complex command - \begin	footnotesize	 in line: 494
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 495
+WARNING: Unknown command - \typeout	 in line: 512
+WARNING: Unknown command - \fmtversion	 in line: 512
+WARNING: Unknown complex command - \everyjob	 in line: 512
+WARNING: Unknown command - \makeatletter	 in line: 517
+WARNING: Unknown command - \def	 in line: 517
+WARNING: Unknown complex command - \fsf	 in line: 517
+WARNING: Unknown complex command - \def	fcl	 in line: 520
+WARNING: Unknown complex command - \def	fsy	 in line: 523
+WARNING: Unknown command - \let	 in line: 533
+WARNING: Unknown command - \fsf	 in line: 535
+
+WARNING: Unknown command - \ifx	 in line: 535
+
+WARNING: Unknown command - \InputIfFileExists	 in line: 535
+WARNING: Unknown complex command - \def	 in line: 535
+WARNING: Unknown command - \wlog	 in line: 536
+WARNING: Unknown command - \fsf	 in line: 537
+WARNING: Unknown command - \else	 in line: 539
+WARNING: Unknown command - \ifx	 in line: 540
+WARNING: Unknown complex command - \InputIfFileExists	 in line: 540
+WARNING: Unknown command - \wlog	 in line: 541
+WARNING: Unknown command - \fsf	 in line: 542
+WARNING: Unknown command - \else	 in line: 544
+WARNING: Unknown complex command - \fsf	1	 in line: 544
+WARNING: Unknown command - \fi	 in line: 546
+WARNING: Unknown command - \fi	 in line: 549
+WARNING: Unknown command - \makeatother	 in line: 550
+WARNING: Unknown command - \dump	 in line: 551
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 551
+pop 	footnotesizeWARNING: Unknown complex command - \end	footnotesize	 in line: 552
+Succes 
+clsguide.tex
+---------------------------------------------------------------
+syntax error	 in line: 31
+cyrguide.tex
+---------------------------------------------------------------
+syntax error	 in line: 29
+encguide.tex
+---------------------------------------------------------------
+syntax error	 in line: 32
+fntguide.tex
+---------------------------------------------------------------
+syntax error	 in line: 32
+idx.tex
+---------------------------------------------------------------
+WARNING: Unknown command - \nofiles	 in line: 38
+WARNING: Unknown command - \oddsidemargin	 in line: 38
+WARNING: Unknown command - \setlength	 in line: 38
+syntax error	 in line: 38
+lablst.tex
+---------------------------------------------------------------
+syntax error	 in line: 43
+latexchanges.tex
+---------------------------------------------------------------
+syntax error	 in line: 31
+lppl.tex
+---------------------------------------------------------------
+syntax error	 in line: 43
+ltcmdhooks-code.tex
+---------------------------------------------------------------
+syntax error	 in line: 3
+ltcmdhooks-doc.tex
+---------------------------------------------------------------
+syntax error	 in line: 3
+ltfilehook-code.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+ltfilehook-doc.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+lthooks-code.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+lthooks-doc.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+ltnews.tex
+---------------------------------------------------------------
+syntax error	 in line: 39
+ltnews01.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 45
+WARNING: Unknown command - \LaTeXNews	 in line: 47
+WARNING: Unknown command - \LaTeXe	 in line: 51
+WARNING: Unknown command - \LaTeXe	 in line: 54
+WARNING: Unknown command - \NFSS	 in line: 66
+WARNING: Unknown command - \SLiTeX	 in line: 66
+WARNING: Unknown command - \AmSLaTeX	 in line: 70
+WARNING: Unknown command - \LaTeXe	 in line: 77
+WARNING: Unknown command - \LaTeXe	 in line: 81
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 86
+WARNING: Unknown command - \documentstyle	 in line: 87
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 88
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 90
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 93
+WARNING: Unknown command - \LaTeXe	 in line: 95
+WARNING: Unknown command - \LaTeXe	 in line: 96
+WARNING: Unknown command - \LaTeXe	 in line: 98
+WARNING: Unknown command - \LaTeXe	 in line: 99
+WARNING: Unknown command - \LaTeXe	 in line: 99
+WARNING: Unknown command - \LaTeXe	 in line: 103
+WARNING: Unknown command - \LaTeXe	 in line: 107
+push 	citationsWARNING: Unknown complex command - \begin	citations	 in line: 107
+pop 	citationsWARNING: Unknown complex command - \end	citations	 in line: 114
+WARNING: Unknown command - \LaTeXe	 in line: 121
+push 	citationsWARNING: Unknown complex command - \begin	citations	 in line: 123
+WARNING: Unknown command - \AW	 in line: 126
+WARNING: Unknown command - \AW	 in line: 128
+pop 	citationsWARNING: Unknown complex command - \end	citations	 in line: 128
+push 	citationsWARNING: Unknown complex command - \begin	citations	 in line: 132
+WARNING: Unknown command - \verb	 in line: 136
+WARNING: Unknown command - \verb	 in line: 139
+WARNING: Unknown command - \verb	 in line: 143
+pop 	citationsWARNING: Unknown complex command - \end	citations	 in line: 143
+WARNING: Unknown command - \TeX	 in line: 144
+WARNING: Unknown command - \TeX	 in line: 145
+WARNING: Unknown command - \TeX	 in line: 145
+Succes 
+ltnews02.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 45
+WARNING: Unknown command - \LaTeXNews	 in line: 47
+WARNING: Unknown command - \LaTeXe	 in line: 54
+WARNING: Unknown command - \LaTeXe	 in line: 62
+WARNING: Unknown command - \LaTeXe	 in line: 62
+WARNING: Unknown command - \verb	 in line: 62
+WARNING: Unknown command - \LaTeXe	 in line: 62
+WARNING: Unknown command - \verb	 in line: 64
+WARNING: Unknown command - \verb	 in line: 66
+WARNING: Unknown complex command - \texttt	inputenc	 in line: 67
+WARNING: Unknown command - \verb	 in line: 73
+WARNING: Unknown command - \i	 in line: 74
+WARNING: Unknown command - \i	 in line: 74
+WARNING: Unknown complex command - \texttt	 in line: 74
+WARNING: Unknown command - \i	 in line: 77
+WARNING: Unknown complex command - \texttt	 in line: 77
+WARNING: Unknown command - \verb	 in line: 84
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 84
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 86
+WARNING: Unknown command - \verb	 in line: 87
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \verb	 in line: 91
+WARNING: Unknown command - \verb	 in line: 95
+push 	itemizeWARNING: Unknown command - \verb	 in line: 117
+WARNING: Unknown command - \verb	 in line: 122
+pop 	itemizeWARNING: Unknown command - \verb	 in line: 126
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 129
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 131
+WARNING: Unknown command - \TeX	 in line: 134
+WARNING: Unknown command - \TeX	 in line: 137
+WARNING: Unknown command - \TeX	 in line: 137
+WARNING: Unknown command - \TeX	 in line: 138
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 139
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 143
+WARNING: Unknown command - \TeX	 in line: 148
+WARNING: Unknown command - \TeX	 in line: 149
+WARNING: Unknown command - \TeX	 in line: 149
+Succes 
+ltnews03.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 45
+WARNING: Unknown command - \LaTeXNews	 in line: 47
+WARNING: Unknown command - \LaTeXe	 in line: 54
+WARNING: Unknown command - \LaTeXNews	 in line: 57
+WARNING: Unknown complex command - \texttt	inputenc	 in line: 64
+push 	itemizeWARNING: Unknown complex command - \texttt	ascii	 in line: 70
+WARNING: Unknown complex command - \texttt	latin1	 in line: 71
+WARNING: Unknown complex command - \texttt	latin2	 in line: 72
+WARNING: Unknown complex command - \texttt	cp437	 in line: 73
+WARNING: Unknown complex command - \texttt	cp850	 in line: 74
+WARNING: Unknown complex command - \texttt	applemac	 in line: 75
+pop 	itemizeWARNING: Unknown complex command - \texttt	inputenc	 in line: 77
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 79
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 81
+WARNING: Unknown command - \LaTeXe	 in line: 87
+WARNING: Unknown complex command - \texttt	picture	 in line: 98
+WARNING: Unknown complex command - \texttt	tabbing	 in line: 98
+WARNING: Unknown complex command - \texttt	 in line: 101
+WARNING: Unknown complex command - \texttt	 in line: 113
+WARNING: Unknown complex command - \texttt	 in line: 121
+WARNING: Unknown command - \LaTeXe	 in line: 127
+WARNING: Unknown command - \verb	 in line: 127
+WARNING: Unknown command - \hbox	 in line: 130
+WARNING: Unknown command - \TeX	 in line: 137
+WARNING: Unknown command - \TeX	 in line: 138
+WARNING: Unknown command - \TeX	 in line: 138
+WARNING: Unknown command - \verb	 in line: 143
+Succes 
+ltnews04.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 46
+WARNING: Unknown command - \LaTeXNews	 in line: 48
+WARNING: Unknown command - \LaTeXe	 in line: 54
+WARNING: Unknown complex command - \texttt	 in line: 59
+WARNING: Unknown command - \verb	 in line: 79
+WARNING: Unknown command - \verb	 in line: 83
+WARNING: Unknown complex command - \texttt	 in line: 83
+WARNING: Unknown command - \verb	 in line: 91
+WARNING: Unknown complex command - \texttt	 in line: 92
+WARNING: Unknown command - \verb	 in line: 100
+WARNING: Unknown command - \cite	 in line: 100
+WARNING: Unknown command - \verb	 in line: 100
+WARNING: Unknown command - \sqrt	 in line: 104
+newcom :
+WARNING: Unknown command - \verb	 in line: 104
+WARNING: Unknown command - \verb	 in line: 108
+WARNING: Unknown command - \DeclareOption	 in line: 108
+WARNING: Unknown command - \verb	 in line: 108
+WARNING: Unknown command - \ProcessOptions	 in line: 109
+WARNING: Unknown command - \verb	 in line: 109
+WARNING: Unknown command - \LoadClass	 in line: 112
+WARNING: Unknown command - \verb	 in line: 114
+WARNING: Unknown command - \LoadClassWithOptions	 in line: 115
+WARNING: Unknown command - \verb	 in line: 115
+WARNING: Unknown command - \RequirePackageWithOptions	 in line: 116
+WARNING: Unknown complex command - \texttt	 in line: 116
+WARNING: Unknown complex command - \texttt	 in line: 117
+WARNING: Unknown complex command - \texttt	inputenc	 in line: 121
+push 	itemizeWARNING: Unknown complex command - \texttt	ansinew	 in line: 126
+WARNING: Unknown complex command - \texttt	cp437de	 in line: 128
+WARNING: Unknown complex command - \texttt	cp437	 in line: 128
+WARNING: Unknown command - \ss	 in line: 129
+WARNING: Unknown MATH command - \beta	 in line: 129
+WARNING: Unknown complex command - \texttt	next	 in line: 130
+pop 	itemizeWARNING: Unknown command - \TeX	 in line: 135
+WARNING: Unknown command - \TeX	 in line: 136
+WARNING: Unknown command - \TeX	 in line: 136
+WARNING: Unknown command - \verb	 in line: 141
+Succes 
+ltnews05.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 47
+WARNING: Unknown command - \LaTeXNews	 in line: 48
+WARNING: Unknown command - \LaTeXe	 in line: 51
+WARNING: Unknown command - \verb	 in line: 54
+WARNING: Unknown complex command - \textsf	article	 in line: 54
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 55
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 56
+newcom :
+
+WARNING: Unknown command - \normalfont	 in line: 58
+WARNING: Unknown command - \Large	 in line: 58
+WARNING: Unknown command - \bfseries	 in line: 58
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 59
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 60
+WARNING: Unknown command - \verb	 in line: 67
+WARNING: Unknown command - \MakeUppercase	 in line: 69
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 69
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 70
+WARNING: Unknown command - \renewcommand	 in line: 71
+
+WARNING: Unknown command - \normalfont	 in line: 72
+WARNING: Unknown command - \Large	 in line: 72
+WARNING: Unknown command - \MakeUppercase	 in line: 72
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 73
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 74
+WARNING: Unknown complex command - \textsf	article	 in line: 76
+WARNING: Unknown complex command - \textsf	openany	 in line: 82
+WARNING: Unknown command - \verb	 in line: 84
+WARNING: Unknown command - \chapter	 in line: 84
+WARNING: Unknown command - \verb	 in line: 84
+WARNING: Unknown command - \backmatter	 in line: 85
+WARNING: Unknown command - \verb	 in line: 85
+WARNING: Unknown command - \part	 in line: 85
+WARNING: Unknown command - \verb	 in line: 85
+WARNING: Unknown command - \frontmatter	 in line: 85
+WARNING: Unknown command - \verb	 in line: 85
+WARNING: Unknown command - \mainmatter	 in line: 87
+WARNING: Unknown complex command - \texttt	T3	 in line: 88
+WARNING: Unknown complex command - \textsf	tipa	 in line: 90
+WARNING: Unknown complex command - \texttt	OT3	 in line: 92
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 98
+WARNING: Unknown complex command - \texttt	cp852	 in line: 99
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 102
+WARNING: Unknown command - \verb	 in line: 113
+push 	itemizeWARNING: Unknown complex command - \texttt	l	 in line: 116
+WARNING: Unknown command - \verb	 in line: 120
+WARNING: Unknown command - \nofiles	 in line: 121
+WARNING: Unknown command - \verb	 in line: 122
+WARNING: Unknown command - \nofiles	 in line: 122
+WARNING: Unknown command - \verb	 in line: 122
+WARNING: Unknown command - \label	 in line: 125
+pop 	itemizepush 	itemizeWARNING: Unknown complex command - \textsf	longtable	 in line: 136
+WARNING: Unknown command - \verb	 in line: 139
+WARNING: Unknown command - \setlongtables	 in line: 139
+WARNING: Unknown command - \verb	 in line: 140
+WARNING: Unknown command - \multicolumn	 in line: 142
+WARNING: Unknown complex command - \textsf	dcolumn	 in line: 145
+pop 	itemizeWARNING: Unknown command - \verb	 in line: 153
+Succes 
+ltnews06.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXNews	 in line: 47
+WARNING: Unknown command - \LaTeXNews	 in line: 48
+WARNING: Unknown command - \LaTeXe	 in line: 51
+WARNING: Unknown complex command - \texttt	 in line: 53
+WARNING: Unknown complex command - \texttt	 in line: 53
+WARNING: Unknown complex command - \texttt	 in line: 58
+WARNING: Unknown complex command - \texttt	 in line: 58
+WARNING: Unknown command - \verb	 in line: 62
+WARNING: Unknown command - \verb	 in line: 62
+WARNING: Unknown complex command - \fontencoding	T1	 in line: 62
+WARNING: Unknown complex command - \texttt	 in line: 71
+WARNING: Unknown command - \verb	 in line: 71
+WARNING: Unknown complex command - \input	 in line: 71
+WARNING: Unknown command - \verb	 in line: 72
+WARNING: Unknown complex command - \input	 in line: 72
+WARNING: Unknown complex command - \texttt	 in line: 73
+WARNING: Unknown command - \verb	 in line: 74
+WARNING: Unknown complex command - \input	 in line: 74
+WARNING: Unknown complex command - \texttt	 in line: 75
+WARNING: Unknown command - \verb	 in line: 78
+WARNING: Unknown command - \verb	 in line: 80
+WARNING: Unknown command - \o	 in line: 81
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 81
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 88
+WARNING: Unknown complex command - \newenvironment	texteqn	 in line: 89
+WARNING: Unknown command - \begin	 in line: 90
+push 	minipageWARNING: Unknown complex command - \begin	minipage	 in line: 91
+WARNING: Unknown command - \linewidth	 in line: 91
+pop 	minipageWARNING: Unknown complex command - \end	minipage	 in line: 92
+WARNING: Unknown complex command - equation	 in line: 93
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 94
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 102
+WARNING: Unknown complex command - \newenvironment	texteqn	 in line: 103
+WARNING: Unknown command - \begin	 in line: 104
+push 	minipageWARNING: Unknown complex command - \begin	minipage	 in line: 105
+WARNING: Unknown command - \linewidth	 in line: 105
+WARNING: Unknown command - \end	 in line: 106
+WARNING: Unknown complex command - equation	 in line: 107
+WARNING: Unknown command - \ignorespacesafterend	 in line: 109
+WARNING: Unknown complex command - verbatim	 in line: 109
+WARNING: Unknown complex command - \end	verbatim	 in line: 109
+WARNING: Unknown complex command - \textsf	docstrip	 in line: 112
+WARNING: Unknown command - \verb	 in line: 115
+WARNING: Unknown command - \def	 in line: 115
+
+
+
+
+WARNING: Unknown command - \texttt	 in line: 115
+WARNING: Unknown complex command - \batchfile	 in line: 115
+WARNING: Unknown complex command - \texttt	 in line: 116
+WARNING: Unknown complex command - \textsf	graphics	 in line: 126
+WARNING: Unknown complex command - \texttt	 in line: 136
+WARNING: Unknown command - \TeX	 in line: 137
+WARNING: Unknown complex command - \texttt	 in line: 137
+WARNING: Unknown complex command - \textsf	slides	 in line: 140
+Expucted end 
+ltnews07.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown complex command - \texttt	 in line: 51
+WARNING: Unknown complex command - \texttt	 in line: 55
+WARNING: Unknown complex command - \texttt	 in line: 56
+WARNING: Unknown complex command - \texttt	 in line: 57
+WARNING: Unknown command - \TeX	 in line: 58
+WARNING: Unknown complex command - \texttt	 in line: 58
+WARNING: Unknown complex command - \texttt	 in line: 59
+WARNING: Unknown complex command - \textsf	mfnss	 in line: 64
+WARNING: Unknown complex command - \textsf	 in line: 66
+WARNING: Unknown complex command - \textsf	base	 in line: 66
+WARNING: Unknown complex command - \textsf	ccfonts	 in line: 69
+WARNING: Unknown complex command - \texttt	 in line: 70
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 74
+WARNING: Unknown command - \verb	 in line: 79
+WARNING: Unknown command - \normalsfcodes	 in line: 83
+WARNING: Unknown command - \TeX	 in line: 85
+WARNING: Unknown command - \verb	 in line: 85
+WARNING: Unknown command - \frenchspacing	 in line: 86
+WARNING: Unknown complex command - \textsf	verbatim	 in line: 86
+WARNING: Unknown complex command - \textsf	tools	 in line: 91
+WARNING: Unknown complex command - \textsf	bm	 in line: 91
+WARNING: Unknown command - \verb	 in line: 92
+WARNING: Unknown command - \bm	 in line: 94
+WARNING: Unknown command - \verb	 in line: 94
+WARNING: Unknown command - \boldmath	 in line: 95
+WARNING: Unknown complex command - \textsf	amsbsy	 in line: 95
+WARNING: Unknown complex command - \textsf	bm	 in line: 97
+WARNING: Unknown command - \verb	 in line: 97
+WARNING: Unknown command - \boldsymbol	 in line: 98
+WARNING: Unknown command - \verb	 in line: 98
+WARNING: Unknown command - \bm	 in line: 101
+push 	itemizepop 	itemizeWARNING: Unknown command - \TeX	 in line: 135
+push 	quoteWARNING: Unknown command - \small	 in line: 139
+WARNING: Unknown command - \TeX	 in line: 139
+WARNING: Unknown complex command - \texttt	 in line: 142
+WARNING: Unknown complex command - \texttt	 in line: 143
+pop 	quoteSucces 
+ltnews08.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown complex command - \textsf	fontenc	 in line: 49
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 51
+WARNING: Unknown complex command - \textsf	textcomp	 in line: 62
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 65
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 70
+WARNING: Unknown complex command - \texttt	decmulti	 in line: 71
+WARNING: Unknown complex command - \texttt	cp1250	 in line: 73
+WARNING: Unknown complex command - \texttt	cp1252	 in line: 75
+WARNING: Unknown complex command - \texttt	ansinew	 in line: 75
+WARNING: Unknown complex command - \textsf	calc	 in line: 80
+
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 87
+WARNING: Unknown command - \value	 in line: 88
+WARNING: Unknown command - \textwidth	 in line: 89
+WARNING: Unknown complex command - \parbox	 in line: 89
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 90
+WARNING: Unknown complex command - \textsf	bm	 in line: 93
+WARNING: Unknown command - \verb	 in line: 94
+WARNING: Unknown complex command - \bm	f	 in line: 94
+WARNING: Unknown command - \texttt	 in line: 94
+WARNING: Unknown command - \TeX	 in line: 95
+WARNING: Unknown command - \verb	 in line: 95
+WARNING: Unknown command - \mathcode	 in line: 96
+WARNING: Unknown complex command - \textsf	multicol	 in line: 96
+WARNING: Unknown command - \verb	 in line: 96
+WARNING: Unknown command - \columnwidth	 in line: 101
+WARNING: Unknown command - \verb	 in line: 103
+WARNING: Unknown command - \TeX	 in line: 105
+WARNING: Unknown command - \TeX	 in line: 107
+WARNING: Unknown complex command - \textsf	keyval	 in line: 107
+WARNING: Unknown command - \verb	 in line: 109
+WARNING: Unknown command - \verb	 in line: 110
+WARNING: Unknown complex command - \textsf	graphicx	 in line: 110
+WARNING: Unknown command - \verb	 in line: 110
+WARNING: Unknown command - \includegraphics	 in line: 111
+WARNING: Unknown command - \verb	 in line: 111
+WARNING: Unknown command - \verb	 in line: 116
+WARNING: Unknown command - \TeX	 in line: 120
+WARNING: Unknown command - \TeX	 in line: 122
+WARNING: Unknown command - \TeX	 in line: 125
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 125
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 127
+WARNING: Unknown complex command - \texttt	 in line: 131
+WARNING: Unknown complex command - \texttt	LaTeX-L	 in line: 138
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 140
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 142
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 144
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 146
+Succes 
+ltnews09.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \TeX	 in line: 50
+WARNING: Unknown command - \TeX	 in line: 51
+WARNING: Unknown complex command - \texttt	 in line: 70
+WARNING: Unknown command - \verb	 in line: 75
+WARNING: Unknown command - \mathring	 in line: 76
+WARNING: Unknown command - \r	 in line: 76
+WARNING: Unknown command - \verb	 in line: 77
+WARNING: Unknown command - \r	 in line: 79
+WARNING: Unknown command - \cs	 in line: 79
+WARNING: Unknown command - \verb	 in line: 81
+WARNING: Unknown command - \DeclareMathDelimiter	 in line: 83
+WARNING: Unknown command - \texttt	 in line: 83
+WARNING: Unknown command - \verb	 in line: 87
+WARNING: Unknown command - \DeclareMathSymbol	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \left	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \right	 in line: 92
+WARNING: Unknown complex command - \texttt	multicol	 in line: 96
+WARNING: Unknown complex command - \texttt	multicols	 in line: 98
+WARNING: Unknown complex command - \texttt	layout	 in line: 100
+WARNING: Unknown complex command - \texttt	calc	 in line: 103
+WARNING: Unknown command - \verb	 in line: 104
+WARNING: Unknown complex command - \widthof	text	 in line: 104
+WARNING: Unknown command - \verb	 in line: 105
+WARNING: Unknown complex command - \heightof	text	 in line: 105
+WARNING: Unknown command - \verb	 in line: 105
+WARNING: Unknown complex command - \depthof	text	 in line: 105
+WARNING: Unknown complex command - \texttt	calc	 in line: 106
+WARNING: Unknown complex command - \texttt	calc	 in line: 107
+WARNING: Unknown complex command - \texttt	tabular	 in line: 108
+WARNING: Unknown command - \verb	 in line: 109
+WARNING: Unknown command - \rule	 in line: 110
+WARNING: Unknown complex command - \texttt	 in line: 121
+WARNING: Unknown complex command - \texttt	 in line: 124
+WARNING: Unknown complex command - \textsf	docstrip	 in line: 130
+WARNING: Unknown command - \TeX	 in line: 136
+WARNING: Unknown complex command - \texttt	 in line: 138
+Succes 
+ltnews10.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \LaTeXe	 in line: 48
+
+WARNING: Unknown command - \LaTeXe	 in line: 61
+WARNING: Unknown complex command - \texttt	 in line: 79
+WARNING: Unknown command - \ctan	 in line: 79
+WARNING: Unknown complex command - \texttt	tools	 in line: 81
+WARNING: Unknown complex command - \texttt	packages	 in line: 84
+push 	quoteWARNING: Unknown complex command - \texttt	expl3	 in line: 87
+WARNING: Unknown complex command - \texttt	 in line: 87
+WARNING: Unknown complex command - \texttt	mfnfss	 in line: 88
+WARNING: Unknown complex command - \texttt	 in line: 88
+pop 	quoteWARNING: Unknown complex command - \texttt	packages	 in line: 91
+WARNING: Unknown complex command - \texttt	 in line: 92
+WARNING: Unknown complex command - \texttt	packages	 in line: 93
+WARNING: Unknown complex command - \vspace	17pt	 in line: 95
+WARNING: Unknown command - \pagebreak	 in line: 98
+WARNING: Unknown complex command - \texttt	 in line: 99
+WARNING: Unknown command - \ctan	 in line: 101
+WARNING: Unknown complex command - \texttt	 in line: 101
+WARNING: Unknown complex command - \texttt	 in line: 103
+WARNING: Unknown complex command - \texttt	 in line: 109
+WARNING: Unknown complex command - \texttt	 in line: 113
+
+WARNING: Unknown complex command - \texttt	tools	 in line: 115
+WARNING: Unknown complex command - \texttt	graphics	 in line: 115
+WARNING: Unknown complex command - \texttt	mfnfss	 in line: 115
+WARNING: Unknown command - \texttt	 in line: 123
+WARNING: Unknown complex command - \texttt	 in line: 131
+WARNING: Unknown complex command - \texttt	varioref	 in line: 135
+WARNING: Unknown complex command - \texttt	eq-first	 in line: 136
+WARNING: Unknown complex command - \texttt	eq-last	 in line: 137
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 139
+WARNING: Unknown complex command - \vrefrange	eq-first	 in line: 140
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 141
+Succes 
+ltnews11.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 34
+WARNING: Unknown command - \LaTeXe	 in line: 66
+WARNING: Unknown complex command - \email	 in line: 73
+WARNING: Unknown complex command - \file	 in line: 75
+WARNING: Unknown command - \TeX	 in line: 78
+WARNING: Unknown complex command - \class	slides	 in line: 82
+WARNING: Unknown complex command - \class	slides	 in line: 91
+WARNING: Unknown command - \LaTeXe	 in line: 93
+WARNING: Unknown command - \verb	 in line: 101
+WARNING: Unknown complex command - \pkg	fontenc	 in line: 102
+WARNING: Unknown complex command - \file	 in line: 106
+WARNING: Unknown complex command - \pkg	fontenc	 in line: 107
+WARNING: Unknown command - \TeX	 in line: 113
+WARNING: Unknown command - \TeX	 in line: 114
+WARNING: Unknown complex command - \url	 in line: 122
+WARNING: Unknown complex command - \pkg	multicol	 in line: 126
+WARNING: Unknown command - \verb	 in line: 128
+WARNING: Unknown command - \columnbreak	 in line: 129
+WARNING: Unknown command - \verb	 in line: 129
+WARNING: Unknown command - \pagebreak	 in line: 133
+Succes 
+ltnews12.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \acro	 in line: 43
+WARNING: Unknown command - \providecommand	 in line: 43
+syntax error	 in line: 43
+ltnews13.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \raisefirstsection	 in line: 49
+WARNING: Unknown command - \small	 in line: 58
+push 	quoteWARNING: Unknown command - \PSNFSS	 in line: 62
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 65
+WARNING: Unknown command - \baselineskip	 in line: 66
+WARNING: Unknown complex command - \vspace	 in line: 66
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 67
+push 	flushrightWARNING: Unknown complex command - \begin	flushright	 in line: 69
+pop 	flushrightWARNING: Unknown complex command - \end	flushright	 in line: 71
+pop 	quotepush 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 74
+WARNING: Unknown command - \baselineskip	 in line: 75
+WARNING: Unknown complex command - \vspace	 in line: 75
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 76
+WARNING: Unknown command - \PSNFSS	 in line: 79
+WARNING: Unknown command - \latex	 in line: 79
+WARNING: Unknown complex command - \package	mathpple	 in line: 81
+WARNING: Unknown command - \PSNFSS	 in line: 82
+WARNING: Unknown complex command - \file	 in line: 86
+WARNING: Unknown command - \looseness	 in line: 87
+WARNING: Unknown complex command - \latex	 in line: 87
+WARNING: Unknown complex command - \file	 in line: 89
+WARNING: Unknown command - \PSNFSS	 in line: 93
+WARNING: Unknown command - \TeX	 in line: 95
+WARNING: Unknown command - \PSNFSS	 in line: 97
+WARNING: Unknown complex command - \file	 in line: 98
+WARNING: Unknown command - \PSNFSS	 in line: 98
+WARNING: Unknown command - \ctan	 in line: 102
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 103
+WARNING: Unknown command - \ctanhttp	 in line: 104
+
+WARNING: Unknown complex command - \file	 in line: 104
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 105
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 106
+WARNING: Unknown complex command - \url	 in line: 107
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 108
+WARNING: Unknown complex command - \url	 in line: 113
+WARNING: Unknown complex command - \url	 in line: 114
+WARNING: Unknown command - \ctan	 in line: 114
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 115
+WARNING: Unknown command - \ctanhttp	 in line: 116
+
+WARNING: Unknown complex command - \file	 in line: 116
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 117
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 118
+WARNING: Unknown complex command - \url	 in line: 119
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 120
+WARNING: Unknown command - \latex	 in line: 124
+WARNING: Unknown complex command - \file	 in line: 126
+WARNING: Unknown complex command - \file	 in line: 126
+WARNING: Unknown complex command - \file	 in line: 127
+WARNING: Unknown complex command - \file	 in line: 127
+WARNING: Unknown command - \latex	 in line: 127
+WARNING: Unknown complex command - \file	 in line: 130
+WARNING: Unknown complex command - \package	amsmath	 in line: 131
+WARNING: Unknown complex command - \file	 in line: 131
+WARNING: Unknown command - \latex	 in line: 132
+WARNING: Unknown complex command - \package	amsthm	 in line: 133
+WARNING: Unknown command - \latex	 in line: 133
+WARNING: Unknown complex command - \file	 in line: 134
+WARNING: Unknown command - \latex	 in line: 134
+WARNING: Unknown complex command - \file	 in line: 135
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 137
+WARNING: Unknown command - \vfill	 in line: 139
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 139
+WARNING: Unknown command - \package	 in line: 141
+WARNING: Unknown complex command - \package	inputenc	 in line: 143
+WARNING: Unknown complex command - \package	latin4	 in line: 144
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 148
+WARNING: Unknown command - \vfill	 in line: 150
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 150
+WARNING: Unknown command - \latex	 in line: 161
+WARNING: Unknown command - \TeX	 in line: 162
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 165
+
+WARNING: Unknown command - \hspace	 in line: 167
+WARNING: Unknown complex command - \file	 in line: 167
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 168
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 169
+WARNING: Unknown complex command - \url	 in line: 170
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 171
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 173
+
+WARNING: Unknown command - \latex	 in line: 175
+WARNING: Unknown command - \hspace	 in line: 175
+WARNING: Unknown complex command - \file	 in line: 175
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 176
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 177
+WARNING: Unknown complex command - \url	 in line: 178
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 180
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 182
+WARNING: Unknown command - \latex	 in line: 183
+WARNING: Unknown command - \latex	 in line: 185
+WARNING: Unknown complex command - \texttt	galley	 in line: 186
+WARNING: Unknown complex command - \texttt	template	 in line: 187
+WARNING: Unknown complex command - \texttt	 in line: 190
+WARNING: Unknown command - \latex	 in line: 191
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 193
+Succes 
+ltnews14.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \raisefirstsection	 in line: 49
+WARNING: Unknown command - \textsf	 in line: 58
+WARNING: Unknown complex command - \textsf	Babel	 in line: 60
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 62
+WARNING: Unknown complex command - \file	 in line: 63
+WARNING: Unknown complex command - \hspace	4em	 in line: 64
+WARNING: Unknown complex command - \file	 in line: 64
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 65
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 66
+WARNING: Unknown complex command - \url	 in line: 67
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 68
+WARNING: Unknown complex command - \textsf	babel	 in line: 72
+WARNING: Unknown complex command - \textsf	Babel	 in line: 73
+WARNING: Unknown complex command - \textsf	babel	 in line: 74
+WARNING: Unknown command - \package	 in line: 76
+WARNING: Unknown complex command - \package	inputenc	 in line: 78
+WARNING: Unknown complex command - \package	latin9	 in line: 79
+WARNING: Unknown complex command - \package	latin9	 in line: 90
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 91
+WARNING: Unknown command - \verb	 in line: 92
+WARNING: Unknown command - \texteuro	 in line: 92
+WARNING: Unknown command - \v	 in line: 92
+WARNING: Unknown command - \v	 in line: 92
+WARNING: Unknown command - \v	 in line: 92
+WARNING: Unknown command - \v	 in line: 92
+WARNING: Unknown command - \OE	 in line: 92
+WARNING: Unknown command - \oe	 in line: 93
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 93
+WARNING: Unknown complex command - \package	latin1	 in line: 94
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 95
+WARNING: Unknown command - \verb	 in line: 96
+WARNING: Unknown command - \textcurrency	 in line: 96
+WARNING: Unknown command - \textbrokenbar	 in line: 96
+WARNING: Unknown command - \c	 in line: 96
+WARNING: Unknown command - \verb	 in line: 97
+WARNING: Unknown command - \textonequarter	 in line: 97
+WARNING: Unknown command - \textonehalf	 in line: 97
+WARNING: Unknown command - \textthreequarters	 in line: 98
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 98
+WARNING: Unknown complex command - \package	trace	 in line: 103
+WARNING: Unknown command - \eTeX	 in line: 105
+WARNING: Unknown command - \verb	 in line: 109
+WARNING: Unknown command - \traceon	 in line: 110
+WARNING: Unknown command - \verb	 in line: 110
+WARNING: Unknown command - \tracingall	 in line: 112
+WARNING: Unknown command - \verb	 in line: 112
+WARNING: Unknown command - \traceoff	 in line: 112
+WARNING: Unknown complex command - \file	 in line: 113
+WARNING: Unknown complex command - \package	ifthen	 in line: 115
+WARNING: Unknown command - \verb	 in line: 116
+WARNING: Unknown command - \NOT	 in line: 116
+WARNING: Unknown command - \verb	 in line: 116
+WARNING: Unknown command - \AND	 in line: 116
+WARNING: Unknown command - \verb	 in line: 116
+WARNING: Unknown command - \OR	 in line: 118
+WARNING: Unknown command - \latex	 in line: 127
+WARNING: Unknown command - \TeX	 in line: 128
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 135
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 137
+WARNING: Unknown complex command - \file	 in line: 138
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 139
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 140
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 141
+WARNING: Unknown complex command - \url	 in line: 142
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 143
+push 	latexonlyWARNING: Unknown complex command - \begin	latexonly	 in line: 145
+push 	smallWARNING: Unknown complex command - \begin	small	 in line: 147
+WARNING: Unknown complex command - \file	 in line: 148
+pop 	smallWARNING: Unknown complex command - \end	small	 in line: 149
+pop 	latexonlyWARNING: Unknown complex command - \end	latexonly	 in line: 150
+push 	htmlonlyWARNING: Unknown complex command - \begin	htmlonly	 in line: 151
+WARNING: Unknown complex command - \url	 in line: 152
+pop 	htmlonlyWARNING: Unknown complex command - \end	htmlonly	 in line: 153
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 156
+WARNING: Unknown command - \latex	 in line: 157
+WARNING: Unknown command - \latex	 in line: 159
+WARNING: Unknown complex command - \texttt	galley	 in line: 160
+WARNING: Unknown complex command - \texttt	template	 in line: 161
+WARNING: Unknown complex command - \texttt	 in line: 164
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 167
+Succes 
+ltnews15.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \newline	 in line: 56
+WARNING: Unknown command - \newline	 in line: 66
+WARNING: Unknown command - \newline	 in line: 69
+WARNING: Unknown complex command - \url	 in line: 69
+WARNING: Unknown complex command - \url	 in line: 73
+WARNING: Unknown command - \newline	 in line: 78
+WARNING: Unknown command - \newline	 in line: 79
+WARNING: Unknown command - \newline	 in line: 80
+WARNING: Unknown command - \newline	 in line: 84
+WARNING: Unknown command - \verb	 in line: 86
+WARNING: Unknown command - \reftextbefore	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \labelformat	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \Ref	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \Vref	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \vpagerefnum	 in line: 89
+WARNING: Unknown command - \newline	 in line: 90
+WARNING: Unknown complex command - \package	slovak	 in line: 90
+WARNING: Unknown complex command - \package	slovene	 in line: 90
+WARNING: Unknown command - \verb	 in line: 96
+WARNING: Unknown command - \nobreakdashes	 in line: 97
+WARNING: Unknown complex command - \package	amsmath	 in line: 97
+WARNING: Unknown command - \newline	 in line: 103
+WARNING: Unknown complex command - \package	fix-cm	 in line: 105
+WARNING: Unknown complex command - \texttt	fd	 in line: 106
+WARNING: Unknown complex command - \texttt	OT1	 in line: 107
+WARNING: Unknown complex command - \texttt	T1	 in line: 107
+WARNING: Unknown complex command - \package	textcomp	 in line: 112
+WARNING: Unknown complex command - \package	textcomp	 in line: 118
+WARNING: Unknown command - \newline	 in line: 121
+WARNING: Unknown command - \verb	 in line: 121
+WARNING: Unknown command - \oldstylenums	 in line: 125
+WARNING: Unknown complex command - \package	nfssfont	 in line: 127
+WARNING: Unknown complex command - \package	inputenc	 in line: 136
+WARNING: Unknown complex command - \package	macce	 in line: 137
+WARNING: Unknown complex command - \package	cp1257	 in line: 139
+WARNING: Unknown command - \newline	 in line: 140
+WARNING: Unknown complex command - \package	latin10	 in line: 140
+WARNING: Unknown complex command - \u	a	 in line: 141
+WARNING: Unknown command - \newline	 in line: 144
+WARNING: Unknown complex command - \package	ansinew	 in line: 144
+WARNING: Unknown complex command - \package	cp1250	 in line: 144
+WARNING: Unknown complex command - \package	cp1252	 in line: 145
+WARNING: Unknown command - \newline	 in line: 146
+WARNING: Unknown complex command - \package	cp858	 in line: 146
+WARNING: Unknown complex command - \package	cp850	 in line: 147
+WARNING: Unknown complex command - \package	utf8	 in line: 153
+WARNING: Unknown complex command - \package	inputenc	 in line: 154
+WARNING: Unknown command - \newline	 in line: 159
+WARNING: Unknown command - \ss	 in line: 165
+Succes 
+ltnews16.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown command - \newline	 in line: 65
+WARNING: Unknown command - \newline	 in line: 70
+WARNING: Unknown command - \newline	 in line: 73
+push 	itemizepop 	itemizeWARNING: Unknown command - \newline	 in line: 79
+WARNING: Unknown command - \newline	 in line: 81
+WARNING: Unknown command - \newline	 in line: 82
+WARNING: Unknown command - \url	 in line: 82
+WARNING: Unknown command - \newline	 in line: 92
+WARNING: Unknown command - \newline	 in line: 114
+WARNING: Unknown command - \eTeX	 in line: 114
+WARNING: Unknown command - \TeX	 in line: 114
+WARNING: Unknown command - \TeX	 in line: 117
+WARNING: Unknown command - \eTeX	 in line: 118
+WARNING: Unknown command - \eTeX	 in line: 118
+WARNING: Unknown command - \TeX	 in line: 118
+WARNING: Unknown command - \eTeX	 in line: 122
+WARNING: Unknown command - \TeX	 in line: 123
+WARNING: Unknown complex command - \package	autoload	 in line: 130
+WARNING: Unknown command - \TeX	 in line: 139
+WARNING: Unknown complex command - \url	 in line: 140
+WARNING: Unknown command - \url	 in line: 142
+WARNING: Unknown command - \TeX	 in line: 153
+WARNING: Unknown command - \newline	 in line: 158
+WARNING: Unknown command - \newline	 in line: 159
+Succes 
+ltnews17.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+WARNING: Unknown complex command - \texttt	 in line: 61
+WARNING: Unknown command - \verb	 in line: 64
+WARNING: Unknown command - \input	 in line: 64
+WARNING: Unknown command - \verb	 in line: 64
+WARNING: Unknown command - \include	 in line: 67
+WARNING: Unknown complex command - \texttt	OT1	 in line: 77
+WARNING: Unknown complex command - \texttt	T1	 in line: 77
+WARNING: Unknown complex command - \texttt	 in line: 79
+WARNING: Unknown complex command - \texttt	tfm	 in line: 81
+WARNING: Unknown command - \verb	 in line: 91
+WARNING: Unknown command - \mathbf	 in line: 97
+WARNING: Unknown command - \pagebreak	 in line: 101
+WARNING: Unknown complex command - \package	tools	 in line: 103
+WARNING: Unknown complex command - \package	xspace	 in line: 106
+WARNING: Unknown complex command - \package	babel	 in line: 109
+WARNING: Unknown command - \eTeX	 in line: 112
+WARNING: Unknown complex command - \package	xspace	 in line: 113
+WARNING: Unknown complex command - \package	fixltx2e	 in line: 114
+WARNING: Unknown command - \eTeX	 in line: 115
+WARNING: Unknown complex command - \package	calc	 in line: 117
+WARNING: Unknown command - \verb	 in line: 119
+WARNING: Unknown command - \maxof	 in line: 119
+WARNING: Unknown command - \verb	 in line: 119
+WARNING: Unknown command - \minof	 in line: 120
+WARNING: Unknown MATH command - \max	 in line: 120
+WARNING: Unknown MATH command - \min	 in line: 120
+WARNING: Unknown command - \verb	 in line: 121
+WARNING: Unknown command - \settototalheight	 in line: 122
+WARNING: Unknown command - \verb	 in line: 122
+WARNING: Unknown command - \totalheightof	 in line: 122
+WARNING: Unknown command - \verb	 in line: 122
+WARNING: Unknown command - \settoheight	 in line: 123
+WARNING: Unknown command - \verb	 in line: 123
+WARNING: Unknown command - \heightof	 in line: 124
+WARNING: Unknown complex command - \package	calc	 in line: 124
+WARNING: Unknown command - \TeX	 in line: 125
+WARNING: Unknown command - \verb	 in line: 125
+WARNING: Unknown command - \ifcase	 in line: 127
+WARNING: Unknown complex command - \package	varioref	 in line: 127
+WARNING: Unknown complex command - \package	showkeys	 in line: 131
+WARNING: Unknown complex command - \package	varioref	 in line: 132
+WARNING: Unknown command - \verb	 in line: 134
+WARNING: Unknown command - \showkeyslabelformat	 in line: 136
+WARNING: Unknown complex command - \package	fixltx2e	 in line: 138
+WARNING: Unknown command - \verb	 in line: 139
+WARNING: Unknown command - \textsubscript	 in line: 140
+WARNING: Unknown command - \verb	 in line: 140
+WARNING: Unknown command - \textsuperscript	 in line: 141
+WARNING: Unknown command - \verb	 in line: 141
+WARNING: Unknown command - \DeclareMathSizes	 in line: 143
+WARNING: Unknown command - \verb	 in line: 143
+WARNING: Unknown complex command - \DeclareMathSizes	 in line: 143
+WARNING: Unknown command - \verb	 in line: 146
+WARNING: Unknown command - \TextOrMath	 in line: 148
+WARNING: Unknown command - \eTeX	 in line: 148
+WARNING: Unknown command - \eTeX	 in line: 153
+WARNING: Unknown complex command - \package	fixltx2e	 in line: 156
+WARNING: Unknown command - \verb	 in line: 157
+WARNING: Unknown command - \fnsymbol	 in line: 160
+WARNING: Unknown command - \verb	 in line: 160
+WARNING: Unknown command - \addpenalty	 in line: 163
+WARNING: Unknown complex command - \package	graphics	 in line: 165
+WARNING: Unknown complex command - \package	dvipdfmx	 in line: 166
+WARNING: Unknown command - \TeX	 in line: 168
+WARNING: Unknown complex command - \texttt	xetex	 in line: 168
+WARNING: Unknown complex command - \texttt	dvipdfmx	 in line: 168
+WARNING: Unknown complex command - \package	graphics	 in line: 172
+WARNING: Unknown command - \TeX	 in line: 176
+WARNING: Unknown complex command - \package	graphics	 in line: 181
+WARNING: Unknown complex command - \file	 in line: 182
+WARNING: Unknown complex command - \file	 in line: 183
+WARNING: Unknown complex command - \file	 in line: 184
+WARNING: Unknown complex command - \file	 in line: 186
+WARNING: Unknown complex command - \package	PStricks	 in line: 189
+WARNING: Unknown complex command - \package	pstcol	 in line: 189
+WARNING: Unknown complex command - \package	PSTricks	 in line: 190
+WARNING: Unknown complex command - \package	expl3	 in line: 200
+WARNING: Unknown command - \ctan	 in line: 201
+WARNING: Unknown complex command - \package	xor	 in line: 204
+WARNING: Unknown complex command - \package	template	 in line: 205
+WARNING: Unknown command - \eTeX	 in line: 214
+push 	itemizeWARNING: Unknown complex command - \package	xor	 in line: 218
+WARNING: Unknown complex command - \package	template	 in line: 218
+pop 	itemizeWARNING: Unknown complex command - \package	expl3	 in line: 223
+WARNING: Unknown complex command - \url	 in line: 226
+Succes 
+ltnews18.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 35
+Succes 
+ltnews19.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 35
+WARNING: usepackage arguments - lmodern	{}	 in line: 37
+WARNING: usepackage arguments - url	{}	 in line: 37
+WARNING: Unknown command - \LaTeXe	 in line: 51
+WARNING: Unknown command - \TeX	 in line: 57
+WARNING: Unknown complex command - \texttt	tools	 in line: 57
+WARNING: Unknown command - \url	 in line: 63
+WARNING: Unknown command - \TeX	 in line: 71
+WARNING: Unknown command - \LaTeXe	 in line: 74
+WARNING: Unknown command - \TeX	 in line: 75
+WARNING: Unknown command - \LaTeXe	 in line: 86
+WARNING: Unknown command - \LaTeXe	 in line: 93
+WARNING: Unknown command - \LaTeXe	 in line: 100
+WARNING: Unknown command - \LaTeXe	 in line: 107
+WARNING: Unknown command - \LaTeXe	 in line: 110
+WARNING: Unknown complex command - \textsf	expl3	 in line: 110
+WARNING: Unknown complex command - \textsf	xpackages	 in line: 111
+Succes 
+ltnews20.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 35
+WARNING: usepackage arguments - lmodern	{}	 in line: 37
+WARNING: usepackage arguments - url	{}	 in line: 37
+WARNING: Unknown command - \LaTeXe	 in line: 53
+WARNING: Unknown command - \TeX	 in line: 54
+WARNING: Unknown command - \TeX	 in line: 58
+WARNING: Unknown command - \LaTeXe	 in line: 60
+WARNING: Unknown command - \LaTeXe	 in line: 62
+WARNING: Unknown command - \LaTeXe	 in line: 62
+WARNING: Unknown complex command - \textsf	expl3	 in line: 64
+WARNING: Unknown complex command - \textsf	expl3	 in line: 64
+WARNING: Unknown command - \LaTeXe	 in line: 68
+WARNING: Unknown command - \TeX	 in line: 70
+WARNING: Unknown command - \TeX	 in line: 75
+
+
+WARNING: Unknown command - \url	 in line: 75
+WARNING: Unknown complex command - \url	 in line: 76
+WARNING: Unknown command - \verb	 in line: 80
+WARNING: Unknown complex command - \texttt	textcomp	 in line: 80
+WARNING: Unknown command - \cs	 in line: 88
+WARNING: Unknown command - \verb	 in line: 90
+syntax error	 in line: 90
+ltnews21.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: Unknown command - \def	 in line: 34
+WARNING: Unknown command - \kern	 in line: 34
+WARNING: Unknown command - \kern	 in line: 34
+WARNING: Unknown command - \TeX	 in line: 34
+WARNING: Unknown command - \kern	 in line: 34
+WARNING: Unknown command - \ConTeXt	 in line: 34
+syntax error	 in line: 35
+ltnews22.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \LaTeXe	 in line: 47
+WARNING: Unknown command - \LaTeXe	 in line: 52
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 52
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 59
+WARNING: Unknown command - \TeX	 in line: 60
+WARNING: Unknown command - \eTeX	 in line: 61
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 61
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 61
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 63
+WARNING: Unknown complex command - \textsf	latexchanges	 in line: 69
+WARNING: Unknown command - \textsf	 in line: 74
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 79
+WARNING: Unknown command - \RequirePackage	 in line: 80
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 82
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 85
+WARNING: Unknown command - \RequirePackage	 in line: 86
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 88
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 89
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 95
+WARNING: Unknown command - \cs	 in line: 100
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 102
+WARNING: Unknown complex command - \textsf	zzz	 in line: 103
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 104
+WARNING: Unknown complex command - \RequirePackage	latexrelease	 in line: 105
+WARNING: Unknown complex command - \IncludeInRelease	 in line: 106
+WARNING: Unknown command - \zzz	 in line: 107
+WARNING: Unknown command - \zzz	 in line: 107
+WARNING: Unknown command - \def	 in line: 108
+WARNING: Unknown command - \zzz	 in line: 109
+WARNING: Unknown command - \EndIncludeInRelease	 in line: 110
+WARNING: Unknown complex command - \IncludeInRelease	 in line: 110
+WARNING: Unknown command - \zzz	 in line: 111
+WARNING: Unknown command - \zzz	 in line: 111
+WARNING: Unknown command - \def	 in line: 112
+WARNING: Unknown command - \zzz	 in line: 113
+WARNING: Unknown command - \EndIncludeInRelease	 in line: 114
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 114
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 119
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 122
+WARNING: Unknown command - \RequirePackage	 in line: 123
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 126
+WARNING: Unknown command - \verb	 in line: 127
+WARNING: Unknown command - \zzz	 in line: 131
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 135
+
+
+WARNING: Unknown complex command - \cs	IncludeInRelease	 in line: 140
+WARNING: Unknown command - \textsf	 in line: 156
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 158
+WARNING: Unknown complex command - \textsf	latexchanges	 in line: 159
+WARNING: Unknown command - \verb	 in line: 162
+WARNING: Unknown command - \mark	 in line: 165
+WARNING: Unknown command - \eTeX	 in line: 165
+WARNING: Unknown command - \TeX	 in line: 169
+WARNING: Unknown command - \eTeX	 in line: 169
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 169
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 169
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 171
+WARNING: Unknown complex command - \textsf	etex	 in line: 171
+WARNING: Unknown complex command - \textsf	etex	 in line: 174
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 175
+WARNING: Unknown command - \eTeX	 in line: 178
+WARNING: Unknown command - \verb	 in line: 178
+WARNING: Unknown command - \newmarks	 in line: 179
+WARNING: Unknown complex command - \textsf	etex	 in line: 179
+WARNING: Unknown command - \eTeX	 in line: 180
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 180
+WARNING: Unknown command - \verb	 in line: 181
+WARNING: Unknown command - \newXeTeXintercharclass	 in line: 182
+WARNING: Unknown complex command - \texttt	 in line: 182
+WARNING: Unknown complex command - \texttt	xelatex	 in line: 183
+WARNING: Unknown complex command - \textsf	morefloats	 in line: 190
+WARNING: Unknown command - \verb	 in line: 194
+WARNING: Unknown command - \extrafloats	 in line: 195
+WARNING: Unknown command - \texttt	 in line: 195
+WARNING: Unknown command - \verb	 in line: 196
+WARNING: Unknown complex command - \extrafloats	500	 in line: 196
+WARNING: Unknown complex command - \texttt	ini	 in line: 203
+WARNING: Unknown complex command - \texttt	 in line: 204
+WARNING: Unknown complex command - \textsf	 in line: 208
+WARNING: Unknown command - \verb	 in line: 211
+WARNING: Unknown command - \verb	 in line: 215
+WARNING: Unknown command - \verb	 in line: 215
+WARNING: Unknown command - \typein	 in line: 215
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 215
+WARNING: Unknown complex command - \textsf	Lua	 in line: 221
+WARNING: Unknown complex command - \textsf	texlua	 in line: 221
+WARNING: Unknown command - \TeX	 in line: 224
+WARNING: Unknown complex command - \textsf	make	 in line: 224
+WARNING: Unknown complex command - \textsf	cons	 in line: 224
+WARNING: Unknown complex command - \textsf	bat	 in line: 224
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 227
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 227
+WARNING: Unknown complex command - \hologo	pdfTeX	 in line: 228
+WARNING: Unknown command - \eTeX	 in line: 230
+WARNING: Unknown complex command - \textsf	latex-tds	 in line: 234
+WARNING: Unknown complex command - \textsf	hyperref	 in line: 236
+WARNING: Unknown command - \TeX	 in line: 240
+Succes 
+ltnews23.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \makeatletter	 in line: 42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+WARNING: Unknown command - \def	 in line: 42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+WARNING: Unknown command - \ifx	 in line: 43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+WARNING: Unknown command - \DeclareTextCommandDefault	 in line: 44
+WARNING: Unknown command - \else	 in line: 45
+WARNING: Unknown command - \DeclareTextCommandDefault	 in line: 45
+WARNING: Unknown command - \textcommabelow	 in line: 45
+syntax error	 in line: 45
+ltnews24.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \makeatletter	 in line: 42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+WARNING: Unknown command - \def	 in line: 42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+LEX ERRROR42
+WARNING: Unknown command - \ifx	 in line: 43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+LEX ERRROR43
+WARNING: Unknown command - \DeclareTextCommandDefault	 in line: 44
+WARNING: Unknown command - \else	 in line: 45
+WARNING: Unknown command - \DeclareTextCommandDefault	 in line: 45
+WARNING: Unknown command - \textcommabelow	 in line: 45
+syntax error	 in line: 45
+ltnews25.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \TeX	 in line: 48
+WARNING: Unknown command - \TeX	 in line: 53
+WARNING: Unknown command - \TeX	 in line: 55
+WARNING: Unknown command - \TeX	 in line: 57
+WARNING: Unknown complex command - \textsf	tools	 in line: 57
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 58
+WARNING: Unknown command - \TeX	 in line: 63
+WARNING: Unknown complex command - \package	doc	 in line: 64
+WARNING: Unknown complex command - \package	doc	 in line: 72
+WARNING: Unknown command - \verb	 in line: 73
+WARNING: Unknown command - \CheckSum	 in line: 77
+WARNING: Unknown command - \package	 in line: 77
+WARNING: Unknown complex command - \package	inputenc	 in line: 79
+WARNING: Unknown complex command - \package	varioref	 in line: 84
+WARNING: Unknown command - \verb	 in line: 86
+WARNING: Unknown command - \reftextfaraway	 in line: 88
+WARNING: Unknown complex command - \package	tabularx	 in line: 88
+WARNING: Unknown command - \verb	 in line: 88
+WARNING: Unknown command - \endtabularx	 in line: 91
+WARNING: Unknown complex command - \package	bm	 in line: 91
+WARNING: Unknown command - \verb	 in line: 92
+WARNING: Unknown command - \mathchardef	 in line: 92
+WARNING: Unknown command - \TeX	 in line: 95
+WARNING: Unknown command - \LaTeXe	 in line: 97
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 97
+WARNING: Unknown complex command - \url	 in line: 100
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 102
+WARNING: Unknown complex command - \textsf	amscls	 in line: 102
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 107
+WARNING: Unknown complex command - \textsf	amscls	 in line: 109
+WARNING: Unknown command - \TeX	 in line: 112
+WARNING: Unknown command - \path	 in line: 113
+WARNING: Unknown command - \path	 in line: 115
+WARNING: Unknown complex command - \package	amsmath	 in line: 115
+WARNING: Unknown complex command - \package	amsmath	 in line: 116
+WARNING: Unknown command - \TeX	 in line: 117
+WARNING: Unknown command - \verb	 in line: 117
+WARNING: Unknown command - \mathchardef	 in line: 118
+WARNING: Unknown complex command - \package	amsmath	 in line: 118
+WARNING: Unknown command - \verb	 in line: 119
+WARNING: Unknown command - \dots	 in line: 119
+WARNING: Unknown command - \verb	 in line: 119
+WARNING: Unknown command - \long	 in line: 120
+WARNING: Unknown command - \verb	 in line: 120
+WARNING: Unknown command - \dots	 in line: 120
+WARNING: Unknown command - \Rightarrow	 in line: 122
+WARNING: Unknown command - \verb	 in line: 122
+WARNING: Unknown command - \times	 in line: 122
+WARNING: Unknown command - \dots	 in line: 122
+WARNING: Unknown command - \times	 in line: 123
+WARNING: Unknown command - \verb	 in line: 123
+WARNING: Unknown command - \times	 in line: 123
+WARNING: Unknown complex command - \package	unicode-math	 in line: 123
+WARNING: Unknown complex command - \textsf	unicode-data	 in line: 128
+WARNING: Unknown complex command - \textsf	tex-ini-files	 in line: 130
+WARNING: Unknown complex command - \texttt	luatex	 in line: 131
+WARNING: Unknown complex command - \textsf	graphics	 in line: 131
+WARNING: Unknown complex command - \textsf	luatex-def	 in line: 132
+WARNING: Unknown complex command - \textsf	graphics-cfg	 in line: 135
+WARNING: Unknown command - \TeX	 in line: 137
+Succes 
+ltnews26.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \setlength	 in line: 48
+WARNING: Unknown complex command - \rightskip	 in line: 48
+WARNING: Unknown command - \eTeX	 in line: 49
+push 	quotationWARNING: Unknown command - \TeX	 in line: 54
+WARNING: Unknown command - \eTeX	 in line: 55
+WARNING: Unknown command - \eTeX	 in line: 55
+WARNING: Unknown command - \TeX	 in line: 55
+pop 	quotationpush 	quotationWARNING: Unknown command - \eTeX	 in line: 59
+WARNING: Unknown command - \TeX	 in line: 60
+pop 	quotationWARNING: Unknown command - \eTeX	 in line: 64
+WARNING: Unknown command - \LaTeXe	 in line: 66
+WARNING: Unknown command - \eTeX	 in line: 66
+WARNING: Unknown command - \TeX	 in line: 69
+WARNING: Unknown complex command - \texttt	tex	 in line: 70
+WARNING: Unknown command - \eTeX	 in line: 71
+WARNING: Unknown command - \eTeX	 in line: 75
+WARNING: Unknown command - \hologo	 in line: 78
+WARNING: Unknown complex command - \hologo	LuaLaTeX	 in line: 78
+WARNING: Unknown complex command - \texttt	OT1	 in line: 80
+WARNING: Unknown command - \TeX	 in line: 82
+WARNING: Unknown complex command - \hologo	XeLaTeX	 in line: 82
+WARNING: Unknown complex command - \textsf	fontspec	 in line: 85
+WARNING: Unknown complex command - \texttt	TU	 in line: 88
+WARNING: Unknown complex command - \texttt	OT1	 in line: 89
+WARNING: Unknown complex command - \texttt	T1	 in line: 90
+WARNING: Unknown complex command - \texttt	TU	 in line: 91
+WARNING: Unknown complex command - \texttt	tuenc	 in line: 92
+WARNING: Unknown complex command - \textsf	fontspec	 in line: 92
+WARNING: Unknown complex command - \hologo	XeLaTeX	 in line: 95
+WARNING: Unknown complex command - \hologo	LuaLaTeX	 in line: 95
+WARNING: Unknown complex command - \texttt	TU	 in line: 96
+WARNING: Unknown complex command - \texttt	lmr	 in line: 96
+WARNING: Unknown complex command - \hologo	LuaLaTeX	 in line: 97
+WARNING: Unknown complex command - \textsf	luaotfload	 in line: 97
+WARNING: Unknown complex command - \textsf	fontspec	 in line: 101
+WARNING: Unknown complex command - \texttt	TU	 in line: 105
+WARNING: Unknown complex command - \texttt	T1	 in line: 105
+WARNING: Unknown complex command - \texttt	 in line: 107
+WARNING: Unknown complex command - \texttt	TU	 in line: 107
+WARNING: Unknown complex command - \textsf	inputenc	 in line: 110
+WARNING: Unknown complex command - \texttt	T1	 in line: 112
+WARNING: Unknown complex command - \texttt	TS1	 in line: 112
+WARNING: Unknown command - \TeX	 in line: 114
+WARNING: Unknown complex command - \texttt	OT1	 in line: 119
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 121
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 123
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 126
+WARNING: Unknown command - \RequirePackage	 in line: 127
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 128
+WARNING: Unknown command - \cs	 in line: 130
+WARNING: Unknown complex command - \hologo	XeLaTeX	 in line: 130
+WARNING: Unknown complex command - \hologo	XeLaTeX	 in line: 131
+WARNING: Unknown complex command - \cs	showhyphens	 in line: 132
+WARNING: Unknown complex command - \textsf	xltxtra	 in line: 133
+WARNING: Unknown complex command - \cs	showhyphens	 in line: 134
+WARNING: Unknown complex command - \hologo	XeLaTeX	 in line: 135
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 137
+WARNING: Unknown command - \textsf	 in line: 139
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 140
+WARNING: Unknown command - \verb	 in line: 144
+WARNING: Unknown complex command - \IncludeInRelease	 in line: 144
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 145
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 147
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 148
+WARNING: Unknown command - \verb	 in line: 152
+WARNING: Unknown command - \verb	 in line: 153
+WARNING: Unknown command - \RequirePackage	 in line: 153
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 154
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 155
+WARNING: Unknown command - \textsf	 in line: 159
+WARNING: Unknown command - \url	 in line: 163
+WARNING: Unknown complex command - \textsf	latexbug	 in line: 164
+WARNING: Unknown complex command - \textsf	latexbug	 in line: 167
+WARNING: Unknown command - \textsf	 in line: 173
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 174
+push 	itemizeWARNING: Unknown complex command - \texttt	aligned	 in line: 176
+WARNING: Unknown complex command - \texttt	gathered	 in line: 177
+WARNING: Unknown complex command - \textsf	amsldoc	 in line: 180
+WARNING: Unknown complex command - \cs	binom	 in line: 182
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 183
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 183
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 185
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 187
+WARNING: Unknown command - \TeX	 in line: 189
+WARNING: Unknown complex command - \cs	genfrac	 in line: 189
+WARNING: Unknown command - \verb	 in line: 189
+WARNING: Unknown command - \left	 in line: 189
+WARNING: Unknown command - \right	 in line: 191
+WARNING: Unknown command - \TeX	 in line: 193
+pop 	itemizeWARNING: Unknown command - \textsf	 in line: 195
+WARNING: Unknown complex command - \textsf	array	 in line: 196
+WARNING: Unknown complex command - \href	 in line: 199
+
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 200
+WARNING: Unknown complex command - \textsf	bm	 in line: 200
+WARNING: Unknown command - \slash	 in line: 206
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 207
+WARNING: Unknown complex command - \href	 in line: 210
+WARNING: Unknown command - \texttt	 in line: 210
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 213
+WARNING: Unknown complex command - \cs	addvspace	 in line: 214
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 215
+WARNING: Unknown complex command - \cs	addvspace	 in line: 216
+WARNING: Unknown complex command - \cs	flushbottom	 in line: 218
+WARNING: Unknown complex command - \textsf	fixltx2e	 in line: 222
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 232
+WARNING: Unknown command - \RequirePackage	 in line: 233
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 234
+Succes 
+ltnews27.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \setlength	 in line: 48
+WARNING: Unknown complex command - \rightskip	 in line: 48
+WARNING: Unknown command - \LaTeXe	 in line: 51
+WARNING: Unknown complex command - \texttt	-	 in line: 60
+WARNING: Unknown command - \texttt	 in line: 60
+WARNING: Unknown command - \verb	 in line: 64
+WARNING: Unknown command - \verb	 in line: 65
+WARNING: Unknown command - \ProvidesPackage	 in line: 65
+WARNING: Unknown command - \verb	 in line: 65
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 68
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 70
+WARNING: Unknown complex command - \texttt	 in line: 75
+WARNING: Unknown complex command - \hologo	LuaTeX	 in line: 79
+WARNING: Unknown complex command - \hologo	XeTeX	 in line: 80
+WARNING: Unknown command - \verb	 in line: 83
+WARNING: Unknown command - \d	 in line: 86
+WARNING: Unknown command - \verb	 in line: 87
+WARNING: Unknown command - \verb	 in line: 87
+WARNING: Unknown command - \verb	 in line: 89
+WARNING: Unknown command - \verb	 in line: 89
+WARNING: Unknown command - \hyphenchar	 in line: 90
+WARNING: Unknown command - \verb	 in line: 90
+WARNING: Unknown command - \language	 in line: 91
+WARNING: Unknown command - \verb	 in line: 91
+WARNING: Unknown command - \l	 in line: 95
+WARNING: Unknown complex command - \textsf	babel	 in line: 95
+WARNING: Unknown complex command - \texttt	verbatim	 in line: 98
+WARNING: Unknown command - \verb	 in line: 105
+WARNING: Unknown command - \verb	 in line: 105
+WARNING: Unknown command - \hyphenchar	 in line: 106
+WARNING: Unknown command - \TeX	 in line: 106
+WARNING: Unknown complex command - \textsf	source2e	 in line: 106
+WARNING: Unknown command - \LaTeXe	 in line: 108
+WARNING: Unknown command - \verb	 in line: 109
+WARNING: Unknown complex command - \texttt	-	 in line: 109
+WARNING: Unknown command - \verb	 in line: 114
+WARNING: Unknown command - \document	 in line: 116
+WARNING: Unknown command - \verb	 in line: 116
+WARNING: Unknown complex command - \textsf	babel	 in line: 121
+WARNING: Unknown command - \verb	 in line: 125
+WARNING: Unknown command - \parbox	 in line: 126
+WARNING: Unknown command - \verb	 in line: 127
+WARNING: Unknown command - \lineskiplimit	 in line: 129
+WARNING: Unknown command - \verb	 in line: 130
+WARNING: Unknown command - \parbox	 in line: 131
+WARNING: Unknown command - \verb	 in line: 131
+WARNING: Unknown command - \lineskiplimit	 in line: 132
+WARNING: Unknown complex command - \textsf	latexrelease	 in line: 132
+Succes 
+ltnews28.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \providecommand	 in line: 38
+WARNING: Unknown command - \acro	 in line: 38
+syntax error	 in line: 38
+ltnews29.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \providecommand	 in line: 40
+WARNING: Unknown command - \acro	 in line: 40
+syntax error	 in line: 40
+ltnews30.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltnews	 in line: 33
+WARNING: usepackage arguments - T1	[]	 in line: 34
+WARNING: usepackage arguments - lmodern	{}	 in line: 36
+WARNING: usepackage arguments - url	{}	 in line: 36
+WARNING: usepackage arguments - hologo	{}	 in line: 36
+WARNING: Unknown command - \providecommand	 in line: 40
+WARNING: Unknown command - \acro	 in line: 40
+syntax error	 in line: 40
+ltnews31.tex
+---------------------------------------------------------------
+syntax error	 in line: 33
+ltnews32.tex
+---------------------------------------------------------------
+syntax error	 in line: 33
+ltnews33.tex
+---------------------------------------------------------------
+syntax error	 in line: 33
+ltpara-code.tex
+---------------------------------------------------------------
+syntax error	 in line: 3
+ltpara-doc.tex
+---------------------------------------------------------------
+syntax error	 in line: 3
+ltshipout-code.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+ltshipout-doc.tex
+---------------------------------------------------------------
+syntax error	 in line: 4
+ltx3info.tex
+---------------------------------------------------------------
+newcom :
+syntax error	 in line: 33
+ltxcheck.tex
+---------------------------------------------------------------
+syntax error	 in line: 50
+modguide.tex
+---------------------------------------------------------------
+syntax error	 in line: 31
+sample2e.tex
+---------------------------------------------------------------
+newcom :
+syntax error	 in line: 13
+small2e.tex
+---------------------------------------------------------------
+Succes 
+source2e.tex
+---------------------------------------------------------------
+syntax error	 in line: 42
+testpage.tex
+---------------------------------------------------------------
+syntax error	 in line: 35
+usrguide.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltxguide	 in line: 32
+WARNING: Unknown command - \LaTeXe	 in line: 34
+WARNING: Unknown command - \copyright	 in line: 36
+
+WARNING: Unknown command - \LaTeXe	 in line: 49
+WARNING: Unknown complex command - \LaTeX	a	 in line: 49
+WARNING: Unknown complex command - \LaTeX	a	 in line: 53
+WARNING: Unknown command - \LaTeXe	 in line: 56
+WARNING: Unknown complex command - \LaTeX	a	 in line: 56
+WARNING: Unknown complex command - \LaTeXe	a	 in line: 57
+WARNING: Unknown command - \LaTeXe	 in line: 59
+WARNING: Unknown command - \subsection	 in line: 62
+WARNING: Unknown command - \LaTeXe	 in line: 63
+WARNING: Unknown command - \NFSS	 in line: 70
+WARNING: Unknown command - \SLiTeX	 in line: 70
+WARNING: Unknown command - \AmSLaTeX	 in line: 72
+WARNING: Unknown command - \LaTeXe	 in line: 76
+WARNING: Unknown command - \LaTeXe	 in line: 79
+WARNING: Unknown complex command - \textsf	amsmath	 in line: 80
+WARNING: Unknown command - \AmSLaTeX	 in line: 80
+WARNING: Unknown complex command - \textsf	slides	 in line: 81
+WARNING: Unknown command - \SLiTeX	 in line: 81
+WARNING: Unknown command - \LaTeXe	 in line: 91
+WARNING: Unknown command - \LaTeXe	 in line: 97
+WARNING: Unknown command - \LaTeXe	 in line: 99
+WARNING: Unknown command - \TeX	 in line: 109
+push 	quoteWARNING: Unknown command - \small	 in line: 112
+WARNING: Unknown complex command - \texttt	 in line: 113
+pop 	quotepush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 118
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 120
+WARNING: Unknown command - \TeX	 in line: 123
+WARNING: Unknown command - \TeX	 in line: 126
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 128
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 130
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 142
+WARNING: Unknown command - \LaTeXe	 in line: 153
+WARNING: Unknown command - \LaTeXe	 in line: 156
+WARNING: Unknown command - \LaTeXe	 in line: 158
+WARNING: Unknown command - \LaTeXe	 in line: 158
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 162
+WARNING: Unknown command - \LaTeXe	 in line: 167
+WARNING: Unknown command - \LaTeXbook	 in line: 167
+WARNING: Unknown complex command - \cite	 in line: 168
+WARNING: Unknown command - \LaTeXcomp	 in line: 172
+WARNING: Unknown complex command - \cite	 in line: 173
+WARNING: Unknown command - \LaTeXGcomp	 in line: 176
+WARNING: Unknown complex command - \cite	 in line: 177
+WARNING: Unknown command - \LaTeXWcomp	 in line: 180
+WARNING: Unknown complex command - \cite	 in line: 181
+WARNING: Unknown command - \clsguide	 in line: 190
+WARNING: Unknown command - \fntguide	 in line: 192
+WARNING: Unknown command - \cyrguide	 in line: 195
+WARNING: Unknown command - \LaTeXe	 in line: 199
+WARNING: Unknown command - \TeX	 in line: 205
+WARNING: Unknown command - \TeX	 in line: 206
+WARNING: Unknown command - \TeX	 in line: 206
+WARNING: Unknown complex command - \pageref	addrs	 in line: 207
+WARNING: Unknown command - \LaTeXe	 in line: 218
+WARNING: Unknown complex command - \textsf	article	 in line: 222
+WARNING: Unknown complex command - \textsf	book	 in line: 222
+WARNING: Unknown complex command - \textsf	twoside	 in line: 223
+WARNING: Unknown complex command - \textsf	epsfig	 in line: 223
+WARNING: Unknown command - \documentstyle	 in line: 225
+push 	quoteWARNING: Unknown command - \documentstyle	 in line: 226
+WARNING: Unknown complex command - \oarg	options	 in line: 226
+WARNING: Unknown complex command - \arg	style	 in line: 226
+pop 	quotepush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 230
+WARNING: Unknown command - \documentstyle	 in line: 231
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 232
+WARNING: Unknown complex command - \textsf	epsfig	 in line: 236
+WARNING: Unknown complex command - \textsf	twoside	 in line: 237
+WARNING: Unknown command - \LaTeXe	 in line: 239
+push 	quoteWARNING: Unknown complex command - \oarg	options	 in line: 243
+WARNING: Unknown complex command - \arg	class	 in line: 243
+WARNING: Unknown complex command - \oarg	options	 in line: 244
+WARNING: Unknown complex command - \arg	packages	 in line: 244
+pop 	quotepush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 248
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 251
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 254
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 257
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 259
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 261
+WARNING: Unknown command - \LaTeXe	 in line: 262
+WARNING: Unknown command - \documentstyle	 in line: 263
+WARNING: Unknown command - \LaTeXe	 in line: 263
+
+WARNING: Unknown command - \documentstyle	 in line: 267
+WARNING: Unknown command - \LaTeXe	 in line: 267
+WARNING: Unknown command - \LaTeXe	 in line: 273
+WARNING: Unknown command - \LaTeXe	 in line: 276
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 280
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 283
+WARNING: Unknown complex command - \textsf	color	 in line: 285
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 286
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 290
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 293
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 296
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 300
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 303
+WARNING: Unknown command - \LaTeXcomp	 in line: 305
+WARNING: Unknown command - \clsguide	 in line: 305
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 310
+WARNING: Unknown command - \LaTeXbook	 in line: 312
+WARNING: Unknown command - \LaTeXbook	 in line: 313
+WARNING: Unknown command - \LaTeXbook	 in line: 314
+WARNING: Unknown command - \LaTeXbook	 in line: 315
+WARNING: Unknown command - \LaTeXbook	 in line: 316
+WARNING: Unknown command - \SLiTeX	 in line: 318
+WARNING: Unknown command - \usrguide	 in line: 322
+WARNING: Unknown command - \clsguide	 in line: 323
+WARNING: Unknown complex command - \NEWfeature	 in line: 330
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 341
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 347
+WARNING: Unknown complex command - \NEWfeature	 in line: 349
+WARNING: Unknown command - \LaTeXbook	 in line: 353
+WARNING: Unknown command - \LaTeXcomp	 in line: 356
+WARNING: Unknown command - \LaTeXcomp	 in line: 358
+WARNING: Unknown complex command - \NEWfeature	 in line: 362
+WARNING: Unknown command - \graphpaper	 in line: 365
+WARNING: Unknown command - \dots	 in line: 365
+WARNING: Unknown command - \dots	 in line: 366
+WARNING: Unknown command - \dots	 in line: 367
+WARNING: Unknown command - \LaTeXcomp	 in line: 367
+WARNING: Unknown complex command - \NEWfeature	 in line: 369
+WARNING: Unknown command - \LaTeXe	 in line: 372
+WARNING: Unknown command - \LaTeXcomp	 in line: 374
+WARNING: Unknown command - \LaTeXbook	 in line: 377
+WARNING: Unknown command - \LaTeXcomp	 in line: 377
+WARNING: Unknown command - \LaTeXcomp	 in line: 380
+WARNING: Unknown command - \LaTeXcomp	 in line: 382
+WARNING: Unknown command - \index	 in line: 386
+WARNING: Unknown command - \LaTeXbook	 in line: 386
+WARNING: Unknown command - \LaTeXcomp	 in line: 389
+WARNING: Unknown command - \LaTeXcomp	 in line: 392
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 393
+WARNING: Unknown complex command - \NEWdescription	 in line: 397
+WARNING: Unknown command - \LaTeXe	 in line: 400
+WARNING: Unknown complex command - \textsf	graphics	 in line: 400
+WARNING: Unknown complex command - \textsf	tools	 in line: 400
+WARNING: Unknown command - \LaTeXbook	 in line: 401
+WARNING: Unknown complex command - \textsf	amslatex	 in line: 402
+WARNING: Unknown complex command - \textsf	babel	 in line: 403
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 405
+WARNING: Unknown command - \LaTeXcomp	 in line: 410
+WARNING: Unknown command - \LaTeXcomp	 in line: 412
+WARNING: Unknown complex command - \NEWfeature	 in line: 414
+WARNING: Unknown command - \LaTeXbook	 in line: 421
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 426
+WARNING: Unknown command - \LaTeXcomp	 in line: 428
+WARNING: Unknown command - \LaTeXbook	 in line: 429
+WARNING: Unknown complex command - \subsubsection	Tools	 in line: 431
+push 	descriptionWARNING: Unknown complex command - \begin	description	 in line: 436
+WARNING: Unknown complex command - \NEWfeature	 in line: 441
+WARNING: Unknown command - \label	 in line: 482
+WARNING: Unknown command - \ref	 in line: 482
+WARNING: Unknown command - \cite	 in line: 484
+pop 	descriptionWARNING: Unknown complex command - \end	description	 in line: 495
+WARNING: Unknown command - \LaTeXe	 in line: 502
+WARNING: Unknown command - \LaTeXbook	 in line: 502
+WARNING: Unknown command - \LaTeXcomp	 in line: 503
+WARNING: Unknown command - \LaTeXe	 in line: 509
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 512
+WARNING: Unknown complex command - \oarg	option-list	 in line: 513
+WARNING: Unknown complex command - \arg	class-name	 in line: 513
+WARNING: Unknown complex command - \oarg	release-date	 in line: 514
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 515
+WARNING: Unknown command - \documentstyle	 in line: 520
+WARNING: Unknown command - \RequirePackage	 in line: 526
+WARNING: Unknown complex command - \m	option-list	 in line: 526
+WARNING: Unknown complex command - \m	class-name	 in line: 527
+WARNING: Unknown complex command - \m	release-date	 in line: 531
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 538
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 540
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 542
+WARNING: Unknown command - \documentstyle	 in line: 543
+WARNING: Unknown complex command - \oarg	option-list	 in line: 543
+WARNING: Unknown complex command - \arg	class-name	 in line: 543
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 544
+WARNING: Unknown complex command - \m	option-list	 in line: 549
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 554
+WARNING: Unknown complex command - \oarg	option-list	 in line: 555
+WARNING: Unknown complex command - \arg	package-name	 in line: 555
+WARNING: Unknown complex command - \oarg	release-date	 in line: 555
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 556
+WARNING: Unknown complex command - \m	package-name	 in line: 559
+WARNING: Unknown complex command - \m	class-name	 in line: 560
+WARNING: Unknown complex command - \m	option-list	 in line: 564
+WARNING: Unknown complex command - \m	package-name	 in line: 566
+WARNING: Unknown complex command - \m	release-date	 in line: 568
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 574
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 576
+WARNING: Unknown complex command - \m	option-list	 in line: 584
+WARNING: Unknown complex command - \m	option-list	 in line: 586
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 592
+WARNING: Unknown command - \listfiles	 in line: 594
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 594
+WARNING: Unknown complex command - \NEWdescription	 in line: 601
+WARNING: Unknown command - \input	 in line: 603
+WARNING: Unknown complex command - \arg	file	 in line: 603
+WARNING: Unknown command - \include	 in line: 604
+WARNING: Unknown complex command - \arg	file	 in line: 604
+WARNING: Unknown command - \TeX	 in line: 604
+WARNING: Unknown command - \input	 in line: 605
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 611
+WARNING: Unknown complex command - \arg	num	 in line: 612
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 613
+WARNING: Unknown command - \TeX	 in line: 615
+WARNING: Unknown command - \errorcontextlines	 in line: 616
+WARNING: Unknown command - \LaTeXe	 in line: 617
+WARNING: Unknown command - \setcounter	 in line: 617
+WARNING: Unknown command - \LaTeXe	 in line: 619
+WARNING: Unknown complex command - \NEWfeature	2019	 in line: 624
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 631
+push 	filecontentsWARNING: Unknown complex command - \begin	filecontents	 in line: 632
+WARNING: Unknown complex command - \oarg	option-list	 in line: 632
+WARNING: Unknown complex command - \arg	file-name	 in line: 632
+WARNING: Unknown complex command - \m	file-contents	 in line: 633
+pop 	filecontentsWARNING: Unknown complex command - \end	filecontents	 in line: 634
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 635
+WARNING: Unknown command - \LaTeXe	 in line: 639
+WARNING: Unknown command - \TeX	 in line: 657
+WARNING: Unknown command - \jobname	 in line: 659
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 671
+WARNING: Unknown command - \frontmatter	 in line: 672
+WARNING: Unknown command - \mainmatter	 in line: 672
+WARNING: Unknown command - \backmatter	 in line: 673
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 673
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 682
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 684
+WARNING: Unknown command - \LaTeXe	 in line: 698
+WARNING: Unknown command - \example	 in line: 699
+WARNING: Unknown complex command - \arg	definition	 in line: 699
+newcom :
+WARNING: Unknown command - \example	 in line: 704
+WARNING: Unknown command - \example	 in line: 705
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 705
+WARNING: Unknown complex command - \example	BBB	 in line: 706
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 707
+push 	quotepop 	quotepush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 714
+WARNING: Unknown command - \example	 in line: 715
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 716
+push 	quotepop 	quoteWARNING: Unknown complex command - \texttt	YYY	 in line: 723
+WARNING: Unknown complex command - \oarg	default	 in line: 724
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 727
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 729
+WARNING: Unknown MATH command - \seq	 in line: 730
+WARNING: Unknown MATH command - \lbrace	 in line: 731
+WARNING: Unknown MATH command - \ldots	 in line: 731
+WARNING: Unknown MATH command - \rbrace	 in line: 731
+WARNING: Unknown MATH command - \seq	 in line: 732
+WARNING: Unknown MATH command - \lbrace	 in line: 733
+WARNING: Unknown MATH command - \ldots	 in line: 733
+WARNING: Unknown MATH command - \rbrace	 in line: 733
+push 	quotepop 	quoteWARNING: Unknown complex command - \m	cmd	 in line: 739
+WARNING: Unknown complex command - \m	num	 in line: 739
+WARNING: Unknown complex command - \m	default	 in line: 740
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 745
+WARNING: Unknown command - \newenvironment	 in line: 747
+WARNING: Unknown complex command - \arg	cmd	 in line: 747
+WARNING: Unknown complex command - \oarg	num	 in line: 747
+WARNING: Unknown complex command - \oarg	default	 in line: 747
+WARNING: Unknown complex command - \arg	beg-def	 in line: 747
+WARNING: Unknown complex command - \arg	end-def	 in line: 747
+WARNING: Unknown command - \newenvironment	 in line: 749
+WARNING: Unknown complex command - \arg	cmd	 in line: 749
+WARNING: Unknown complex command - \oarg	num	 in line: 749
+WARNING: Unknown complex command - \oarg	default	 in line: 749
+WARNING: Unknown complex command - \arg	beg-def	 in line: 749
+WARNING: Unknown complex command - \arg	end-def	 in line: 749
+WARNING: Unknown command - \renewenvironment	 in line: 751
+WARNING: Unknown complex command - \arg	cmd	 in line: 751
+WARNING: Unknown complex command - \oarg	num	 in line: 751
+WARNING: Unknown complex command - \oarg	default	 in line: 751
+WARNING: Unknown complex command - \arg	beg-def	 in line: 751
+WARNING: Unknown complex command - \arg	end-def	 in line: 751
+WARNING: Unknown command - \renewenvironment	 in line: 753
+WARNING: Unknown complex command - \arg	cmd	 in line: 753
+WARNING: Unknown complex command - \oarg	num	 in line: 753
+WARNING: Unknown complex command - \oarg	default	 in line: 753
+WARNING: Unknown complex command - \arg	beg-def	 in line: 753
+WARNING: Unknown complex command - \arg	end-def	 in line: 753
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 754
+newcom :
+WARNING: Unknown command - \LaTeXe	 in line: 758
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 760
+WARNING: Unknown command - \providecommand	 in line: 761
+WARNING: Unknown complex command - \arg	cmd	 in line: 761
+WARNING: Unknown complex command - \oarg	num	 in line: 761
+WARNING: Unknown complex command - \oarg	default	 in line: 761
+WARNING: Unknown complex command - \arg	definition	 in line: 761
+WARNING: Unknown command - \providecommand	 in line: 762
+WARNING: Unknown complex command - \arg	cmd	 in line: 762
+WARNING: Unknown complex command - \oarg	num	 in line: 762
+WARNING: Unknown complex command - \oarg	default	 in line: 762
+WARNING: Unknown complex command - \arg	definition	 in line: 762
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 763
+newcom :
+WARNING: Unknown complex command - \m	cmd	 in line: 765
+WARNING: Unknown command - \providecommand	 in line: 767
+WARNING: Unknown complex command - \m	cmd	 in line: 767
+newcom :
+WARNING: Unknown complex command - \NEWfeature	 in line: 770
+WARNING: Unknown command - \texttt	 in line: 771
+WARNING: Unknown complex command - \NEWfeature	 in line: 779
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 788
+WARNING: Unknown command - \makebox	 in line: 789
+WARNING: Unknown complex command - \oarg	width	 in line: 789
+WARNING: Unknown complex command - \oarg	pos	 in line: 789
+WARNING: Unknown complex command - \arg	text	 in line: 789
+WARNING: Unknown command - \framebox	 in line: 790
+WARNING: Unknown complex command - \oarg	width	 in line: 790
+WARNING: Unknown complex command - \oarg	pos	 in line: 790
+WARNING: Unknown complex command - \arg	text	 in line: 790
+WARNING: Unknown command - \savebox	 in line: 791
+WARNING: Unknown complex command - \arg	cmd	 in line: 791
+WARNING: Unknown complex command - \oarg	width	 in line: 791
+WARNING: Unknown complex command - \oarg	pos	 in line: 791
+WARNING: Unknown complex command - \arg	text	 in line: 791
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 792
+WARNING: Unknown command - \LaTeXe	 in line: 795
+WARNING: Unknown complex command - \m	width	 in line: 795
+WARNING: Unknown command - \mbox	 in line: 797
+WARNING: Unknown complex command - \arg	text	 in line: 797
+push 	itemizeWARNING: Unknown command - \height	 in line: 799
+WARNING: Unknown command - \quad	 in line: 800
+WARNING: Unknown command - \depth	 in line: 800
+WARNING: Unknown command - \quad	 in line: 801
+WARNING: Unknown command - \totalheight	 in line: 801
+WARNING: Unknown command - \quad	 in line: 801
+WARNING: Unknown command - \height	 in line: 801
+WARNING: Unknown command - \depth	 in line: 802
+WARNING: Unknown command - \width	 in line: 802
+WARNING: Unknown command - \quad	 in line: 803
+pop 	itemizepush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 806
+WARNING: Unknown command - \makebox	 in line: 807
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 808
+WARNING: Unknown command - \makebox	 in line: 811
+WARNING: Unknown command - \totalheight	 in line: 811
+WARNING: Unknown command - \itshape	 in line: 811
+WARNING: Unknown complex command - \framebox	 in line: 811
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 812
+WARNING: Unknown command - \makebox	 in line: 813
+WARNING: Unknown command - \totalheight	 in line: 813
+WARNING: Unknown command - \itshape	 in line: 813
+WARNING: Unknown complex command - \framebox	 in line: 813
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 814
+WARNING: Unknown command - \totalheight	 in line: 818
+WARNING: Unknown complex command - \m	pos	 in line: 818
+WARNING: Unknown complex command - \m	pos	 in line: 819
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 824
+WARNING: Unknown command - \parbox	 in line: 825
+WARNING: Unknown complex command - \oarg	pos	 in line: 825
+WARNING: Unknown complex command - \oarg	height	 in line: 825
+WARNING: Unknown complex command - \oarg	inner-pos	 in line: 825
+WARNING: Unknown complex command - \arg	width	 in line: 825
+WARNING: Unknown complex command - \arg	text	 in line: 826
+push 	minipageWARNING: Unknown complex command - \begin	minipage	 in line: 827
+WARNING: Unknown complex command - \oarg	pos	 in line: 828
+WARNING: Unknown complex command - \oarg	height	 in line: 828
+WARNING: Unknown complex command - \oarg	inner-pos	 in line: 828
+WARNING: Unknown complex command - \arg	width	 in line: 828
+WARNING: Unknown complex command - \m	text	 in line: 829
+pop 	minipageWARNING: Unknown complex command - \end	minipage	 in line: 830
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 831
+WARNING: Unknown command - \height	 in line: 833
+WARNING: Unknown command - \width	 in line: 834
+WARNING: Unknown complex command - \oarg	height	 in line: 834
+WARNING: Unknown complex command - \m	inner-pos	 in line: 837
+WARNING: Unknown command - \LaTeXe	 in line: 838
+WARNING: Unknown complex command - \m	pos	 in line: 838
+WARNING: Unknown command - \makebox	 in line: 839
+WARNING: Unknown complex command - \m	text	 in line: 839
+WARNING: Unknown complex command - \m	inner-pos	 in line: 839
+WARNING: Unknown complex command - \m	inner-pos	 in line: 841
+WARNING: Unknown complex command - \m	pos	 in line: 842
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 846
+push 	lrboxWARNING: Unknown complex command - \begin	lrbox	 in line: 847
+WARNING: Unknown complex command - \arg	cmd	 in line: 847
+WARNING: Unknown complex command - \m	text	 in line: 848
+pop 	lrboxWARNING: Unknown complex command - \end	lrbox	 in line: 849
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 850
+WARNING: Unknown complex command - \m	text	 in line: 853
+WARNING: Unknown complex command - \m	cmd	 in line: 853
+WARNING: Unknown command - \sbox	 in line: 854
+WARNING: Unknown complex command - \arg	cmd	 in line: 854
+WARNING: Unknown complex command - \arg	text	 in line: 854
+WARNING: Unknown complex command - \m	text	 in line: 855
+WARNING: Unknown command - \verb	 in line: 858
+WARNING: Unknown complex command - \texttt	verbatim	 in line: 858
+WARNING: Unknown complex command - \m	text	 in line: 858
+WARNING: Unknown complex command - \m	cmd	 in line: 862
+WARNING: Unknown command - \usebox	 in line: 863
+WARNING: Unknown command - \m	 in line: 863
+WARNING: Unknown complex command - \fbox	 in line: 863
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 867
+WARNING: Unknown command - \fmbox	 in line: 868
+WARNING: Unknown complex command - \newsavebox	 in line: 868
+WARNING: Unknown complex command - \newenvironment	fmpage	 in line: 869
+WARNING: Unknown command - \begin	 in line: 870
+WARNING: Unknown command - \fmbox	 in line: 870
+push 	minipageWARNING: Unknown complex command - \begin	minipage	 in line: 870
+WARNING: Unknown command - \end	 in line: 871
+WARNING: Unknown complex command - lrbox	 in line: 871
+WARNING: Unknown complex command - \end	lrbox	 in line: 871
+WARNING: Unknown command - \usebox	 in line: 871
+WARNING: Unknown command - \fmbox	 in line: 871
+WARNING: Unknown complex command - \fbox	 in line: 871
+WARNING: Unknown complex command - verbatim	 in line: 872
+WARNING: Unknown complex command - \end	verbatim	 in line: 872
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 880
+WARNING: Unknown command - \settowidth	 in line: 881
+WARNING: Unknown complex command - \arg	length-cmd	 in line: 881
+WARNING: Unknown complex command - \arg	 in line: 881
+WARNING: Unknown command - \settoheight	 in line: 882
+WARNING: Unknown complex command - \arg	length-cmd	 in line: 882
+WARNING: Unknown complex command - \arg	 in line: 882
+WARNING: Unknown command - \settodepth	 in line: 883
+WARNING: Unknown complex command - \arg	length-cmd	 in line: 883
+WARNING: Unknown complex command - \arg	 in line: 883
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 884
+WARNING: Unknown complex command - \NEWdescription	 in line: 888
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 896
+WARNING: Unknown command - \tabularnewline	 in line: 897
+WARNING: Unknown complex command - \oarg	vertical-space	 in line: 897
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 898
+WARNING: Unknown command - \raggedright	 in line: 901
+WARNING: Unknown command - \tabularnewline	 in line: 905
+WARNING: Unknown complex command - \textsf	array	 in line: 905
+WARNING: Unknown complex command - \textsf	longtable	 in line: 905
+WARNING: Unknown command - \clearpage	 in line: 912
+WARNING: Unknown command - \pagebreak	 in line: 913
+WARNING: Unknown command - \LaTeXe	 in line: 917
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 917
+WARNING: Unknown command - \enlargethispage	 in line: 918
+WARNING: Unknown complex command - \arg	size	 in line: 918
+WARNING: Unknown command - \enlargethispage	 in line: 919
+WARNING: Unknown complex command - \arg	size	 in line: 919
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 920
+WARNING: Unknown command - \textheight	 in line: 923
+WARNING: Unknown complex command - \m	size	 in line: 923
+WARNING: Unknown complex command - \NEWdescription	 in line: 934
+WARNING: Unknown command - \suppressfloats	 in line: 942
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 944
+WARNING: Unknown command - \suppressfloats	 in line: 945
+WARNING: Unknown complex command - \oarg	placement	 in line: 945
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 946
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 954
+WARNING: Unknown command - \texttt	 in line: 955
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 956
+WARNING: Unknown complex command - \texttt	h	 in line: 958
+WARNING: Unknown complex command - \texttt	t	 in line: 958
+WARNING: Unknown complex command - \texttt	b	 in line: 959
+WARNING: Unknown complex command - \texttt	p	 in line: 959
+WARNING: Unknown command - \texttt	 in line: 962
+push 	itemizepop 	itemizeWARNING: Unknown command - \texttt	 in line: 976
+WARNING: Unknown command - \suppressfloats	 in line: 979
+WARNING: Unknown command - \LaTeXe	 in line: 981
+WARNING: Unknown command - \LaTeXcomp	 in line: 984
+WARNING: Unknown command - \fntguide	 in line: 985
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 987
+WARNING: Unknown command - \normalfont	 in line: 989
+WARNING: Unknown command - \rmfamily	 in line: 990
+WARNING: Unknown command - \sffamily	 in line: 991
+WARNING: Unknown command - \ttfamily	 in line: 992
+WARNING: Unknown command - \mdseries	 in line: 993
+WARNING: Unknown command - \bfseries	 in line: 994
+WARNING: Unknown command - \upshape	 in line: 995
+WARNING: Unknown command - \itshape	 in line: 996
+WARNING: Unknown command - \slshape	 in line: 997
+WARNING: Unknown command - \scshape	 in line: 998
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 998
+WARNING: Unknown command - \rm	 in line: 1001
+WARNING: Unknown command - \bfseries	 in line: 1003
+WARNING: Unknown command - \itshape	 in line: 1007
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1007
+WARNING: Unknown command - \textnormal	 in line: 1008
+WARNING: Unknown complex command - \arg	text	 in line: 1008
+WARNING: Unknown command - \textrm	 in line: 1009
+WARNING: Unknown complex command - \arg	text	 in line: 1009
+WARNING: Unknown command - \textsf	 in line: 1010
+WARNING: Unknown complex command - \arg	text	 in line: 1010
+WARNING: Unknown command - \texttt	 in line: 1011
+WARNING: Unknown complex command - \arg	text	 in line: 1011
+WARNING: Unknown command - \textmd	 in line: 1012
+WARNING: Unknown complex command - \arg	text	 in line: 1012
+WARNING: Unknown command - \textbf	 in line: 1013
+WARNING: Unknown complex command - \arg	text	 in line: 1013
+WARNING: Unknown command - \textup	 in line: 1014
+WARNING: Unknown complex command - \arg	text	 in line: 1014
+WARNING: Unknown command - \textit	 in line: 1015
+WARNING: Unknown complex command - \arg	text	 in line: 1015
+WARNING: Unknown command - \textsl	 in line: 1016
+WARNING: Unknown complex command - \arg	text	 in line: 1016
+WARNING: Unknown command - \textsc	 in line: 1017
+WARNING: Unknown complex command - \arg	text	 in line: 1017
+WARNING: Unknown complex command - \arg	text	 in line: 1018
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1019
+WARNING: Unknown command - \nocorr	 in line: 1025
+WARNING: Unknown command - \nocorr	 in line: 1026
+WARNING: Unknown complex command - \arg	text	 in line: 1026
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1034
+WARNING: Unknown command - \mathrm	 in line: 1035
+WARNING: Unknown complex command - \arg	letters	 in line: 1035
+WARNING: Unknown command - \mathnormal	 in line: 1036
+WARNING: Unknown complex command - \arg	letters	 in line: 1036
+WARNING: Unknown command - \mathcal	 in line: 1037
+WARNING: Unknown complex command - \arg	letters	 in line: 1037
+WARNING: Unknown command - \mathbf	 in line: 1038
+WARNING: Unknown complex command - \arg	letters	 in line: 1038
+WARNING: Unknown command - \mathsf	 in line: 1039
+WARNING: Unknown complex command - \arg	letters	 in line: 1039
+WARNING: Unknown command - \mathtt	 in line: 1040
+WARNING: Unknown complex command - \arg	letters	 in line: 1040
+WARNING: Unknown command - \mathit	 in line: 1041
+WARNING: Unknown complex command - \arg	letters	 in line: 1041
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1042
+WARNING: Unknown MATH command - \mathbf	 in line: 1048
+WARNING: Unknown MATH command - \tilde	 in line: 1048
+WARNING: Unknown MATH command - \times	 in line: 1048
+WARNING: Unknown MATH command - \mathbf	 in line: 1048
+WARNING: Unknown MATH command - \tilde	 in line: 1048
+WARNING: Unknown MATH command - \times	 in line: 1048
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1052
+WARNING: Unknown command - \ensuremath	 in line: 1053
+WARNING: Unknown complex command - \arg	 in line: 1053
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1054
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1058
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1060
+WARNING: Unknown command - \mbox	 in line: 1061
+WARNING: Unknown command - \Gp	 in line: 1064
+WARNING: Unknown command - \LaTeXe	 in line: 1064
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1065
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1067
+WARNING: Unknown command - \Gp	 in line: 1070
+WARNING: Unknown command - \ensuremath	 in line: 1071
+WARNING: Unknown command - \Gp	 in line: 1072
+WARNING: Unknown command - \Gp	 in line: 1076
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1078
+WARNING: Unknown command - \textsuperscript	 in line: 1079
+WARNING: Unknown complex command - \arg	text	 in line: 1079
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1080
+WARNING: Unknown complex command - \NEWfeature	 in line: 1082
+WARNING: Unknown command - \textsuperscript	 in line: 1092
+WARNING: Unknown complex command - \NEWdescription	 in line: 1094
+WARNING: Unknown command - \LaTeXe	 in line: 1095
+WARNING: Unknown command - \LaTeXe	 in line: 1096
+WARNING: Unknown command - \TeX	 in line: 1106
+WARNING: Unknown command - \LaTeXe	 in line: 1106
+WARNING: Unknown command - \textemdash	 in line: 1114
+WARNING: Unknown command - \textemdash	 in line: 1119
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1119
+WARNING: Unknown complex command - \r	text	 in line: 1120
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1121
+WARNING: Unknown complex command - \r	o	 in line: 1122
+WARNING: Unknown complex command - \r	o	 in line: 1123
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1125
+WARNING: Unknown command - \SS	 in line: 1127
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1127
+WARNING: Unknown command - \ss	 in line: 1132
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1132
+WARNING: Unknown complex command - \textcircled	text	 in line: 1133
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1134
+WARNING: Unknown command - \copyright	 in line: 1136
+WARNING: Unknown complex command - \textcircled	a	 in line: 1136
+WARNING: Unknown complex command - \textcircled	a	 in line: 1137
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1139
+WARNING: Unknown command - \textcompwordmark	 in line: 1141
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1141
+WARNING: Unknown command - \textcompwordmark	 in line: 1144
+WARNING: Unknown command - \textcompwordmark	 in line: 1146
+WARNING: Unknown command - \textcompwordmark	 in line: 1149
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1149
+WARNING: Unknown command - \textvisiblespace	 in line: 1151
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1151
+WARNING: Unknown command - \textvisiblespace	 in line: 1154
+WARNING: Unknown command - \textvisiblespace	 in line: 1154
+WARNING: Unknown complex command - \textsf	 in line: 1154
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1156
+WARNING: Unknown command - \textemdash	 in line: 1158
+WARNING: Unknown command - \textendash	 in line: 1159
+WARNING: Unknown command - \textexclamdown	 in line: 1160
+WARNING: Unknown command - \textquestiondown	 in line: 1161
+WARNING: Unknown command - \textquotedblleft	 in line: 1162
+WARNING: Unknown command - \textquotedblright	 in line: 1163
+WARNING: Unknown command - \textquoteleft	 in line: 1164
+WARNING: Unknown command - \textquoteright	 in line: 1165
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1165
+push 	centerpush 	tabularWARNING: Unknown command - \textemdash	 in line: 1172
+WARNING: Unknown command - \textendash	 in line: 1173
+WARNING: Unknown command - \textexclamdown	 in line: 1174
+WARNING: Unknown command - \textquestiondown	 in line: 1175
+WARNING: Unknown command - \textquotedblleft	 in line: 1176
+WARNING: Unknown command - \textquotedblright	 in line: 1177
+WARNING: Unknown command - \textquoteleft	 in line: 1178
+WARNING: Unknown command - \textquoteright	 in line: 1179
+pop 	tabularpop 	centerpush 	declWARNING: Unknown complex command - \begin	decl	 in line: 1184
+WARNING: Unknown command - \textbullet	 in line: 1186
+WARNING: Unknown command - \textperiodcentered	 in line: 1187
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1187
+push 	centerpush 	tabularWARNING: Unknown command - \bullet	 in line: 1193
+WARNING: Unknown MATH command - \bullet	 in line: 1193
+WARNING: Unknown command - \textbullet	 in line: 1194
+WARNING: Unknown command - \cdot	 in line: 1194
+WARNING: Unknown command - \textperiodcentered	 in line: 1195
+pop 	tabularpop 	centerpush 	declWARNING: Unknown complex command - \begin	decl	 in line: 1198
+WARNING: Unknown command - \textbackslash	 in line: 1200
+WARNING: Unknown command - \textbar	 in line: 1201
+WARNING: Unknown command - \textless	 in line: 1202
+WARNING: Unknown command - \textgreater	 in line: 1203
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1203
+push 	centerpush 	tabularWARNING: Unknown command - \backslash	 in line: 1209
+WARNING: Unknown MATH command - \backslash	 in line: 1209
+WARNING: Unknown command - \textbackslash	 in line: 1210
+WARNING: Unknown command - \mid	 in line: 1210
+WARNING: Unknown MATH command - \mid	 in line: 1210
+WARNING: Unknown command - \textbar	 in line: 1211
+WARNING: Unknown command - \textless	 in line: 1212
+WARNING: Unknown command - \textgreater	 in line: 1213
+pop 	tabularpop 	centerpush 	declWARNING: Unknown complex command - \begin	decl	 in line: 1216
+WARNING: Unknown command - \textasciicircum	 in line: 1218
+WARNING: Unknown command - \textasciitilde	 in line: 1219
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1219
+push 	centerpush 	tabularWARNING: Unknown command - \textasciicircum	 in line: 1226
+WARNING: Unknown command - \textasciitilde	 in line: 1227
+pop 	tabularpop 	centerpush 	declWARNING: Unknown complex command - \begin	decl	 in line: 1230
+WARNING: Unknown command - \textregistered	 in line: 1232
+WARNING: Unknown command - \texttrademark	 in line: 1233
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1233
+WARNING: Unknown complex command - \NEWdescription	 in line: 1239
+WARNING: Unknown complex command - \textsf	psnfss	 in line: 1249
+WARNING: Unknown command - \TeX	 in line: 1251
+WARNING: Unknown command - \TeX	 in line: 1252
+WARNING: Unknown command - \TeX	 in line: 1253
+WARNING: Unknown command - \TeX	 in line: 1253
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1256
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1258
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1268
+WARNING: Unknown complex command - \k	text	 in line: 1269
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1270
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1273
+WARNING: Unknown command - \DH	 in line: 1275
+WARNING: Unknown command - \DJ	 in line: 1276
+WARNING: Unknown command - \NG	 in line: 1277
+WARNING: Unknown command - \TH	 in line: 1278
+WARNING: Unknown command - \dh	 in line: 1279
+WARNING: Unknown command - \dj	 in line: 1280
+WARNING: Unknown command - \ng	 in line: 1281
+WARNING: Unknown command - \th	 in line: 1282
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1282
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1285
+WARNING: Unknown command - \guillemotleft	 in line: 1287
+WARNING: Unknown command - \guillemotright	 in line: 1288
+WARNING: Unknown command - \guilsinglleft	 in line: 1289
+WARNING: Unknown command - \guilsinglright	 in line: 1290
+WARNING: Unknown command - \quotedblbase	 in line: 1291
+WARNING: Unknown command - \quotesinglbase	 in line: 1292
+WARNING: Unknown command - \textquotedbl	 in line: 1293
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1293
+WARNING: Unknown command - \fauxguillemet	 in line: 1297
+WARNING: Unknown command - \ll	 in line: 1297
+WARNING: Unknown command - \fauxguillemet	 in line: 1297
+WARNING: Unknown command - \gg	 in line: 1297
+WARNING: Unknown command - \fauxguillemet	 in line: 1298
+WARNING: Unknown command - \fauxguillemet	 in line: 1299
+WARNING: Unknown command - \kern	 in line: 1299
+WARNING: Unknown command - \kern	 in line: 1299
+WARNING: Unknown command - \kern	 in line: 1300
+WARNING: Unknown command - \kern	 in line: 1300
+WARNING: Unknown command - \kern	 in line: 1302
+WARNING: Unknown complex command - \NEWdescription	 in line: 1302
+WARNING: Unknown command - \guillemotleft	 in line: 1306
+WARNING: Unknown command - \guillemotright	 in line: 1307
+
+
+WARNING: Unknown command - \quotedblbase	 in line: 1312
+WARNING: Unknown command - \textless	 in line: 1312
+WARNING: Unknown command - \textgreater	 in line: 1313
+WARNING: Unknown command - \textquotedbl	 in line: 1318
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1320
+WARNING: Unknown command - \LaTeXe	 in line: 1323
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1323
+WARNING: Unknown command - \LaTeXe	 in line: 1327
+WARNING: Unknown command - \LaTeXe	 in line: 1329
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1331
+WARNING: Unknown command - \qbezier	 in line: 1332
+WARNING: Unknown complex command - \bezier	N	 in line: 1333
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1334
+WARNING: Unknown command - \qbezier	 in line: 1337
+WARNING: Unknown complex command - \m	N	 in line: 1337
+push 	centerpush 	pictureWARNING: Unknown complex command - \begin	picture	 in line: 1342
+WARNING: Unknown command - \thicklines	 in line: 1344
+WARNING: Unknown command - \qbezier	 in line: 1345
+WARNING: Unknown command - \qbezier	 in line: 1345
+WARNING: Unknown command - \thinlines	 in line: 1347
+WARNING: Unknown command - \line	 in line: 1347
+WARNING: Unknown complex command - \put	 in line: 1347
+pop 	pictureWARNING: Unknown complex command - \end	picture	 in line: 1348
+pop 	centerpush 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1351
+push 	pictureWARNING: Unknown complex command - \begin	picture	 in line: 1352
+WARNING: Unknown command - \thicklines	 in line: 1354
+WARNING: Unknown command - \qbezier	 in line: 1355
+WARNING: Unknown command - \qbezier	 in line: 1355
+WARNING: Unknown command - \thinlines	 in line: 1357
+WARNING: Unknown command - \line	 in line: 1357
+WARNING: Unknown complex command - \put	 in line: 1357
+pop 	pictureWARNING: Unknown complex command - \end	picture	 in line: 1358
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1359
+WARNING: Unknown command - \bezier	 in line: 1360
+WARNING: Unknown complex command - \m	N	 in line: 1360
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1366
+WARNING: Unknown command - \samepage	 in line: 1368
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1368
+WARNING: Unknown command - \samepage	 in line: 1376
+WARNING: Unknown command - \enlargethispage	 in line: 1377
+WARNING: Unknown command - \pagebreak	 in line: 1380
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1380
+WARNING: Unknown command - \SLiTeX	 in line: 1382
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1382
+WARNING: Unknown command - \SLiTeX	 in line: 1383
+WARNING: Unknown command - \TeX	 in line: 1384
+WARNING: Unknown command - \SLiTeX	 in line: 1385
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1387
+WARNING: Unknown command - \mho	 in line: 1388
+WARNING: Unknown command - \Join	 in line: 1388
+WARNING: Unknown command - \Box	 in line: 1388
+WARNING: Unknown command - \Diamond	 in line: 1388
+WARNING: Unknown command - \leadsto	 in line: 1389
+WARNING: Unknown command - \sqsubset	 in line: 1389
+WARNING: Unknown command - \sqsupset	 in line: 1389
+WARNING: Unknown command - \lhd	 in line: 1389
+WARNING: Unknown command - \unlhd	 in line: 1389
+WARNING: Unknown command - \rhd	 in line: 1389
+WARNING: Unknown command - \unrhd	 in line: 1390
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1390
+WARNING: Unknown command - \TeX	 in line: 1393
+WARNING: Unknown complex command - \textsf	latexsym	 in line: 1396
+WARNING: Unknown complex command - \textsf	amsfonts	 in line: 1399
+WARNING: Unknown complex command - \textsf	latexsym	 in line: 1402
+WARNING: Unknown command - \LaTeXe	 in line: 1408
+WARNING: Unknown command - \LaTeXe	 in line: 1416
+WARNING: Unknown command - \LaTeXe	 in line: 1419
+WARNING: Unknown command - \LaTeXe	 in line: 1422
+WARNING: Unknown complex command - \NEWdescription	 in line: 1427
+WARNING: Unknown command - \LaTeXe	 in line: 1434
+WARNING: Unknown command - \documentstyle	 in line: 1437
+WARNING: Unknown command - \LaTeXe	 in line: 1438
+push 	itemizepop 	itemizeWARNING: Unknown complex command - \NEWdescription	 in line: 1467
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1470
+WARNING: Unknown MATH command - \mathbf	 in line: 1471
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1472
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1474
+WARNING: Unknown MATH command - \bf	 in line: 1475
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1476
+WARNING: Unknown command - \LaTeXe	 in line: 1481
+WARNING: Unknown command - \LaTeXe	 in line: 1483
+WARNING: Unknown command - \NFSS	 in line: 1488
+WARNING: Unknown command - \LaTeXe	 in line: 1488
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1490
+WARNING: Unknown complex command - \ExecuteOptions	oldlfont	 in line: 1491
+WARNING: Unknown complex command - \RequirePackage	oldlfont	 in line: 1491
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1492
+WARNING: Unknown command - \NFSS	 in line: 1493
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1495
+WARNING: Unknown complex command - \ExecuteOptions	newlfont	 in line: 1496
+WARNING: Unknown complex command - \RequirePackage	newlfont	 in line: 1496
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1497
+WARNING: Unknown command - \LaTeXe	 in line: 1504
+WARNING: Unknown command - \LaTeXe	 in line: 1504
+push 	quoteWARNING: Unknown command - \documentstyle	 in line: 1507
+WARNING: Unknown complex command - \arg	class	 in line: 1507
+pop 	quotepush 	quoteWARNING: Unknown complex command - \oarg	options	 in line: 1511
+WARNING: Unknown complex command - \arg	class	 in line: 1511
+WARNING: Unknown command - \m	 in line: 1512
+pop 	quoteWARNING: Unknown command - \LaTeXe	 in line: 1516
+WARNING: Unknown command - \LaTeXe	 in line: 1520
+WARNING: Unknown command - \LaTeXe	 in line: 1520
+WARNING: Unknown complex command - \NEWdescription	 in line: 1528
+WARNING: Unknown complex command - \texttt	 in line: 1536
+WARNING: Unknown complex command - \textsf	larticle	 in line: 1544
+WARNING: Unknown complex command - \textsf	article	 in line: 1544
+WARNING: Unknown complex command - \NEWfeature	 in line: 1547
+WARNING: Unknown complex command - \texttt	 in line: 1548
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1550
+WARNING: Unknown complex command - \LoadClassWithOptions	article	 in line: 1551
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1552
+WARNING: Unknown complex command - \texttt	 in line: 1555
+WARNING: Unknown command - \LoadClassWithOptions	 in line: 1558
+WARNING: Unknown complex command - \textsf	article	 in line: 1558
+WARNING: Unknown complex command - \textsf	larticle	 in line: 1560
+WARNING: Unknown complex command - \textsf	article	 in line: 1561
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1562
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1564
+WARNING: Unknown command - \LaTeXe	 in line: 1573
+WARNING: Unknown command - \LaTeXe	 in line: 1575
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1579
+WARNING: Unknown complex command - \m	package	 in line: 1580
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1581
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1585
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1588
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1590
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1592
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1594
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1603
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1609
+WARNING: Unknown complex command - \m	command	 in line: 1610
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1611
+WARNING: Unknown complex command - \m	command	 in line: 1612
+WARNING: Unknown command - \LaTeXe	 in line: 1614
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1614
+WARNING: Unknown command - \mho	 in line: 1615
+WARNING: Unknown command - \Join	 in line: 1615
+WARNING: Unknown command - \Box	 in line: 1615
+WARNING: Unknown command - \Diamond	 in line: 1615
+WARNING: Unknown command - \leadsto	 in line: 1616
+WARNING: Unknown command - \sqsubset	 in line: 1616
+WARNING: Unknown command - \sqsupset	 in line: 1616
+WARNING: Unknown command - \lhd	 in line: 1616
+WARNING: Unknown command - \unlhd	 in line: 1616
+WARNING: Unknown command - \rhd	 in line: 1616
+WARNING: Unknown command - \unrhd	 in line: 1617
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1617
+WARNING: Unknown complex command - \textsf	latexsym	 in line: 1618
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1620
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1622
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1625
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1627
+WARNING: Unknown complex command - \m	command	 in line: 1628
+WARNING: Unknown command - \LaTeXe	 in line: 1628
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1633
+WARNING: Unknown command - \newmathalphabet	 in line: 1635
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1635
+WARNING: Unknown command - \newmathalphabet	 in line: 1638
+WARNING: Unknown command - \DeclareMathAlphabet	 in line: 1639
+WARNING: Unknown command - \fntguide	 in line: 1639
+WARNING: Unknown command - \newmathalphabet	 in line: 1644
+WARNING: Unknown command - \fntguide	 in line: 1644
+WARNING: Unknown complex command - \textsf	newlfont	 in line: 1647
+WARNING: Unknown complex command - \textsf	oldlfont	 in line: 1647
+WARNING: Unknown command - \newmathalphabet	 in line: 1651
+WARNING: Unknown complex command - \textsf	oldlfont	 in line: 1651
+push 	quoteWARNING: Unknown command - \cal	 in line: 1654
+pop 	quoteWARNING: Unknown complex command - \textsf	newlfont	 in line: 1656
+push 	quoteWARNING: Unknown complex command - \cal	A	 in line: 1658
+pop 	quotepush 	declWARNING: Unknown complex command - \begin	decl	 in line: 1662
+WARNING: Unknown command - \verb	 in line: 1664
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1664
+WARNING: Unknown command - \verb	 in line: 1667
+WARNING: Unknown command - \verb	 in line: 1669
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1669
+WARNING: Unknown command - \verb	 in line: 1671
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1671
+WARNING: Unknown command - \verb	 in line: 1673
+WARNING: Unknown command - \LaTeXe	 in line: 1674
+WARNING: Unknown command - \clsguide	 in line: 1682
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 1685
+WARNING: Unknown command - \tenrm	 in line: 1686
+WARNING: Unknown command - \elvrm	 in line: 1686
+WARNING: Unknown command - \twlrm	 in line: 1686
+WARNING: Unknown command - \dots	 in line: 1687
+WARNING: Unknown command - \tenbf	 in line: 1687
+WARNING: Unknown command - \elvbf	 in line: 1687
+WARNING: Unknown command - \twlbf	 in line: 1687
+WARNING: Unknown command - \dots	 in line: 1688
+WARNING: Unknown command - \tensf	 in line: 1688
+WARNING: Unknown command - \elvsf	 in line: 1688
+WARNING: Unknown command - \twlsf	 in line: 1688
+WARNING: Unknown command - \dots	 in line: 1689
+WARNING: Unknown MATH command - \vdots	 in line: 1689
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 1690
+WARNING: Unknown command - \LaTeXe	 in line: 1692
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1698
+WARNING: Unknown command - \tenrm	 in line: 1701
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1701
+WARNING: Unknown command - \LaTeXe	 in line: 1704
+WARNING: Unknown command - \fntguide	 in line: 1704
+WARNING: Unknown complex command - \textsf	rawfonts	 in line: 1707
+WARNING: Unknown complex command - \textsf	rawfonts	 in line: 1711
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1713
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1715
+WARNING: Unknown complex command - \textsf	rawfonts	 in line: 1717
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 1728
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 1730
+WARNING: Unknown complex command - \m	release-date	 in line: 1731
+WARNING: Unknown command - \LaTeXbook	 in line: 1739
+WARNING: Unknown command - \LaTeXcomp	 in line: 1739
+push 	thebibliographyWARNING: Unknown complex command - \begin	thebibliography	 in line: 1776
+WARNING: Unknown complex command - \bibitem	 in line: 1778
+WARNING: Unknown command - \em	 in line: 1780
+WARNING: Unknown complex command - \newblock	 in line: 1780
+WARNING: Unknown command - \newblock	 in line: 1784
+WARNING: Unknown complex command - \bibitem	 in line: 1784
+WARNING: Unknown command - \em	 in line: 1786
+WARNING: Unknown complex command - \newblock	 in line: 1786
+WARNING: Unknown command - \newblock	 in line: 1790
+WARNING: Unknown complex command - \bibitem	 in line: 1790
+WARNING: Unknown command - \em	 in line: 1792
+WARNING: Unknown command - \TeX	 in line: 1792
+WARNING: Unknown complex command - \newblock	 in line: 1792
+WARNING: Unknown command - \newblock	 in line: 1794
+WARNING: Unknown command - \newblock	 in line: 1794
+WARNING: Unknown command - \TeX	 in line: 1797
+WARNING: Unknown complex command - \bibitem	 in line: 1797
+WARNING: Unknown command - \em	 in line: 1799
+WARNING: Unknown complex command - \newblock	 in line: 1799
+WARNING: Unknown command - \newblock	 in line: 1802
+WARNING: Unknown complex command - \bibitem	 in line: 1802
+WARNING: Unknown command - \em	 in line: 1804
+WARNING: Unknown complex command - \newblock	 in line: 1804
+WARNING: Unknown command - \newblock	 in line: 1806
+WARNING: Unknown command - \newblock	 in line: 1809
+pop 	thebibliographyWARNING: Unknown complex command - \end	thebibliography	 in line: 1809
+Expucted end 
+usrguide3.tex
+---------------------------------------------------------------
+WARNING: usepackage arguments - ltxguide	 in line: 31
+WARNING: usepackage arguments - T1	[]	 in line: 33
+WARNING: Unknown command - \copyright	 in line: 36
+
+WARNING: Unknown command - \makeatletter	 in line: 43
+WARNING: Unknown command - \makeatother	 in line: 45
+WARNING: Unknown command - \LaTeXe	 in line: 53
+WARNING: Unknown complex command - \texttt	usrguide	 in line: 54
+WARNING: Unknown complex command - \pkg	expl3	 in line: 56
+WARNING: Unknown command - \LaTeXe	 in line: 60
+WARNING: Unknown complex command - \pkg	expl3	 in line: 62
+WARNING: Unknown command - \TeX	 in line: 82
+WARNING: Unknown complex command - \texttt	interface3	 in line: 83
+
+push 	itemizeWARNING: Unknown command - \TeX	 in line: 103
+WARNING: Unknown complex command - \texttt	r	 in line: 104
+WARNING: Unknown complex command - \meta	token1	 in line: 104
+WARNING: Unknown complex command - \meta	token2	 in line: 104
+WARNING: Unknown complex command - \meta	token1	 in line: 106
+WARNING: Unknown complex command - \meta	token2	 in line: 106
+WARNING: Unknown complex command - \meta	token1	 in line: 106
+WARNING: Unknown complex command - \texttt	R	 in line: 109
+WARNING: Unknown complex command - \meta	token1	 in line: 109
+WARNING: Unknown complex command - \meta	token2	 in line: 109
+WARNING: Unknown complex command - \marg	default	 in line: 109
+WARNING: Unknown complex command - \texttt	r	 in line: 110
+WARNING: Unknown complex command - \meta	default	 in line: 111
+WARNING: Unknown command - \LaTeXe	 in line: 115
+WARNING: Unknown complex command - \cs	verb	 in line: 115
+WARNING: Unknown complex command - \texttt	v	 in line: 115
+WARNING: Unknown complex command - \verb	and	 in line: 118
+WARNING: Unknown command - \begin	 in line: 122
+WARNING: Unknown complex command - \marg	environment	 in line: 122
+WARNING: Unknown command - \end	 in line: 122
+WARNING: Unknown complex command - \marg	environment	 in line: 122
+pop 	itemizepush 	itemizeWARNING: Unknown complex command - \texttt	d	 in line: 130
+WARNING: Unknown complex command - \meta	token1	 in line: 130
+WARNING: Unknown complex command - \meta	token2	 in line: 130
+WARNING: Unknown complex command - \meta	token1	 in line: 131
+WARNING: Unknown complex command - \meta	token2	 in line: 131
+WARNING: Unknown complex command - \texttt	o	 in line: 132
+WARNING: Unknown complex command - \texttt	O	 in line: 134
+WARNING: Unknown complex command - \marg	default	 in line: 134
+WARNING: Unknown complex command - \texttt	o	 in line: 134
+WARNING: Unknown complex command - \meta	default	 in line: 135
+WARNING: Unknown complex command - \texttt	D	 in line: 136
+WARNING: Unknown complex command - \meta	token1	 in line: 136
+WARNING: Unknown complex command - \meta	token2	 in line: 136
+WARNING: Unknown complex command - \marg	default	 in line: 136
+WARNING: Unknown complex command - \texttt	d	 in line: 137
+WARNING: Unknown complex command - \meta	default	 in line: 137
+WARNING: Unknown complex command - \texttt	o	 in line: 138
+WARNING: Unknown complex command - \texttt	d	 in line: 138
+WARNING: Unknown complex command - \texttt	O	 in line: 138
+WARNING: Unknown complex command - \texttt	D	 in line: 139
+WARNING: Unknown complex command - \cs	BooleanTrue	 in line: 141
+WARNING: Unknown complex command - \cs	BooleanFalse	 in line: 141
+WARNING: Unknown complex command - \meta	token	 in line: 143
+WARNING: Unknown complex command - \cs	BooleanTrue	 in line: 144
+WARNING: Unknown complex command - \meta	token	 in line: 144
+WARNING: Unknown complex command - \cs	BooleanFalse	 in line: 144
+WARNING: Unknown complex command - \texttt	t	 in line: 145
+WARNING: Unknown complex command - \meta	token	 in line: 145
+WARNING: Unknown complex command - \texttt	e	 in line: 146
+WARNING: Unknown complex command - \marg	tokens	 in line: 146
+WARNING: Unknown complex command - \meta	tokens	 in line: 150
+WARNING: Unknown complex command - \meta	tokens	 in line: 150
+WARNING: Unknown complex command - \texttt	e	 in line: 152
+WARNING: Unknown complex command - \meta	defaults	 in line: 152
+WARNING: Unknown complex command - \texttt	E	 in line: 153
+WARNING: Unknown complex command - \marg	tokens	 in line: 153
+WARNING: Unknown complex command - \marg	defaults	 in line: 153
+pop 	itemizeWARNING: Unknown command - \texttt	 in line: 162
+WARNING: Unknown complex command - \cs	newcommand	 in line: 163
+WARNING: Unknown complex command - \cs	long	 in line: 165
+WARNING: Unknown command - \texttt	 in line: 168
+WARNING: Unknown command - \TeX	 in line: 169
+WARNING: Unknown command - \texttt	 in line: 173
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 181
+WARNING: Unknown command - \NewDocumentCommand	 in line: 182
+WARNING: Unknown complex command - \arg	cmd	 in line: 182
+WARNING: Unknown complex command - \arg	 in line: 182
+WARNING: Unknown complex command - \arg	code	 in line: 182
+WARNING: Unknown command - \RenewDocumentCommand	 in line: 183
+WARNING: Unknown complex command - \arg	cmd	 in line: 183
+WARNING: Unknown complex command - \arg	 in line: 183
+WARNING: Unknown complex command - \arg	code	 in line: 183
+WARNING: Unknown command - \ProvideDocumentCommand	 in line: 184
+WARNING: Unknown complex command - \arg	cmd	 in line: 184
+WARNING: Unknown complex command - \arg	 in line: 184
+WARNING: Unknown complex command - \arg	code	 in line: 184
+WARNING: Unknown command - \DeclareDocumentCommand	 in line: 185
+WARNING: Unknown complex command - \arg	cmd	 in line: 185
+WARNING: Unknown complex command - \arg	 in line: 185
+WARNING: Unknown complex command - \arg	code	 in line: 185
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 186
+WARNING: Unknown complex command - \meta	cmd	 in line: 187
+WARNING: Unknown complex command - \meta	 in line: 188
+WARNING: Unknown complex command - \meta	code	 in line: 189
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 193
+WARNING: Unknown command - \NewDocumentCommand	 in line: 194
+WARNING: Unknown complex command - \chapter	 in line: 194
+
+WARNING: Unknown command - \IfBooleanTF	 in line: 195
+WARNING: Unknown command - \typesetstarchapter	 in line: 196
+WARNING: Unknown command - \typesetnormalchapter	 in line: 197
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 199
+WARNING: Unknown complex command - \cs	chapter	 in line: 200
+WARNING: Unknown command - \LaTeXe	 in line: 201
+WARNING: Unknown command - \texttt	 in line: 202
+WARNING: Unknown complex command - \cs	typesetnormalchapter	 in line: 202
+WARNING: Unknown complex command - \cs	IfBooleanTF	 in line: 205
+WARNING: Unknown complex command - \cs	New	 in line: 207
+WARNING: Unknown complex command - \cs	Renew	 in line: 207
+WARNING: Unknown complex command - \cs	Provide	 in line: 207
+WARNING: Unknown complex command - \cs	Declare	 in line: 208
+WARNING: Unknown complex command - \meta	cmd	 in line: 208
+push 	itemizeWARNING: Unknown complex command - \cs	NewDocumentCommand	 in line: 211
+WARNING: Unknown complex command - \meta	cmd	 in line: 211
+WARNING: Unknown complex command - \cs	RenewDocumentCommand	 in line: 213
+WARNING: Unknown complex command - \meta	cmd	 in line: 213
+WARNING: Unknown complex command - \cs	ProvideDocumentCommand	 in line: 215
+WARNING: Unknown complex command - \meta	function	 in line: 216
+WARNING: Unknown complex command - \cs	DeclareDocumentCommand	 in line: 217
+WARNING: Unknown complex command - \meta	cmd	 in line: 218
+pop 	itemizepush 	declWARNING: Unknown complex command - \begin	decl	 in line: 222
+WARNING: Unknown command - \NewDocumentEnvironment	 in line: 223
+WARNING: Unknown complex command - \arg	env	 in line: 223
+WARNING: Unknown complex command - \arg	 in line: 223
+WARNING: Unknown complex command - \arg	beg-code	 in line: 223
+WARNING: Unknown complex command - \arg	end-code	 in line: 223
+WARNING: Unknown command - \RenewDocumentEnvironment	 in line: 224
+WARNING: Unknown complex command - \arg	env	 in line: 224
+WARNING: Unknown complex command - \arg	 in line: 224
+WARNING: Unknown complex command - \arg	beg-code	 in line: 224
+WARNING: Unknown complex command - \arg	end-code	 in line: 224
+WARNING: Unknown command - \ProvideDocumentEnvironment	 in line: 225
+WARNING: Unknown complex command - \arg	env	 in line: 225
+WARNING: Unknown complex command - \arg	 in line: 225
+WARNING: Unknown complex command - \arg	beg-code	 in line: 225
+WARNING: Unknown complex command - \arg	end-code	 in line: 225
+WARNING: Unknown command - \DeclareDocumentEnvironment	 in line: 226
+WARNING: Unknown complex command - \arg	env	 in line: 226
+WARNING: Unknown complex command - \arg	 in line: 226
+WARNING: Unknown complex command - \arg	beg-code	 in line: 226
+WARNING: Unknown complex command - \arg	end-code	 in line: 226
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 227
+WARNING: Unknown complex command - \cs	NewDocumentCommand	 in line: 228
+WARNING: Unknown complex command - \cs	begin	 in line: 229
+WARNING: Unknown complex command - \arg	env	 in line: 229
+WARNING: Unknown complex command - \cs	end	 in line: 230
+WARNING: Unknown complex command - \arg	environment	 in line: 230
+WARNING: Unknown complex command - \meta	beg-code	 in line: 230
+WARNING: Unknown complex command - \meta	end-code	 in line: 230
+WARNING: Unknown complex command - \meta	 in line: 231
+WARNING: Unknown complex command - \cs	begin	 in line: 232
+WARNING: Unknown complex command - \arg	environment	 in line: 232
+WARNING: Unknown command - \LaTeXe	 in line: 237
+WARNING: Unknown complex command - \cs	newcommand	 in line: 237
+WARNING: Unknown complex command - \cs	NewDocumentCommand	 in line: 238
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 240
+WARNING: Unknown command - \NewDocumentCommand	 in line: 241
+WARNING: Unknown complex command - \foo	om	 in line: 241
+WARNING: Unknown command - \NewDocumentCommand	 in line: 242
+WARNING: Unknown complex command - \baz	o	 in line: 242
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 243
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 245
+WARNING: Unknown command - \foo	 in line: 246
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 247
+push 	quotepop 	quoteWARNING: Unknown complex command - \texttt	o	 in line: 258
+WARNING: Unknown complex command - \texttt	d	 in line: 258
+WARNING: Unknown complex command - \texttt	O	 in line: 258
+WARNING: Unknown complex command - \texttt	D	 in line: 258
+WARNING: Unknown complex command - \texttt	s	 in line: 258
+WARNING: Unknown complex command - \texttt	t	 in line: 258
+WARNING: Unknown complex command - \texttt	e	 in line: 259
+WARNING: Unknown complex command - \texttt	E	 in line: 259
+WARNING: Unknown complex command - \texttt	r	 in line: 259
+WARNING: Unknown complex command - \texttt	R	 in line: 260
+WARNING: Unknown complex command - \texttt	O	 in line: 262
+WARNING: Unknown complex command - \texttt	D	 in line: 262
+WARNING: Unknown complex command - \texttt	E	 in line: 262
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 264
+WARNING: Unknown command - \NewDocumentCommand	 in line: 265
+WARNING: Unknown complex command - \foo	 in line: 265
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 266
+WARNING: Unknown command - \TeX	 in line: 273
+WARNING: Unknown command - \foo	 in line: 275
+WARNING: Unknown command - \verb	 in line: 275
+WARNING: Unknown command - \foo	 in line: 275
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 278
+WARNING: Unknown command - \NewDocumentCommand	 in line: 279
+WARNING: Unknown complex command - \foo	 in line: 279
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 280
+WARNING: Unknown complex command - \foo	arg1	 in line: 281
+WARNING: Unknown command - \verb	 in line: 281
+WARNING: Unknown complex command - \foo	arg1	 in line: 281
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 286
+WARNING: Unknown command - \NewDocumentCommand	 in line: 287
+WARNING: Unknown complex command - \foobar	 in line: 287
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 288
+WARNING: Unknown complex command - \foobar	arg1	 in line: 289
+WARNING: Unknown command - \verb	 in line: 289
+WARNING: Unknown complex command - \foobar	arg1	 in line: 289
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 292
+WARNING: Unknown command - \NewDocumentCommand	 in line: 293
+WARNING: Unknown complex command - \foobar	 in line: 293
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 294
+WARNING: Unknown command - \verb	 in line: 295
+WARNING: Unknown complex command - \foobar	arg1	 in line: 295
+WARNING: Unknown command - \TeX	 in line: 297
+WARNING: Unknown command - \textbackslash	 in line: 299
+WARNING: Unknown command - \textbackslash	 in line: 299
+WARNING: Unknown complex command - \texttt	 in line: 299
+WARNING: Unknown command - \TeX	 in line: 300
+WARNING: Unknown command - \textbackslash	 in line: 302
+WARNING: Unknown command - \textbackslash	 in line: 302
+WARNING: Unknown complex command - \texttt	 in line: 302
+WARNING: Unknown complex command - \pkg	amsmath	 in line: 303
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 304
+WARNING: Unknown command - \NewDocumentCommand	 in line: 305
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 306
+WARNING: Unknown complex command - \texttt	E	 in line: 311
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 313
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 315
+WARNING: Unknown complex command - \texttt	e	 in line: 317
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 319
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 321
+WARNING: Unknown complex command - \texttt	UP	 in line: 322
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 333
+WARNING: Unknown command - \IfNoValueTF	 in line: 334
+WARNING: Unknown complex command - \arg	arg	 in line: 334
+WARNING: Unknown complex command - \arg	 in line: 334
+WARNING: Unknown complex command - \arg	 in line: 334
+WARNING: Unknown command - \IfNoValueT	 in line: 335
+WARNING: Unknown complex command - \arg	arg	 in line: 335
+WARNING: Unknown complex command - \arg	 in line: 335
+WARNING: Unknown command - \IfNoValueF	 in line: 336
+WARNING: Unknown complex command - \arg	arg	 in line: 336
+WARNING: Unknown complex command - \arg	 in line: 336
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 337
+WARNING: Unknown complex command - \cs	 in line: 338
+WARNING: Unknown complex command - \meta	argument	 in line: 338
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 340
+WARNING: Unknown command - \NewDocumentCommand	 in line: 341
+WARNING: Unknown complex command - \foo	 in line: 341
+
+WARNING: Unknown command - \IfNoValueTF	 in line: 342
+WARNING: Unknown command - \DoSomethingJustWithMandatoryArgument	 in line: 343
+WARNING: Unknown command - \DoSomethingWithBothArguments	 in line: 344
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 346
+WARNING: Unknown complex command - \cs	IfNoValueTF	 in line: 351
+WARNING: Unknown complex command - \cs	IfNoValueT	 in line: 351
+WARNING: Unknown complex command - \cs	IfNoValueF	 in line: 352
+WARNING: Unknown complex command - \cs	 in line: 354
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 360
+WARNING: Unknown complex command - \IfNoValueTF	-NoValue-	 in line: 361
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 362
+WARNING: Unknown complex command - \texttt	false	 in line: 363
+WARNING: Unknown complex command - \pkg	expl3	 in line: 370
+WARNING: Unknown complex command - \cs	 in line: 370
+WARNING: Unknown complex command - \pkg	etoolbox	 in line: 370
+WARNING: Unknown complex command - \cs	ifblank	 in line: 371
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 373
+WARNING: Unknown command - \IfValueTF	 in line: 374
+WARNING: Unknown complex command - \arg	arg	 in line: 374
+WARNING: Unknown complex command - \arg	 in line: 374
+WARNING: Unknown complex command - \arg	 in line: 374
+WARNING: Unknown command - \IfValueT	 in line: 375
+WARNING: Unknown complex command - \arg	arg	 in line: 375
+WARNING: Unknown complex command - \arg	 in line: 375
+WARNING: Unknown command - \IfValueF	 in line: 376
+WARNING: Unknown complex command - \arg	arg	 in line: 376
+WARNING: Unknown complex command - \arg	 in line: 376
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 377
+WARNING: Unknown complex command - \cs	 in line: 378
+WARNING: Unknown complex command - \cs	 in line: 379
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 382
+WARNING: Unknown command - \BooleanFalse	 in line: 384
+WARNING: Unknown command - \BooleanTrue	 in line: 385
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 385
+WARNING: Unknown complex command - \texttt	true	 in line: 386
+WARNING: Unknown complex command - \texttt	false	 in line: 386
+WARNING: Unknown complex command - \texttt	s	 in line: 387
+WARNING: Unknown command - \meta	 in line: 387
+WARNING: Unknown complex command - \texttt	 in line: 387
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 390
+WARNING: Unknown command - \IfBooleanTF	 in line: 391
+WARNING: Unknown complex command - \arg	arg	 in line: 391
+WARNING: Unknown complex command - \arg	 in line: 391
+WARNING: Unknown complex command - \arg	 in line: 391
+WARNING: Unknown command - \IfBooleanT	 in line: 392
+WARNING: Unknown complex command - \arg	arg	 in line: 392
+WARNING: Unknown complex command - \arg	 in line: 392
+WARNING: Unknown command - \IfBooleanF	 in line: 393
+WARNING: Unknown complex command - \arg	arg	 in line: 393
+WARNING: Unknown complex command - \arg	 in line: 393
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 394
+WARNING: Unknown complex command - \meta	argument	 in line: 395
+WARNING: Unknown complex command - \cs	BooleanTrue	 in line: 396
+WARNING: Unknown complex command - \cs	BooleanFalse	 in line: 396
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 397
+WARNING: Unknown command - \NewDocumentCommand	 in line: 398
+WARNING: Unknown complex command - \foo	sm	 in line: 398
+
+WARNING: Unknown command - \IfBooleanTF	 in line: 399
+WARNING: Unknown command - \DoSomethingWithStar	 in line: 400
+WARNING: Unknown command - \DoSomethingWithoutStar	 in line: 401
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 403
+WARNING: Unknown complex command - \meta	code	 in line: 411
+WARNING: Unknown command - \texttt	 in line: 417
+WARNING: Unknown complex command - \marg	processor	 in line: 417
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 420
+WARNING: Unknown command - \ProcessorB	 in line: 421
+WARNING: Unknown command - \ProcessorA	 in line: 421
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 422
+WARNING: Unknown complex command - \cs	ProcessorA	 in line: 423
+WARNING: Unknown complex command - \cs	ProcessorB	 in line: 423
+WARNING: Unknown complex command - \texttt	m	 in line: 424
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 426
+WARNING: Unknown command - \SplitArgument	 in line: 427
+WARNING: Unknown complex command - \arg	number	 in line: 427
+WARNING: Unknown complex command - \arg	 in line: 427
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 428
+WARNING: Unknown complex command - \meta	tokens	 in line: 430
+WARNING: Unknown complex command - \meta	number	 in line: 430
+WARNING: Unknown MATH command - \text	 in line: 431
+WARNING: Unknown MATH command - \meta	 in line: 431
+WARNING: Unknown complex command - \meta	tokens	 in line: 432
+WARNING: Unknown MATH command - \text	 in line: 434
+WARNING: Unknown MATH command - \meta	 in line: 434
+WARNING: Unknown complex command - \arg	number	 in line: 435
+WARNING: Unknown complex command - \arg	tokens	 in line: 435
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 438
+WARNING: Unknown command - \NewDocumentCommand	 in line: 439
+WARNING: Unknown command - \SplitArgument	 in line: 439
+WARNING: Unknown complex command - \foo	 in line: 439
+WARNING: Unknown command - \InternalFunctionOfThreeArguments	 in line: 440
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 441
+WARNING: Unknown complex command - \meta	token	 in line: 442
+WARNING: Unknown complex command - \meta	token	 in line: 443
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 447
+WARNING: Unknown command - \SplitList	 in line: 448
+WARNING: Unknown complex command - \arg	 in line: 448
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 449
+WARNING: Unknown complex command - \meta	 in line: 451
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 455
+WARNING: Unknown command - \NewDocumentCommand	 in line: 456
+WARNING: Unknown command - \SplitList	 in line: 456
+WARNING: Unknown complex command - \foo	 in line: 456
+WARNING: Unknown command - \MappingFunction	 in line: 457
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 458
+WARNING: Unknown complex command - \meta	token	 in line: 459
+WARNING: Unknown complex command - \meta	token	 in line: 460
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 464
+WARNING: Unknown command - \ProcessList	 in line: 465
+WARNING: Unknown complex command - \arg	list	 in line: 465
+WARNING: Unknown complex command - \arg	function	 in line: 465
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 466
+WARNING: Unknown complex command - \cs	SplitList	 in line: 467
+WARNING: Unknown complex command - \cs	ProcessList	 in line: 467
+WARNING: Unknown complex command - \meta	function	 in line: 468
+WARNING: Unknown complex command - \meta	list	 in line: 468
+WARNING: Unknown complex command - \meta	function	 in line: 469
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 470
+WARNING: Unknown command - \NewDocumentCommand	 in line: 471
+WARNING: Unknown command - \SplitList	 in line: 471
+WARNING: Unknown complex command - \foo	 in line: 471
+WARNING: Unknown command - \ProcessList	 in line: 472
+WARNING: Unknown command - \SomeDocumentCommand	 in line: 472
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 473
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 475
+WARNING: Unknown command - \ReverseBoolean	 in line: 477
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 477
+WARNING: Unknown complex command - \cs	BooleanTrue	 in line: 478
+WARNING: Unknown complex command - \cs	BooleanFalse	 in line: 479
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 480
+WARNING: Unknown command - \NewDocumentCommand	 in line: 481
+WARNING: Unknown command - \ReverseBoolean	 in line: 481
+WARNING: Unknown complex command - \foo	 in line: 481
+
+WARNING: Unknown command - \IfBooleanTF	 in line: 482
+
+WARNING: Unknown command - \DoSomethingWithoutStar	 in line: 482
+WARNING: Unknown command - \DoSomethingWithStar	 in line: 483
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 485
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 487
+WARNING: Unknown command - \TrimSpaces	 in line: 489
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 489
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 493
+WARNING: Unknown command - \NewDocumentCommand	 in line: 494
+WARNING: Unknown command - \TrimSpaces	 in line: 494
+WARNING: Unknown complex command - \foo	 in line: 494
+WARNING: Unknown command - \showtokens	 in line: 495
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 496
+push 	flushleftWARNING: Unknown complex command - \begin	flushleft	 in line: 498
+WARNING: Unknown command - \verb	 in line: 499
+WARNING: Unknown command - \verb	 in line: 499
+WARNING: Unknown complex command - \foo	 in line: 499
+pop 	flushleftWARNING: Unknown complex command - \end	flushleft	 in line: 500
+WARNING: Unknown command - \verb	 in line: 502
+WARNING: Unknown complex command - \cs	TrimSpaces	 in line: 502
+WARNING: Unknown command - \TeX	 in line: 504
+WARNING: Unknown command - \begin	 in line: 509
+WARNING: Unknown complex command - \marg	environment	 in line: 509
+WARNING: Unknown command - \dots	 in line: 509
+WARNING: Unknown command - \end	 in line: 509
+WARNING: Unknown complex command - \marg	environment	 in line: 509
+WARNING: Unknown complex command - \meta	environment	 in line: 510
+WARNING: Unknown complex command - \texttt	b	 in line: 514
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 516
+WARNING: Unknown complex command - \NewDocumentEnvironment	twice	 in line: 517
+WARNING: Unknown command - \ttfamily	 in line: 517
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 519
+push 	verbatimWARNING: Unknown complex command - \begin	verbatim	 in line: 520
+push 	twiceWARNING: Unknown complex command - \begin	twice	 in line: 521
+pop 	twiceWARNING: Unknown complex command - \end	twice	 in line: 523
+pop 	verbatimWARNING: Unknown complex command - \end	verbatim	 in line: 524
+WARNING: Unknown command - \itshape	 in line: 525
+WARNING: Unknown complex command - \texttt	b	 in line: 528
+WARNING: Unknown complex command - \texttt	b	 in line: 531
+WARNING: Unknown complex command - \texttt	b	 in line: 533
+WARNING: Unknown complex command - \cs	NewDocumentEnvironment	 in line: 533
+WARNING: Unknown complex command - \meta	 in line: 533
+WARNING: Unknown command - \end	 in line: 534
+WARNING: Unknown complex command - \marg	environment	 in line: 534
+WARNING: Unknown complex command - \meta	 in line: 535
+WARNING: Unknown complex command - \meta	 in line: 535
+WARNING: Unknown complex command - \cs	NewDocumentCommand	 in line: 542
+WARNING: Unknown command - \LaTeXe	 in line: 544
+WARNING: Unknown complex command - \cs	protect	 in line: 544
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 550
+WARNING: Unknown command - \NewExpandableDocumentCommand	 in line: 551
+WARNING: Unknown complex command - \arg	cmd	 in line: 551
+WARNING: Unknown complex command - \arg	 in line: 551
+WARNING: Unknown complex command - \arg	code	 in line: 551
+WARNING: Unknown command - \RenewExpandableDocumentCommand	 in line: 552
+WARNING: Unknown complex command - \arg	cmd	 in line: 552
+WARNING: Unknown complex command - \arg	 in line: 552
+WARNING: Unknown complex command - \arg	code	 in line: 552
+WARNING: Unknown command - \ProvideExpandableDocumentCommand	 in line: 553
+WARNING: Unknown complex command - \arg	cmd	 in line: 553
+WARNING: Unknown complex command - \arg	 in line: 553
+WARNING: Unknown complex command - \arg	code	 in line: 553
+WARNING: Unknown command - \DeclareExpandableDocumentCommand	 in line: 554
+WARNING: Unknown complex command - \arg	cmd	 in line: 554
+WARNING: Unknown complex command - \arg	 in line: 554
+WARNING: Unknown complex command - \arg	code	 in line: 554
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 555
+WARNING: Unknown complex command - \meta	function	 in line: 556
+WARNING: Unknown complex command - \meta	 in line: 558
+WARNING: Unknown complex command - \meta	code	 in line: 559
+WARNING: Unknown complex command - \meta	code	 in line: 559
+WARNING: Unknown complex command - \cs	omit	 in line: 562
+push 	itemizeWARNING: Unknown complex command - \texttt	m	 in line: 569
+WARNING: Unknown complex command - \texttt	r	 in line: 569
+WARNING: Unknown complex command - \texttt	R	 in line: 569
+WARNING: Unknown complex command - \texttt	v	 in line: 570
+WARNING: Unknown command - \texttt	 in line: 571
+WARNING: Unknown command - \foo	 in line: 573
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 580
+WARNING: Unknown command - \GetDocumentCommandArgSpec	 in line: 581
+WARNING: Unknown complex command - \arg	function	 in line: 581
+WARNING: Unknown command - \GetDocumentEnvironmentArgSpec	 in line: 582
+WARNING: Unknown complex command - \arg	environment	 in line: 582
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 583
+WARNING: Unknown complex command - \meta	function	 in line: 585
+WARNING: Unknown complex command - \meta	environment	 in line: 585
+WARNING: Unknown complex command - \cs	ArgumentSpecification	 in line: 586
+WARNING: Unknown complex command - \meta	function	 in line: 586
+WARNING: Unknown complex command - \meta	environment	 in line: 587
+WARNING: Unknown complex command - \cs	ArgumentSpecification	 in line: 588
+WARNING: Unknown command - \TeX	 in line: 589
+push 	declWARNING: Unknown complex command - \begin	decl	 in line: 591
+WARNING: Unknown command - \ShowDocumentCommandArgSpec	 in line: 592
+WARNING: Unknown complex command - \arg	function	 in line: 592
+WARNING: Unknown command - \ShowDocumentEnvironmentArgSpec	 in line: 593
+WARNING: Unknown complex command - \arg	environment	 in line: 593
+pop 	declWARNING: Unknown complex command - \end	decl	 in line: 594
+WARNING: Unknown complex command - \meta	function	 in line: 596
+WARNING: Unknown complex command - \meta	environment	 in line: 596
+WARNING: Unknown complex command - \meta	function	 in line: 597
+WARNING: Unknown complex command - \meta	environment	 in line: 597
+Expucted end 

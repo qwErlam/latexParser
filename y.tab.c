@@ -521,7 +521,10 @@ std::vector <std::string> v_usepackage = {
     "inputenc",
     "setspace",
     "amsmath",
-    "fontenc"
+    "fontenc",
+    "url",
+    "lmodern",
+    "hologo"
 };
 
 std::vector <std::string> v_usepackageS = {
@@ -531,7 +534,10 @@ std::vector <std::string> v_usepackageS = {
     "german",
     "utf8",
     "koi8",
-    "T2A"
+    "T2A",
+    "T1",
+    "T2",
+    "T3"
 };
 
 std::vector <std::string> v_docclass = {
@@ -540,7 +546,9 @@ std::vector <std::string> v_docclass = {
     "book",
     "letter",
     "slides",
-    "beamer"
+    "beamer",
+    "ltnews",
+    "ltxguide"
 }; 
 
 std::vector <std::string> v_docclassS = {
@@ -558,7 +566,19 @@ std::vector <std::string> outside_com = {
     "\\title",
     "\\author",
     "\\date",
-    "\\thanks"
+    "\\thanks",
+    "\\ConTeXt",
+    "\\DeclareTextCommandDefault",
+    "\\acro",
+    "\\def",
+    "\\else",
+    "\\ifx",
+    "\\makeatletter",
+    "\\makeatother",
+    "\\nofiles",
+    "\\providecommand",
+    "\\setlength",
+    "\\textcommabelow",
 }; 
 
 extern FILE *yyin;
@@ -575,7 +595,9 @@ enum ERROR
     ERROR_SIMPL, 
     ERROR_SPEC,
     ERROR_LEX,
-    ERROR_USEPACK  
+    ERROR_USEPACK,
+    ERROR_OUT,
+    ERROR_DOCCLASS  
 };
 
 struct S_ERROR
@@ -590,7 +612,7 @@ struct S_ERROR
 
 int printError(struct S_ERROR* yep);
 
-#line 594 "y.tab.c"
+#line 616 "y.tab.c"
 
 # ifndef YY_CAST
 #  ifdef __cplusplus
@@ -683,13 +705,13 @@ extern int yydebug;
 #if ! defined YYSTYPE && ! defined YYSTYPE_IS_DECLARED
 union YYSTYPE
 {
-#line 526 "lat.y"
+#line 548 "lat.y"
 
     char str[255];
     int num;
     struct S_ERROR* erro;
 
-#line 693 "y.tab.c"
+#line 715 "y.tab.c"
 
 };
 typedef union YYSTYPE YYSTYPE;
@@ -1122,12 +1144,12 @@ static const yytype_int8 yytranslate[] =
   /* YYRLINE[YYN] -- Source line where rule number YYN was defined.  */
 static const yytype_int16 yyrline[] =
 {
-       0,   537,   537,   538,   541,   542,   543,   544,   545,   554,
-     558,   564,   565,   568,   569,   570,   571,   579,   586,   592,
-     598,   634,   635,   636,   637,   638,   639,   640,   641,   642,
-     643,   647,   648,   651,   658,   659,   660,   666,   675,   676,
-     679,   680,   688,   689,   690,   691,   692,   693,   694,   700,
-     704,   705,   708,   709,   710,   716,   717,   718,   724
+       0,   559,   559,   560,   563,   564,   565,   566,   567,   576,
+     580,   586,   587,   590,   591,   592,   593,   601,   608,   614,
+     620,   656,   657,   658,   659,   660,   661,   662,   663,   664,
+     665,   669,   670,   673,   680,   681,   682,   688,   697,   698,
+     701,   702,   710,   711,   712,   713,   714,   715,   716,   722,
+     726,   727,   730,   731,   732,   738,   739,   740,   746
 };
 #endif
 
@@ -1760,31 +1782,31 @@ yyreduce:
   switch (yyn)
     {
   case 4: /* lasttreatment: docclass usepall BEGINDOC maintext ENDDOC  */
-#line 541 "lat.y"
+#line 563 "lat.y"
                                               {}
-#line 1766 "y.tab.c"
+#line 1788 "y.tab.c"
     break;
 
   case 5: /* lasttreatment: docclass usepall commandoutpall BEGINDOC maintext ENDDOC  */
-#line 542 "lat.y"
+#line 564 "lat.y"
                                                                {}
-#line 1772 "y.tab.c"
+#line 1794 "y.tab.c"
     break;
 
   case 6: /* lasttreatment: docclass commandoutpall BEGINDOC maintext ENDDOC  */
-#line 543 "lat.y"
+#line 565 "lat.y"
                                                        {}
-#line 1778 "y.tab.c"
+#line 1800 "y.tab.c"
     break;
 
   case 7: /* lasttreatment: docclass BEGINDOC maintext ENDDOC  */
-#line 544 "lat.y"
+#line 566 "lat.y"
                                         {}
-#line 1784 "y.tab.c"
+#line 1806 "y.tab.c"
     break;
 
   case 8: /* lasttreatment: END  */
-#line 545 "lat.y"
+#line 567 "lat.y"
           {
         if(begEnd.size()!=0)
             std::cout << "Expucted end " << std::endl;
@@ -1792,29 +1814,29 @@ yyreduce:
             std::cout << "Succes " << std::endl;
         exit(1);
     }
-#line 1796 "y.tab.c"
+#line 1818 "y.tab.c"
     break;
 
   case 9: /* newcomm: NEWCOM LBRACE COMMANDINER RBRACE LBRACE COMMANDINER LBRACE INCURLYBR RBRACE RBRACE  */
-#line 554 "lat.y"
+#line 576 "lat.y"
                                                                                       {
         
 
     }
-#line 1805 "y.tab.c"
+#line 1827 "y.tab.c"
     break;
 
   case 10: /* newcomm: NEWCOM LBRACE COMMANDINER RBRACE LBRACE COMMANDINER RBRACE  */
-#line 558 "lat.y"
+#line 580 "lat.y"
                                                                 {
         std::cout << " IN VECTOR - COMMANDS ---" << (yyvsp[-4].str) << std::endl;
         std::cout << " PROVERIT' IN COMMANDS ---" << (yyvsp[-1].str) << std::endl;
     }
-#line 1814 "y.tab.c"
+#line 1836 "y.tab.c"
     break;
 
   case 16: /* main: COMMAND LBRACE helpmeall RBRACE  */
-#line 571 "lat.y"
+#line 593 "lat.y"
                                        {
         std::string com((yyvsp[-3].str));
         S_ERROR *errMsg = new S_ERROR(ERROR_HARD,std::string((yyvsp[-3].str)));//TODO
@@ -1823,44 +1845,44 @@ yyreduce:
             printError(errMsg);
         }
     }
-#line 1827 "y.tab.c"
-    break;
-
-  case 17: /* main: COMMAND LBRACE RBRACE  */
-#line 580 "lat.y"
-    {
-        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[-2].str))) == commands.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[-2].str))+"\",");
-            printError(errMsg);
-        }
-    }
-#line 1838 "y.tab.c"
-    break;
-
-  case 18: /* main: COMMAND  */
-#line 586 "lat.y"
-              {  
-        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[0].str))+"\",");
-            printError(errMsg);
-        } 
-    }
 #line 1849 "y.tab.c"
     break;
 
+  case 17: /* main: COMMAND LBRACE RBRACE  */
+#line 602 "lat.y"
+    {
+        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[-2].str))) == commands.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,std::string((yyvsp[-2].str)));
+            printError(errMsg);
+        }
+    }
+#line 1860 "y.tab.c"
+    break;
+
+  case 18: /* main: COMMAND  */
+#line 608 "lat.y"
+              {  
+        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,std::string((yyvsp[0].str)));
+            printError(errMsg);
+        } 
+    }
+#line 1871 "y.tab.c"
+    break;
+
   case 19: /* main: MATHSPEC  */
-#line 592 "lat.y"
+#line 614 "lat.y"
                {
         if (std::find(specCommand.begin(),specCommand.end(), std::string((yyvsp[0].str))) == specCommand.end()){
             S_ERROR *errMsg = new S_ERROR(ERROR_SPEC,std::string((yyvsp[0].str)));
             printError(errMsg);
         } 
     }
-#line 1860 "y.tab.c"
+#line 1882 "y.tab.c"
     break;
 
   case 20: /* main: COMMAND LBRACE INCURLYBR RBRACE  */
-#line 598 "lat.y"
+#line 620 "lat.y"
                                       {
         std::string com((yyvsp[-3].str));
         std::string incom((yyvsp[-1].str));
@@ -1870,7 +1892,7 @@ yyreduce:
             if(tmpVect.size()){
                 if(com.compare("\\begin") == 0){
                     begEnd.push(incom);
-                    std::cout<<"push \t"<<incom<<std::endl;   
+                    //std::cout<<"push \t"<<incom<<std::endl;   
                 }
                 else if (com.compare("\\end") == 0){
                     if(begEnd.size()==0){
@@ -1878,7 +1900,7 @@ yyreduce:
                         printError(errMsg1);
                     }
                     if (incom.compare(begEnd.top()) == 0){
-                        std::cout<<"pop \t"<<begEnd.top()<<std::endl;
+                        //std::cout<<"pop \t"<<begEnd.top()<<std::endl;
                         begEnd.pop();
 
                     }
@@ -1897,197 +1919,197 @@ yyreduce:
         }{}
         
     }
-#line 1901 "y.tab.c"
+#line 1923 "y.tab.c"
     break;
 
   case 25: /* main: INCURLYBR  */
-#line 638 "lat.y"
+#line 660 "lat.y"
                 {}
-#line 1907 "y.tab.c"
+#line 1929 "y.tab.c"
     break;
 
   case 26: /* main: INSQUAREBR  */
-#line 639 "lat.y"
+#line 661 "lat.y"
                  {}
-#line 1913 "y.tab.c"
+#line 1935 "y.tab.c"
     break;
 
   case 27: /* main: LSK  */
-#line 640 "lat.y"
+#line 662 "lat.y"
           {}
-#line 1919 "y.tab.c"
+#line 1941 "y.tab.c"
     break;
 
   case 28: /* main: RSK  */
-#line 641 "lat.y"
+#line 663 "lat.y"
           {}
-#line 1925 "y.tab.c"
+#line 1947 "y.tab.c"
     break;
 
   case 33: /* commandout: COMMAND LBRACE helpmeall RBRACE  */
-#line 651 "lat.y"
+#line 673 "lat.y"
                                     { 
         if (std::find(outside_com.begin(),outside_com.end(), std::string((yyvsp[-3].str))) == outside_com.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[-3].str))+"\",");
+            S_ERROR *errMsg = new S_ERROR(ERROR_OUT,std::string((yyvsp[-3].str)));
             printError(errMsg);
         } 
         
     }
-#line 1937 "y.tab.c"
+#line 1959 "y.tab.c"
     break;
 
   case 34: /* commandout: COMMAND LBRACE INCURLYBR RBRACE  */
-#line 658 "lat.y"
+#line 680 "lat.y"
                                       {}
-#line 1943 "y.tab.c"
+#line 1965 "y.tab.c"
     break;
 
   case 35: /* commandout: COMMAND LBRACE INCURLYBR RBRACE LBRACE INCURLYBR RBRACE  */
-#line 659 "lat.y"
+#line 681 "lat.y"
                                                               {}
-#line 1949 "y.tab.c"
-    break;
-
-  case 36: /* commandout: COMMAND  */
-#line 660 "lat.y"
-              {
-         if (std::find(outside_com.begin(),outside_com.end(), std::string((yyvsp[0].str))) == outside_com.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[0].str))+"\",");
-            printError(errMsg);
-        } 
-    }
-#line 1960 "y.tab.c"
-    break;
-
-  case 37: /* commandout: COMMANDINER  */
-#line 666 "lat.y"
-                  {
-        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[0].str))+"\",");
-            printError(errMsg);
-        } 
-    }
 #line 1971 "y.tab.c"
     break;
 
-  case 40: /* helpme: INCURLYBR  */
-#line 679 "lat.y"
-              { }
-#line 1977 "y.tab.c"
-    break;
-
-  case 41: /* helpme: COMMANDINER  */
-#line 680 "lat.y"
-                  {
-        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,"\"\\" + std::string((yyvsp[0].str))+"\",");
+  case 36: /* commandout: COMMAND  */
+#line 682 "lat.y"
+              {
+         if (std::find(outside_com.begin(),outside_com.end(), std::string((yyvsp[0].str))) == outside_com.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_OUT,std::string((yyvsp[0].str)));
             printError(errMsg);
         } 
     }
-#line 1988 "y.tab.c"
+#line 1982 "y.tab.c"
+    break;
+
+  case 37: /* commandout: COMMANDINER  */
+#line 688 "lat.y"
+                  {
+        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_OUT,std::string((yyvsp[0].str)));
+            printError(errMsg);
+        } 
+    }
+#line 1993 "y.tab.c"
+    break;
+
+  case 40: /* helpme: INCURLYBR  */
+#line 701 "lat.y"
+              { }
+#line 1999 "y.tab.c"
+    break;
+
+  case 41: /* helpme: COMMANDINER  */
+#line 702 "lat.y"
+                  {
+        if (std::find(commands.begin(),commands.end(), std::string((yyvsp[0].str))) == commands.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SIMPL,std::string((yyvsp[0].str)));
+            printError(errMsg);
+        } 
+    }
+#line 2010 "y.tab.c"
     break;
 
   case 42: /* docclass: DOCCLASS LSK  */
-#line 688 "lat.y"
+#line 710 "lat.y"
                  {}
-#line 1994 "y.tab.c"
+#line 2016 "y.tab.c"
     break;
 
   case 43: /* docclass: docclass INSQUAREBR  */
-#line 689 "lat.y"
+#line 711 "lat.y"
                           {}
-#line 2000 "y.tab.c"
+#line 2022 "y.tab.c"
     break;
 
   case 44: /* docclass: docclass LSK  */
-#line 690 "lat.y"
+#line 712 "lat.y"
                    {}
-#line 2006 "y.tab.c"
+#line 2028 "y.tab.c"
     break;
 
   case 45: /* docclass: docclass RSK  */
-#line 691 "lat.y"
+#line 713 "lat.y"
                    {}
-#line 2012 "y.tab.c"
+#line 2034 "y.tab.c"
     break;
 
   case 46: /* docclass: DOCCLASS LBRACE  */
-#line 692 "lat.y"
+#line 714 "lat.y"
                       {}
-#line 2018 "y.tab.c"
+#line 2040 "y.tab.c"
     break;
 
   case 47: /* docclass: docclass LBRACE  */
-#line 693 "lat.y"
+#line 715 "lat.y"
                       {}
-#line 2024 "y.tab.c"
+#line 2046 "y.tab.c"
     break;
 
   case 48: /* docclass: docclass INCURLYBR  */
-#line 694 "lat.y"
+#line 716 "lat.y"
                          {
         if (std::find(v_docclass.begin(),v_docclass.end(), std::string((yyvsp[0].str))) == v_docclass.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string((yyvsp[0].str)));
+            S_ERROR *errMsg = new S_ERROR(ERROR_DOCCLASS ,std::string((yyvsp[0].str)));
             printError(errMsg);
         }
     }
-#line 2035 "y.tab.c"
+#line 2057 "y.tab.c"
     break;
 
   case 49: /* docclass: docclass RBRACE  */
-#line 700 "lat.y"
+#line 722 "lat.y"
                      {}
-#line 2041 "y.tab.c"
+#line 2063 "y.tab.c"
     break;
 
   case 52: /* usep: USEPAC LSK  */
-#line 708 "lat.y"
+#line 730 "lat.y"
                { }
-#line 2047 "y.tab.c"
+#line 2069 "y.tab.c"
     break;
 
   case 54: /* usep: usep INSQUAREBR  */
-#line 710 "lat.y"
+#line 732 "lat.y"
                       {
         if (std::find(v_usepackageS.begin(),v_usepackageS.end(), std::string((yyvsp[0].str))) == v_usepackageS.end()){
             S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string((yyvsp[0].str)) + "\t\t\t\t\t[]");
             printError(errMsg);
         }
     }
-#line 2058 "y.tab.c"
+#line 2080 "y.tab.c"
     break;
 
   case 55: /* usep: usep RSK  */
-#line 716 "lat.y"
+#line 738 "lat.y"
                {}
-#line 2064 "y.tab.c"
+#line 2086 "y.tab.c"
     break;
 
   case 56: /* usep: usep LBRACE  */
-#line 717 "lat.y"
+#line 739 "lat.y"
                   {}
-#line 2070 "y.tab.c"
+#line 2092 "y.tab.c"
     break;
 
   case 57: /* usep: usep INCURLYBR  */
-#line 718 "lat.y"
+#line 740 "lat.y"
                      {
         if (std::find(v_usepackage.begin(),v_usepackage.end(), std::string((yyvsp[0].str))) == v_usepackage.end()){
             S_ERROR *errMsg = new S_ERROR(ERROR_USEPACK ,std::string((yyvsp[0].str)) + "\t\t\t\t\t{}");
             printError(errMsg);
         }
     }
-#line 2081 "y.tab.c"
+#line 2103 "y.tab.c"
     break;
 
   case 58: /* usep: usep RBRACE  */
-#line 724 "lat.y"
+#line 746 "lat.y"
                  {}
-#line 2087 "y.tab.c"
+#line 2109 "y.tab.c"
     break;
 
 
-#line 2091 "y.tab.c"
+#line 2113 "y.tab.c"
 
       default: break;
     }
@@ -2281,7 +2303,7 @@ yyreturn:
   return yyresult;
 }
 
-#line 727 "lat.y"
+#line 749 "lat.y"
 
 
 
@@ -2302,13 +2324,20 @@ int printError(struct S_ERROR* yep)
     else if (yep->num == 5){
         yyerror("WARNING: usepackage arguments - " + yep->str_error);
     }
+    else if (yep->num == 6){
+        yyerror("WARNING: Unknown global command - " + yep->str_error);
+    }
+    else if (yep->num == 5){
+        yyerror("WARNING: docclass arguments - " + yep->str_error);
+    }
+
     return 0;
 }
 
 int  yyerror(std::string s)
 {
     fflush(stdout);
-    std::cout<<s<<std::endl;//"\t\t in line: "<< line<<std::endl;
+    std::cout<<s<<"\t\t in line: "<< line<<std::endl;
     return 0;
 }
 
