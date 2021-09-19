@@ -38,7 +38,7 @@
 \usepackage{csquotes}
 
 \providecommand\acro[1]{\textsc{#1}}
-\providecommand\meta[1]{$\langle$\textit{#1}$\rangle$}
+\providecommand\meta[1]{\langle\textit{#1}\rangle}
 \providecommand\option[1]{\texttt{#1}}
 \providecommand\env[1]{\texttt{#1}}
 
@@ -49,9 +49,10 @@
 \providecommand\MiKTeX{\hologo{MiKTeX}}
 \providecommand\CTAN{\textsc{ctan}}
 \providecommand\TL{\TeX\,Live}
-\providecommand\githubissue[2][]{\ifhmode\unskip\fi
+\providecommand\githubissue[2]{\ifhmode\unskip\fi
      \quad\penalty500\strut\nobreak\hfill
-     \mbox{\small\slshape(%
+     \mbox{
+       \small\slshape(%
        \href{https://github.com/latex3/latex2e/issues/\getfirstgithubissue#2 \relax}%
           	    {github issue#1 #2}%
            )}%

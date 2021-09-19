@@ -40,37 +40,16 @@
 
 % Initial interactions:
 %
-\typeout{}
-\typeout{LABLST version of 10 June 1995}
-\typeout{}
-\typeout{*********************************}
-\typeout{* Enter input file name }
-\typeout{* \space\space without the .tex extension: }
-\typein[\lablstfile]{*********************************}
 
 
-\def\spaces{\space\space\space\space\space}
-\typeout{}
-\typeout{********************************************************}
-\typeout{* Enter document class used in file \lablstfile.tex }
-\typeout{* \space\space with no options or extension: }
-\typein[\lablstclass]%
-        {********************************************************}
-
-\documentclass{\lablstclass}
+\documentclass{lablstclass}
 
 % Now ask for packages. The answer should be a comma separated list.
 % In fact only packages that define commands that are used in
 % section titles etc need be loaded.
-% \def\spaces{\space\space\space\space\space}
-\typeout{}
-\typeout{**************************************************}
-\typeout{* Enter packages used in file \lablstfile.tex }
-\typeout{* \space\space with no options or extensions: }
-\typein[\lablstpackages]%
-        {**************************************************}
 
-\usepackage{\lablstpackages}
+
+\usepackage{lablstpackages}
 
 \nofiles
 \parindent 0pt

@@ -1,5 +1,5 @@
 
-#line 2 "lex.yy.c"
+#line 3 "lex.yy.c"
 
 #define  YY_INT_ALIGNED short int
 
@@ -546,9 +546,9 @@ char *yytext;
 #include<iostream>
 bool documentScope = false;
 int line=1;
-#line 549 "lex.yy.c"
+#line 550 "lex.yy.c"
 
-#line 551 "lex.yy.c"
+#line 552 "lex.yy.c"
 
 #define INITIAL 0
 #define BRACEVALUE 1
@@ -772,7 +772,7 @@ YY_DECL
 #line 11 "lat.l"
 
 
-#line 775 "lex.yy.c"
+#line 776 "lex.yy.c"
 
 	while ( /*CONSTCOND*/1 )		/* loops until end-of-file is reached */
 		{
@@ -968,7 +968,7 @@ YY_RULE_SETUP
 case 22:
 YY_RULE_SETUP
 #line 70 "lat.l"
-{printf("newcom :\n"); return NEWCOM;}
+{ return NEWCOM;}
 	YY_BREAK
 case 23:
 YY_RULE_SETUP
@@ -1024,7 +1024,7 @@ YY_RULE_SETUP
 #line 95 "lat.l"
 ECHO;
 	YY_BREAK
-#line 1027 "lex.yy.c"
+#line 1028 "lex.yy.c"
 
 	case YY_END_OF_BUFFER:
 		{

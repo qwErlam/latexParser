@@ -32,20 +32,6 @@
 % Test of how accurately printer reproduces dimensions specified
 % by LaTeX output.
 
-\typeout{}
-\typeout{*****************************************************}
-\typeout{*  Type paper type in form of document class option,}
-\typeout{*  e.g., `a4paper' or `letterpaper' (without the quotes).}
-\typein[\papertype]{*************************************%
-**************}
-
-\typeout{}
-\typeout{*****************************************************}
-\typeout{*  Do you want to produce two test pages for use with}
-\typeout{*  a double sided printer? (y/n)}
-\typein[\doublesided]{*************************************%
-**************}
-
 \documentclass[\papertype]{article}
 
 \usepackage{ifthen}

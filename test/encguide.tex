@@ -29,39 +29,22 @@
 %
 
 
-\NeedsTeXFormat{LaTeX2e}[1995/12/01]
 
 \documentclass{ltxguide}[1994/11/20]
 
 \usepackage[T1]{fontenc}
-\IfFileExists{lmodern.sty}{\usepackage{lmodern}}{}
+
 \usepackage{textcomp}
 \usepackage{url}
 \usepackage{mflogo}
+\usepackage{tabularx}
 
 \addtolength\textheight{6\baselineskip}
 \addtolength\topmargin{-2\baselineskip}
 
 
-\newcommand\ttverb[1]{\texttt{\string#1}}
 
 
-% for encodings
-\providecommand{\Enc}[1]{\texttt{#1}}
-
-% for packages
-\providecommand{\Pkg}[1]{%
-  \textsf{#1}}
-
-% for files
-\providecommand{\File}[1]{%
-  \texttt{#1}}
-
-% let's have meta values too
-\providecommand{\meta}[1]{%
-  \ensuremath{\langle}\emph{#1}\ensuremath{\rangle}}
-
-\usepackage{tabularx}
 
 % eine Umgebung zur Darstellung von Kodierungen
 %

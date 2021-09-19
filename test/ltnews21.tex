@@ -31,7 +31,6 @@
 % This is issue 21 of LaTeX News.
 
 \documentclass{ltnews}
-\def\ConTeXt{C\kern-.0333emon\-\kern-.0667em\TeX\kern-.0333emt}
 \usepackage[T1]{fontenc}
 
 \usepackage{lmodern,url,hologo}
@@ -91,7 +90,7 @@ For this release we made the following changes to this package:
 \begin{itemize}
 \item
    Misspelled float placement specifiers such as
-   \verb=\begin{figure}[tv]= instead of \texttt{tb} are silently
+   \verb=\begidn{figure}[tv]= instead of \texttt{tb} are silently
    ignored by the kernel code.  Now we test for such letters and issue
    an error message.
 \item
@@ -230,15 +229,6 @@ See graphics/3446.
 \vfill
 
 \section{Standard \LaTeX\ (\LaTeXe) and \textsf{expl3}}
-
-The substantial collection of innovative code in \textsf{expl3}
-implements a new programming language that has for a while now been
-used by some writers of \LaTeXe\ packages.  This code has recently
-also been made available for use on top of plain \TeX\ or {\ConTeXt},
-largely to support generic packages that are supposed to work with
-different flavours of \TeX.  These uses in no way affect authors of
-\LaTeX\ documents and such \LaTeXe\ packages will continue to work as
-advertised by their authors with standard \LaTeX.
 
 This code base will also become an important foundation for the kernel
 of \LaTeX3 and so the new programming language can be described as

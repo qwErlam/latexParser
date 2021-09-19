@@ -42,7 +42,7 @@
 \def\@tempa{\@latex@error{Can be used only in preamble}\@eha}
 \ifx\DeclareTextCommandDefault\@tempa
 \else
-  \DeclareTextCommandDefault\textcommabelow[1]
+  \DeclareTextCommandDefault\textcommabelow
     {\hmode@bgroup\ooalign{\null#1\crcr\hidewidth\raise-.31ex
      \hbox{\check@mathfonts\fontsize\ssf@size\z@
      \math@fontsfalse\selectfont,}\hidewidth}\egroup}

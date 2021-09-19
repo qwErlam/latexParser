@@ -67,7 +67,7 @@ int line=1;
     return BEGINDOC; 
     }
 "\\end{document}" {return ENDDOC;}
-"\\newcommand" {printf("newcom :\n"); return NEWCOM;}
+"\\newcommand" { return NEWCOM;}
 
 
 \\[a-zA-Z]+ {

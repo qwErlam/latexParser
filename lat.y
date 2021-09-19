@@ -588,6 +588,12 @@ maintext: main maintext
 
 main:
     newcomm
+    | MATHSPEC {
+        if (std::find(specCommand.begin(),specCommand.end(), std::string($1)) == specCommand.end()){
+            S_ERROR *errMsg = new S_ERROR(ERROR_SPEC,std::string($1));
+            printError(errMsg);
+        } 
+    }
     | helpmeall
     | LBRACE helpmeall RBRACE 
     | COMMAND  LBRACE helpmeall RBRACE {
@@ -611,12 +617,7 @@ main:
             printError(errMsg);
         } 
     }
-    | MATHSPEC {
-        if (std::find(specCommand.begin(),specCommand.end(), std::string($1)) == specCommand.end()){
-            S_ERROR *errMsg = new S_ERROR(ERROR_SPEC,std::string($1));
-            printError(errMsg);
-        } 
-    }
+
     | COMMAND LBRACE INCURLYBR RBRACE {
         std::string com($1);
         std::string incom($3);
@@ -626,7 +627,7 @@ main:
             if(tmpVect.size()){
                 if(com.compare("\\begin") == 0){
                     begEnd.push(incom);
-                    //std::cout<<"push \t"<<incom<<std::endl;   
+                   // std::cout<<"push \t"<<incom<<std::endl;   
                 }
                 else if (com.compare("\\end") == 0){
                     if(begEnd.size()==0){
@@ -634,7 +635,7 @@ main:
                         printError(errMsg1);
                     }
                     if (incom.compare(begEnd.top()) == 0){
-                        //std::cout<<"pop \t"<<begEnd.top()<<std::endl;
+                       // std::cout<<"pop \t"<<begEnd.top()<<std::endl;
                         begEnd.pop();
 
                     }
@@ -670,7 +671,9 @@ commandoutpall : commandout commandoutpall
     |commandout
 
 commandout:
-    COMMAND LBRACE helpmeall RBRACE { 
+    COMMAND LSK INSQUAREBR RSK LBRACE helpmeall RBRACE
+    |COMMAND LBRACE helpmeall RBRACE LBRACE helpmeall RBRACE {}
+    |COMMAND LBRACE helpmeall RBRACE  { 
         if (std::find(outside_com.begin(),outside_com.end(), std::string($1)) == outside_com.end()){
             S_ERROR *errMsg = new S_ERROR(ERROR_OUT,std::string($1));
             printError(errMsg);
@@ -691,6 +694,7 @@ commandout:
             printError(errMsg);
         } 
     }
+    | NEWCOM
 
 
 
@@ -764,13 +768,13 @@ int printError(struct S_ERROR* yep)
         yyerror("Lexical error - " + yep->str_error);
     }
     else if (yep->num == 5){
-        yyerror("WARNING: usepackage arguments - " + yep->str_error);
+        yyerror("WARNING: Unknown usepackage arguments - " + yep->str_error);
     }
     else if (yep->num == 6){
         yyerror("WARNING: Unknown global command - " + yep->str_error);
     }
     else if (yep->num == 5){
-        yyerror("WARNING: docclass arguments - " + yep->str_error);
+        yyerror("WARNING: Unknown docclass arguments - " + yep->str_error);
     }
 
     return 0;

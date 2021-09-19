@@ -38,20 +38,13 @@
 \usepackage{csquotes}
 
 \providecommand\acro[1]{\textsc{#1}}
-\providecommand\meta[1]{$\langle$\textit{#1}$\rangle$}
+\providecommand\meta[1]{\langle\textit{#1}\rangle}
 
 
 \providecommand\XeTeX{\hologo{XeTeX}}
 \providecommand\LuaTeX{\hologo{LuaTeX}}
 \providecommand\pdfTeX{\hologo{pdfTeX}}
 
-\newcommand\githubissue[2][]{\ifhmode\unskip\fi
-     \quad\penalty500\strut\nobreak\hfill
-     \mbox{\small\slshape(%
-       \href{https://github.com/latex3/latex2e/issues/\getfirstgithubissue#2 \relax}%
-          	    {github issue#1 #2}%
-           )}%
-     \par}
 
 % simple solution right now (just link to the first issue if there are more)
 \def\getfirstgithubissue#1 #2\relax{#1}

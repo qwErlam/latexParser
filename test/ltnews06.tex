@@ -87,10 +87,12 @@ that is numbered as an equation.  A straightforward way to do this is
 as follows:
 \begin{verbatim}
   \newenvironment{texteqn}
-    {\begin{equation}
+    {
+      \begin{equation}
        \begin{minipage}{0.9\linewidth}
       \end{minipage}
-     \end{equation}}
+     \end{equation}
+    }
 \end{verbatim}
 However, if you have tried this then you will probably have noticed
 that it does not work perfectly when used in the middle of a paragraph
@@ -101,9 +103,9 @@ There is now an extra command (with a very long name) available that
 you can use to avoid this problem; it should be inserted as shown here:
 \begin{verbatim}
   \newenvironment{texteqn}
-    {\begin{equation}
-       \begin{minipage}{0.9\linewidth}}
-      {\end{minipage}
+    { \begin{equation}
+       \begin{minipage}{0.9\linewidth}
+      \end{minipage}
      \end{equation}
      \ignorespacesafterend}
 \end{verbatim}

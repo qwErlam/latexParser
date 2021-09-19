@@ -30,7 +30,6 @@
 %
 % This is issue 31 of LaTeX News.
 
-\NeedsTeXFormat{LaTeX2e}[2020-02-02]
 
 \documentclass{ltnews}
 \usepackage[T1]{fontenc}
@@ -39,8 +38,9 @@
 
 \usepackage{csquotes}
 \usepackage{multicol}
+\usepackage{graphicx}
 
-\providecommand\meta[1]{$\langle$\textit{#1}$\rangle$}
+\providecommand\meta[1]{\langle\textit{#1}\rangle}
 \providecommand\option[1]{\texttt{#1}}
 \providecommand\env[1]{\texttt{#1}}
 
@@ -51,13 +51,7 @@
 \providecommand\MiKTeX{\hologo{MiKTeX}}
 \providecommand\CTAN{\textsc{ctan}}
 \providecommand\TL{\TeX\,Live}
-\providecommand\githubissue[2][]{\ifhmode\unskip\fi
-     \quad\penalty500\strut\nobreak\hfill
-     \mbox{\small\slshape(%
-       \href{https://github.com/latex3/latex2e/issues/\getfirstgithubissue#2 \relax}%
-          	    {github issue#1 #2}%
-           )}%
-     \par\smallskip}
+
 
 % simple solution right now (just link to the first issue if there are more)
 \def\getfirstgithubissue#1 #2\relax{#1}
@@ -66,13 +60,6 @@
      \quad\penalty500\strut\nobreak\hfill
      \mbox{\small\slshape(\url{https://tex.stackexchange.com/#1})}\par}
 
-\providecommand\gnatsissue[2]{\ifhmode\unskip\fi
-     \quad\penalty500\strut\nobreak\hfill
-     \mbox{\small\slshape(%
-       \href{https://www.latex-project.org/cgi-bin/ltxbugs2html?pr=#1\%2F#2}%
-          	    {gnats issue #1/#2}%
-           )}%
-     \par}
 
 \let\cls\pkg
 \providecommand\env[1]{\texttt{#1}}
@@ -82,7 +69,7 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \iffalse % only for TUB production
-\usepackage{graphicx}
+
 \makeatletter
 % Xe\TeX{} requires reflecting the first E, hence we complain if the
 % graphics package is not present.  (For plain documents, this can be
