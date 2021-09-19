@@ -15,6 +15,223 @@ std::map <std::string,std::vector<std::string>> hardComandsSquare;
 std::vector <std::pair <std::string, std::string>> specChar;
 
 std::vector <std::string> commands = {
+    "\\AE",                              
+    "\\AtBeginDocument",                 
+    "\\AtEndDocument",                   
+    "\\AtEndOfClass",                    
+    "\\AtEndOfPackage",                  
+    "\\CheckCommand",                    
+    "\\CurrentOption",                   
+    "\\DeclareFixedFont",                
+    "\\DeclareFontShape",                
+    "\\DeclareMathVersion",              
+    "\\DeclareOldFontCommand",           
+    "\\DeclareRobustCommand",            
+    "\\DeclareSymbolFont",               
+    "\\DeclareSymbolFontAlphabet",       
+    "\\DeclareTextFontCommand",          
+    "\\DeclareTextSymbol",               
+    "\\Huge",                            
+    "\\LARGE",                           
+    "\\LRmulticolcolumns",               
+    "\\MakeLowercase",                   
+    "\\MinusOne",                        
+    "\\NeedsTeXFormat",                  
+    "\\OT",                              
+    "\\OptionNotUsed",                   
+    "\\PackageError",                    
+    "\\PackageInfo",                     
+    "\\PackageWarning",                  
+    "\\PassOptionsToClass",              
+    "\\PassOptionsToPackage",            
+    "\\ProvidesClass",                   
+    "\\ProvidesFile",                    
+    "\\RLmulticolcolumns",               
+    "\\SetMathAlphabet",                 
+    "\\SetSymbolFont",                   
+    "\\ShellEscape",                     
+    "\\TBerror",                         
+    "\\Umathcode",                       
+    "\\UseRawInputEncoding",             
+    "\\XeTeX",                           
+    "\\XeTeXintercharclass",             
+    "\\XeTeXinterchartoks",              
+    "\\advance",                         
+    "\\ae",                              
+    "\\alpha",                           
+    "\\alphld",                          
+    "\\babel",                           
+    "\\baz",                             
+    "\\begingroup",                      
+    "\\bfdefault",                       
+    "\\catcode",                         
+    "\\catcodetable",                    
+    "\\cfgguide",                        
+    "\\check",                           
+    "\\color",                           
+    "\\columnsep",                       
+    "\\crcr",                            
+    "\\csname",                          
+    "\\dimen",                           
+    "\\docolaction",                     
+    "\\ds",                              
+    "\\edef",                            
+    "\\eg",                              
+    "\\encodingdefault",                 
+    "\\endcsname",                       
+    "\\enddocument",                     
+    "\\endfoo",                          
+    "\\evensidemargin",                  
+    "\\expandafter",                     
+    "\\f",                               
+    "\\familydefault",                   
+    "\\filename",                        
+    "\\font",                            
+    "\\fontencoding",                    
+    "\\fontfamily",                      
+    "\\fontseries",                      
+    "\\fontshape",                       
+    "\\fontsize",                        
+    "\\foobar",                          
+    "\\footnotesize",                    
+    "\\footskip",                        
+    "\\getfirstgithubissue",             
+    "\\headheight",                      
+    "\\headlinecolor",                   
+    "\\headsep",                         
+    "\\hfill",                           
+    "\\hidewidth",                       
+    "\\hmode",                           
+    "\\href",                            
+    "\\huge",                            
+    "\\idxentry",                        
+    "\\ifhmode",                         
+    "\\inputencoding",                   
+    "\\isanitize",                       
+    "\\it",                              
+    "\\itdefault",                       
+    "\\lablst",                          
+    "\\lablstclass",                     
+    "\\lablstfile",                      
+    "\\lablstpackages",                  
+    "\\langle",                          
+    "\\lessdot",                         
+    "\\linespread",                      
+    "\\lowercase",                       
+    "\\luatexluafunction",               
+    "\\marginpar",                       
+    "\\marginparsep",                    
+    "\\marginparwidth",                  
+    "\\math",                            
+    "\\mathalpha",                       
+    "\\mathbin",                         
+    "\\mathclose",                       
+    "\\mathop",                          
+    "\\mathopen",                        
+    "\\mathord",                         
+    "\\mathpunct",                       
+    "\\mathrel",                         
+    "\\maxbalancingoverflow",            
+    "\\mddefault",                       
+    "\\meaning",                         
+    "\\modguide",                        
+    "\\newattribute",                    
+    "\\newcatcodetable",                 
+    "\\newinsert",                       
+    "\\newlabel",                        
+    "\\newluafunction",                  
+    "\\newmark",                         
+    "\\newwhatsit",                      
+    "\\newwrite",                        
+    "\\nobreak",                         
+    "\\nobreakspace",                    
+    "\\nopagecolor",                     
+    "\\normalcolor",                     
+    "\\normalit",                        
+    "\\normalshape",                     
+    "\\nstex",                           
+    "\\null",                            
+    "\\ooalign",                         
+    "\\oplus",                           
+    "\\overfullrule",                    
+    "\\paperheight",                     
+    "\\paperwidth",                      
+    "\\par",                             
+    "\\paragraph",                       
+    "\\parindent",                       
+    "\\parshape",                        
+    "\\parskip",                         
+    "\\penalty",                         
+    "\\phantom",                         
+    "\\picturechar",                     
+    "\\pkg",                             
+    "\\protect",                         
+    "\\protected",                       
+    "\\ps",                              
+    "\\qquad",                           
+    "\\raise",                           
+    "\\relax",                           
+    "\\reserveinserts",                  
+    "\\rmdefault",                       
+    "\\romannumeral",                    
+    "\\rotatebox",                       
+    "\\scdefault",                       
+    "\\scriptfont",                      
+    "\\scriptsize",                      
+    "\\selectfont",                      
+    "\\seriesdefault",                   
+    "\\setattribute",                    
+    "\\setbox",                          
+    "\\sf",                              
+    "\\sfcode",                          
+    "\\sfdefault",                       
+    "\\shapedefault",                    
+    "\\sl",                              
+    "\\sldefault",                       
+    "\\spacedallcaps",                   
+    "\\spacedlowsmallcaps",              
+    "\\sscdefault",                      
+    "\\sscshape",                        
+    "\\ssf",                             
+    "\\string",                          
+    "\\strip",                           
+    "\\strut",                           
+    "\\subsubsection",                   
+    "\\sum",                             
+    "\\swdefault",                       
+    "\\swshape",                         
+    "\\tabularx",                        
+    "\\textcommaabove",                  
+    "\\textfont",                        
+    "\\textssc",                         
+    "\\textsw",                          
+    "\\textulc",                         
+    "\\tf",                              
+    "\\thanks",                          
+    "\\tiny",                            
+    "\\today",                           
+    "\\topmargin",                       
+    "\\topskip",                         
+    "\\tracefloats",                     
+    "\\tracefloatsoff",                  
+    "\\tracefloatvals",                  
+    "\\ttdefault",                       
+    "\\twocolumn",                       
+    "\\ulcdefault",                      
+    "\\ulcshape",                        
+    "\\unitlength",                      
+    "\\unsetattribute",                  
+    "\\unskip",                          
+    "\\updefault",                       
+    "\\uppercase",                       
+    "\\usefont",                         
+    "\\vbox",                            
+    "\\vskip",                           
+    "\\write",                           
+    "\\xspace",                          
+    "\\xtxHanGlue",                      
+    "\\xtxHanSpace",                     
+    "\\z",                                
     "\\maketitle",
     "\\bf",
     "\\lang",
@@ -435,7 +652,24 @@ std::vector <std::string> specCommand = {
     "\\bf",
     "\\vdots",
     "\\text",
-    "\\meta"
+    "\\meta",
+    "\\alpha",  
+    "\\cdot3",  
+    "\\cdot4",  
+    "\\cdot9",  
+    "\\int",    
+    "\\mathcal",
+    "\\mathit", 
+    "\\mathrm", 
+    "\\mathsf", 
+    "\\mathtt", 
+    "\\ne0",    
+    "\\oplus",  
+    "\\prod",   
+    "\\sin",    
+    "\\star",   
+    "\\sum",    
+    "\\to"     
 
     
 };
@@ -454,7 +688,15 @@ std::vector <std::string> v_usepackage = {
     "fontenc",
     "url",
     "lmodern",
-    "hologo"
+    "hologo",
+    "ifthen",
+    "lablstpackages",
+    "mflogo",
+    "multicol",
+    "tabularx",
+    "textcomp",
+    "varioref"
+
 };
 
 std::vector <std::string> v_usepackageS = {
@@ -467,7 +709,8 @@ std::vector <std::string> v_usepackageS = {
     "T2A",
     "T1",
     "T2",
-    "T3"
+    "T3",
+    "r"
 };
 
 std::vector <std::string> v_docclass = {
@@ -509,6 +752,53 @@ std::vector <std::string> outside_com = {
     "\\providecommand",
     "\\setlength",
     "\\textcommabelow",
+    "\\CTAN",                
+    "\\LuaTeX",              
+    "\\MiKTeX",              
+    "\\TL",                  
+    "\\XeTeX",               
+    "\\addtolength",         
+    "\\cls",                 
+    "\\crcr",                
+    "\\csname",              
+    "\\egroup",              
+    "\\endcsname",           
+    "\\endgroup",            
+    "\\expandafter",         
+    "\\fi",                  
+    "\\fontdimen",           
+    "\\foo",                 
+    "\\gdef",                
+    "\\getfirstgithubissue", 
+    "\\hangindent",          
+    "\\hidewidth",           
+    "\\href",                
+    "\\hyphenation",         
+    "\\idxentry",            
+    "\\iffalse",             
+    "\\indexentry",          
+    "\\input",               
+    "\\isanitize",           
+    "\\let",                 
+    "\\newsavebox",          
+    "\\nonfrenchspacing",    
+    "\\null",                
+    "\\par",                 
+    "\\parindent",           
+    "\\pdfTeX",              
+    "\\pkg",                 
+    "\\raggedright",         
+    "\\rangle",              
+    "\\relax",               
+    "\\textcommaabove",      
+    "\\textheight",          
+    "\\thispage",            
+    "\\tolerance",           
+    "\\topmargin",           
+    "\\ttfamily",            
+    "\\undefined",           
+    "\\vbadness",            
+    "\\vskip"               
 }; 
 
 extern FILE *yyin;
@@ -566,7 +856,7 @@ lasttreatment:
     | docclass BEGINDOC maintext ENDDOC {}
     | END {
         if(begEnd.size()!=0)
-            std::cout << "Expucted end " << std::endl;
+            std::cout << "ERROR:\t Expected end " << std::endl;
         else
             std::cout << "Succes " << std::endl;
         exit(1);
@@ -621,7 +911,7 @@ main:
     | COMMAND LBRACE INCURLYBR RBRACE {
         std::string com($1);
         std::string incom($3);
-        S_ERROR *errMsg = new S_ERROR(ERROR_HARD,com + "\t\t\tALAH\t\t\t\t" + incom);
+        S_ERROR *errMsg = new S_ERROR(ERROR_HARD,com + "\t" + incom);
         if (hardComands.find(com) != hardComands.end()) {
             auto tmpVect = hardComands.at(com);
             if(tmpVect.size()){
@@ -631,7 +921,7 @@ main:
                 }
                 else if (com.compare("\\end") == 0){
                     if(begEnd.size()==0){
-                        S_ERROR *errMsg1 = new S_ERROR(ERROR_HARD, com + "\t\t\tlolkek\t\t\t\t" + incom);
+                        S_ERROR *errMsg1 = new S_ERROR(ERROR_HARD, com + "\t" + incom);
                         printError(errMsg1);
                     }
                     if (incom.compare(begEnd.top()) == 0){
@@ -640,8 +930,10 @@ main:
 
                     }
                     else {
-                        S_ERROR *errMsg1 = new S_ERROR(ERROR_HARD, com + "\t\t\t\talaht\t\t\t" + incom);
-                        printError(errMsg1);
+                        //S_ERROR *errMsg1 = new S_ERROR(ERROR_HARD,"end command not found for " + incom);
+                        std::cout<<"ERROR:\tCant find \\end{" << incom<< "}"<<std::endl;
+                        //printError(errMsg1);
+                        exit(-1);
                     }
                 }
                 if (std::find(tmpVect.begin(),tmpVect.end(), std::string($3)) == tmpVect.end()) {
@@ -759,10 +1051,10 @@ int printError(struct S_ERROR* yep)
         yyerror("WARNING: Unknown complex command - " + yep->str_error);
     }
     else if (yep->num == 2 ) {
-        yyerror("WARNING: Unknown command - " + yep->str_error);
+        yyerror("WARNING: Unknown command - " + yep->str_error );
     }
     else if (yep->num == 3) {
-        yyerror("WARNING: Unknown MATH command - " + yep->str_error);
+        yyerror("WARNING: Unknown MATH command - " + yep->str_error );
     }
     else if (yep->num == 4){
         yyerror("Lexical error - " + yep->str_error);
@@ -783,7 +1075,7 @@ int printError(struct S_ERROR* yep)
 int  yyerror(std::string s)
 {
     fflush(stdout);
-    std::cout<<s<<"\t\t in line: "<< line<<std::endl;
+    std::cout<<s<<"\t in line: "<< line<<std::endl;
     return 0;
 }
 
@@ -815,7 +1107,7 @@ int main(int argc, char *argv[]){
     hardComands["\\InputIfFileExists"];
     hardComands["\\texttt"];
     hardComands["\\textsf"];
-    hardComands["\\m"] = {"file","number","text","cmd","pos","inner-pos","option-list","class-name","release-date","package-name","N","package","command","num","default","file-contents","width","size","","","","","","","",""};
+    hardComands["\\m"] = {"file","number","text","cmd","pos","inner-pos","option-list","class-name","release-date","package-name","N","package","command","num","default","file-contents","width","size","ENC","code","date","dimen","encoding","factorfamily","family","font-switches","format-name","math-alph","math-switch","option-name","options-list","release-info","series","shape","skip","slot","slot-1","slot-2","sym-font","sym-font-1","sym-font-2","sym-font-i","symbol","text-switch","type","version","factor","","",""};
     hardComands["\\fsf"];
     hardComands["\\input"];
     hardComands["\\file"];
@@ -841,10 +1133,10 @@ int main(int argc, char *argv[]){
     hardComands["\\bibitem"];
     hardComands["\\newblock"];
     hardComands["\\fbox"];
-    hardComands["\\meta"] = {"environment","function","code","list","token","number","tokens","argument","beg-code","end-code","cmd","token1","token2","token3","default","defaults","","","","","","","","","","",""};
+    hardComands["\\meta"] = {"environment","function","code","list","token","number","tokens","argument","beg-code","end-code","cmd","token1","token2","token3","default","defaults","command","encoding","","","","","","","","",""};
     hardComands["\\marg"] = {"environment","function","code","list","token","number","tokens","argument","beg-code","end-code","cmd","token1","token2","token3","default","defaults","processor","","","","","","","","","",""};
-    hardComands["\\cs"] = {"NewDocumentEnvironment","NewDocumentCommand","protect","omit","ArgumentSpecification","ProcessorB","ProcessorA","BooleanTrue","BooleanFalse","ifblank","IfNoValueF","IfNoValueT","IfNoValueTF","newcommand","begin","end","addvspace","flushbottom","chapter","typesetnormalchapter","IfBooleanTF","New","Renew","Provide","Declare","RenewDocumentCommand","ProvideDocumentCommand","DeclareDocumentCommand","TrimSpaces","long","verb","SplitList","ProcessList","showhyphens","binom","genfrac","","IncludeInRelease",""};
-    hardComands["\\arg"] = {"text","letters","size","length-cmd","class","beg-def","end-def","environment","function","code","cmd","list","number","tokens","arg","","beg-code","end-code","env","width","definition","file-name","package-name","class-name","style","packages","file","num","","","","","","","","",""};
+    hardComands["\\cs"] = {"NewDocumentEnvironment","NewDocumentCommand","protect","omit","ArgumentSpecification","ProcessorB","ProcessorA","BooleanTrue","BooleanFalse","ifblank","IfNoValueF","IfNoValueT","IfNoValueTF","newcommand","begin","end","addvspace","flushbottom","chapter","typesetnormalchapter","IfBooleanTF","New","Renew","Provide","Declare","RenewDocumentCommand","ProvideDocumentCommand","DeclareDocumentCommand","TrimSpaces","long","verb","SplitList","ProcessList","showhyphens","binom","genfrac","","IncludeInRelease","addtoreset","columnbreak","counterwithin","counterwithout","newcounter","removefromreset","","","","","","","","","","","","","","",""};
+    hardComands["\\arg"] = {"text","letters","size","length-cmd","class","beg-def","end-def","environment","function","code","cmd","list","number","tokens","arg","","beg-code","end-code","env","width","definition","file-name","package-name","class-name","style","packages","file","num","baselineskip","encoding","factor","family","font-switches","format-name","math-alph","math-switch","option-name","options-list","series","shape","slot","slot-1","slot-2","sym-font","sym-font-1","sym-font-2","symbol","text-switch","type","version","","",""};
     hardComands["\\PassOptionsToClass"] = {"a4paper"};
     hardComands["\\ExecuteOptions"] = {"dvips","textures","dvips","textures",""};
     hardComands["\\pageref"] = {"fsfcode","addrs"};
@@ -856,9 +1148,9 @@ int main(int argc, char *argv[]){
     hardComands["\\u"] = {"a"};
     hardComands["\\NewDocumentEnvironment"] = {"twice"};
     hardComands["\\pkg"];
-    hardComands["\\hologo"] = {"XeTeX","LuaTeX","LuaLaTeX","XeLaTeX","pdfTeX",""};
+    hardComands["\\hologo"] = {"XeTeX","LuaTeX","LuaLaTeX","XeLaTeX","pdfTeX","eTeX","","","","","","","","","","",""};
     hardComands["\\class"] = {"slides"};
-    hardComands["\\LoadClassWithOptions"] = {"\article"};
+    hardComands["\\LoadClassWithOptions"] = {"\article","article","class-name"};
     hardComands["\\foobar"] = {"arg1","arg2","arg3",""};
     hardComands["\\IfNoValueTF"] = {"-NoValue-"};
     hardComands["\\widthof"] = {"text"};
@@ -868,26 +1160,81 @@ int main(int argc, char *argv[]){
     hardComands["\\k"] = {"text"};
     hardComands["\\example"] = {"BBB"};
     hardComands["\\subsubsection"] = {"Tools"};
-    hardComands["\\LaTeX"] = {"a"};
+    hardComands["\\LaTeX"] = {"a","1",""};
     hardComands["\\LaTeXe"] = {"a"};
-    hardComands["\\hspace"] = {"4em"};
-    hardComands["\\oarg"] = {"default", "num","width","pos","height","inner-pos","options","option-list","release-date","placement","vertical-space",""};
+    hardComands["\\hspace"] = {"4em","-1em","12pt","1em","","","","","","",""};
+    hardComands["\\oarg"] = {"default", "num","width","pos","height","inner-pos","options","option-list","release-date","placement","vertical-space","options-list","release-info",""};
     hardComands["\\baz"] = {"o",""};
-    hardComands["\\chapter"] = {""};
+    hardComands["\\chapter"] = {"title",""};
     hardComands["\\verb"] = {"and"};
     hardComands["\\textcircled"] = {"text","a"};
     hardComands["\\bezier"] = {"N"};
-    hardComands["\\ExecuteOptions"] = {"oldlfont","newlfont","latexrelease"};
-    hardComands["\\RequirePackage"] = {"oldlfont","newlfont","latexrelease"};
+    hardComands["\\ExecuteOptions"] = {"oldlfont","newlfont","latexrelease","dvips","textures","color","ifthen",""};
+    hardComands["\\RequirePackage"] = {"oldlfont","newlfont","latexrelease","dvips","textures","color","ifthen",""};
     hardComands["\\cal"] = {"A"};
-    hardComands["\\LoadClassWithOptions"] = {"article"};
     hardComands["\\extrafloats"];
     hardComands["\\vrefrange"] = {"eq-first"};
+    hardComands["\\DeclareFixedFont"] = {""};
+    hardComands["\\DeclareMathAlphabet"] = {""};
+    hardComands["\\DeclareMathSymbol"] = {""};
+    hardComands["\\DeclareMathVersion"] = {"normal"};
+    hardComands["\\DeclareOldFontCommand"] = {""};
+    hardComands["\\DeclareOption"] = {"a4paper","baz","code","draft","dvips","foo","green","landscape","onecolumn","option","twoside",""};
+    hardComands["\\DeclareSymbolFont"] = {"largesymbols","letters","operators","symbols",""};
+    hardComands["\\DeclareSymbolFontAlphabet"] = {""};
+    hardComands["\\DeclareTextFontCommand"] = {""};
+    hardComands["\\LoadClass"] = {"article"};
+    hardComands["\\MakeUppercase"] = {""};
+    hardComands["\\NeedsTeXFormat"] = {"LaTeX2e"};
+    hardComands["\\PassOptionsToPackage"] = {""};
+    hardComands["\\ProvidesClass"] = {"article","class-name","minimal","neplet","smplnews",""};
+    hardComands["\\ProvidesFile"] = {""};
+    hardComands["\\ProvidesPackage"] = {"ifthen","latexsym","package","",""};
+    hardComands["\\RequirePackageWithOptions"] = {"graphics","package",""};
+    hardComands["\\SetMathAlphabet"] = {""};
+    hardComands["\\SetSymbolFont"] = {"letters","operators"};
+    hardComands["\\URL"] = {""};
+    hardComands["\\acro"] = {"CD-ROM","TUG","ascii",""};
+    hardComands["\\begidn"] = {"figure"};
+    hardComands["\\bibcite"] = {""};
+    hardComands["\\c"] = {"g","G"};
+    hardComands["\\directlua"] = {""};
+    hardComands["\\ds"] = {""};
+    hardComands["\\ends"] = {"document"};
+    hardComands["\\expandafter"] = {""};
+    hardComands["\\fontfamily"] = {"phv","ptm",""};
+    hardComands["\\fontseries"] = {"b"};
+    hardComands["\\fontshape"] = {"sl"};
+    hardComands["\\"] = {""};
+    hardComands["\\fontsize"] = {"12"};
+    hardComands["\\hbox"] = {""};
+    //hardComands["\\hologo"] = {"eTeX",""};
+    hardComands["\\ip"] = {"A"};
+    hardComands["\\k"];
+    hardComands["\\lablst"] = {"toc"};
+    hardComands["\\mathbf"] = {"math","vec",""};
+    hardComands["\\mathcal"] = {"math"};
+    hardComands["\\mathit"] = {"math"};
+    hardComands["\\mathnormal"] = {"math"};
+    hardComands["\\mathrm"] = {"math"};
+    hardComands["\\mathsf"] = {"math","max"};
+    hardComands["\\mathtt"] = {"math"};
+    hardComands["\\mathversion"] = {"bold","version"};
+    hardComands["\\multicolumn"];
+    hardComands["\\newlabel"] = {""};
+    hardComands["\\par"];
+    hardComands["\\reasonsection"] = {""};
+    hardComands["\\renewcommand"] = {"","oddfoot"};
+    hardComands["\\setlength"] = {""};
+    hardComands["\\sum"] = {"i"};
+    hardComands["\\textcommaabove"];
+    hardComands["\\textcommabelow"];
+    hardComands["\\typeout"] = {""};
     hardComands["\\"] = {""};
     hardComands["\\"] = {""};
     hardComands["\\"] = {""};
-    hardComands["\\"] = {""};
-    hardComands["\\"] = {""};
+
+
 
 
 
